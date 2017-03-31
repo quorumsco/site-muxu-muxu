@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="19px" height="22px" viewBox="0 0 19 22" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 42 (36781) - http://www.bohemiancoding.com/sketch -->
+    <title>time</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="website" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="home" transform="translate(-558.000000, -4494.000000)" fill="#C1C8E5">
+            <g id="reassurance" transform="translate(0.000000, 4454.000000)">
+                <g id="lock" transform="translate(558.000000, 39.000000)">
+                    <g id="time" transform="translate(0.000000, 1.000000)">
+                        <path d="M9.5,20 C13.6421356,20 17,16.6421356 17,12.5 C17,8.35786438 13.6421356,5 9.5,5 C5.35786438,5 2,8.35786438 2,12.5 C2,16.6421356 5.35786438,20 9.5,20 Z M9.5,22 C4.25329488,22 0,17.7467051 0,12.5 C0,7.25329488 4.25329488,3 9.5,3 C14.7467051,3 19,7.25329488 19,12.5 C19,17.7467051 14.7467051,22 9.5,22 Z" id="bg" fill-rule="nonzero"></path>
+                        <path d="M11.267767,14.732233 C12.0961941,14.732233 12.767767,14.0606602 12.767767,13.232233 C12.767767,12.4038059 11.267767,6.73223305 11.267767,6.73223305 C11.267767,6.73223305 9.76776695,12.4038059 9.76776695,13.232233 C9.76776695,14.0606602 10.4393398,14.732233 11.267767,14.732233 Z" id="bg" transform="translate(11.267767, 10.732233) rotate(-315.000000) translate(-11.267767, -10.732233) "></path>
+                        <rect id="bg" x="6" y="0" width="7" height="2" rx="1"></rect>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

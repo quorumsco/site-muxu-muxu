@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="50px" height="30px" viewBox="0 0 50 30" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 42 (36781) - http://www.bohemiancoding.com/sketch -->
+    <title>icon</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="2" width="18" height="14"></rect>
+        <mask id="mask-2" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="18" height="14" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+        <rect id="path-3" x="0" y="2" width="28" height="20"></rect>
+        <mask id="mask-4" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="28" height="20" fill="white">
+            <use xlink:href="#path-3"></use>
+        </mask>
+        <rect id="path-5" x="0" y="2" width="18" height="14"></rect>
+        <mask id="mask-6" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="18" height="14" fill="white">
+            <use xlink:href="#path-5"></use>
+        </mask>
+    </defs>
+    <g id="website" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="pricing-default" transform="translate(-909.000000, -408.000000)">
+            <g id="plans" transform="translate(250.000000, 379.000000)">
+                <g id="column" transform="translate(597.000000, 1.000000)">
+                    <g id="icon" transform="translate(62.000000, 28.000000)">
+                        <g transform="translate(0.000000, 10.000000)" id="bg">
+                            <rect fill="#0B3BDE" x="8" y="0" width="2" height="20"></rect>
+                            <use stroke="#0B3BDE" mask="url(#mask-2)" stroke-width="4" fill="#FCFCFC" xlink:href="#path-1"></use>
+                        </g>
+                        <g transform="translate(11.000000, 0.000000)" id="bg">
+                            <rect fill="#0B3BDE" x="13" y="0" width="2" height="30"></rect>
+                            <use stroke="#0B3BDE" mask="url(#mask-4)" stroke-width="4" fill="#FCFCFC" xlink:href="#path-3"></use>
+                        </g>
+                        <g transform="translate(32.000000, 10.000000)" id="bg">
+                            <rect fill="#0B3BDE" x="8" y="0" width="2" height="20"></rect>
+                            <use stroke="#0B3BDE" mask="url(#mask-6)" stroke-width="4" fill="#FCFCFC" xlink:href="#path-5"></use>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

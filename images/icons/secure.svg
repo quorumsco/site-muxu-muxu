@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="18px" height="21px" viewBox="0 0 18 21" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 42 (36781) - http://www.bohemiancoding.com/sketch -->
+    <title>lock</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="website" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="home" transform="translate(-251.000000, -4495.000000)" fill="#C1C8E5">
+            <g id="reassurance" transform="translate(0.000000, 4454.000000)">
+                <g id="lock" transform="translate(251.000000, 39.000000)">
+                    <g transform="translate(0.000000, 2.000000)" id="bg">
+                        <rect x="0" y="10" width="18" height="11" rx="1"></rect>
+                        <path d="M4,6.99502945 L4,13.0049706 C4,15.76747 6.23561346,18 9,18 C11.756939,18 14,15.7602703 14,13.0049706 L14,6.99502945 C14,4.23253 11.7643865,2 9,2 C6.24306101,2 4,4.23972967 4,6.99502945 Z M2,6.99502945 C2,3.13178136 5.14187327,0 9,0 C12.8659932,0 16,3.125 16,6.99502945 L16,13.0049706 C16,16.8682186 12.8581267,20 9,20 C5.13400675,20 2,16.875 2,13.0049706 L2,6.99502945 Z" fill-rule="nonzero"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

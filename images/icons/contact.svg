@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="12px" viewBox="0 0 16 12" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 40.3 (33839) - http://www.bohemiancoding.com/sketch -->
+    <title>mail</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="website" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="home" transform="translate(-247.000000, -3917.000000)" fill="#000000">
+            <g id="footer" transform="translate(247.000000, 3775.000000)">
+                <g id="column">
+                    <g id="mail" transform="translate(0.000000, 142.000000)">
+                        <polygon id="Shape" points="7.99856 7.94747368 0 0.0532105263 15.99904 0.0532105263"></polygon>
+                        <polygon id="Shape" points="8.00048 9.92115789 11.00032 6.96063158 16 11.8945263 0.000959999999 11.8945263 5.00064 6.96063158"></polygon>
+                        <polygon id="Shape" points="4.0008 5.97410526 0.000959999999 2.02689474 0.000959999999 9.92115789"></polygon>
+                        <polygon id="Shape" points="11.9992 5.97410526 15.99904 2.02689474 15.99904 9.92115789"></polygon>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
