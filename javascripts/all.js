@@ -7,3 +7,8 @@ function myMenu() {
         x.className = "content";
     }
 }
+
+function closeCnilBanner() {
+	var cnilMessage = document.getElementById('cnil_message');
+	cnilMessage.style.display = 'none';
+}
