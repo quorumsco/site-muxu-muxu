@@ -1,0 +1,92 @@
+.light-blue
+  .wrapper.actions
+    h2 = t 'actions.title'
+    hr
+    .items
+      = image_tag "icons/secure.svg", class: "icon"
+      p.secure = t 'actions.secure'
+      = image_tag "icons/organization.svg", class: "icon"
+      p.organization = t 'actions.organization'
+      = image_tag "icons/field.svg", class: "icon"
+      p.field = t 'actions.field'
+
+footer
+  .footer-item
+    .footer-connect
+      h3 = t 'footer.socials.title'
+      ul
+        - t('footer.socials.links').each do |id, item|
+          li class="#{id}"
+            = link_to item[:link], target: "_blank"
+              = item[:title]
+
+  .footer-item
+    .footer-quorum
+      h3 = t 'footer.quorum.title'
+      ul
+        li 
+          = link_to t'footer.quorum.links.faq.link'
+            = t'footer.quorum.links.faq.title'
+        - if I18n.locale == :fr
+          li 
+            = link_to t'footer.quorum.links.support.link'
+              = t'footer.quorum.links.support.title'
+        li 
+          = link_to(t('footer.quorum.links.documentation.link'), target: "_blank")
+            = t'footer.quorum.links.documentation.title'
+        li 
+          = link_to(t('footer.quorum.links.agency.link'), target: "_blank")
+            = t'footer.quorum.links.agency.title'
+        li 
+          = link_to(t('footer.quorum.links.jobs.link'), target: "_blank")
+            = t'footer.quorum.links.jobs.title'
+        li 
+          = link_to t 'footer.quorum.links.news.link'
+            = t'footer.quorum.links.news.title'
+        li 
+          = link_to(t('footer.quorum.links.blog.link'), target: "_blank")
+            = t'footer.quorum.links.blog.title'
+  .footer-item
+    .footer-plus
+      h3 = t 'footer.plus.title'
+      ul 
+        - t('footer.plus.links').each do |id, item|
+          li 
+           = link_to item[:link], target: "_blank"
+            = item[:title]
+  .footer-item
+    .footer-news
+      h3 = t 'footer.news.title'
+      p = t 'footer.news.description'
+      = partial 'shared/_newsletter-form.slim'
+      
+.wrapper.cir 
+  = image_tag "cir.png"
+  p = t 'cir'
+      
+.legal
+  - if I18n.locale == :fr
+    = link_to(t('legal.privacy.link'), target: "_blank")
+      = t 'legal.privacy.title'
+    span = "/"
+    = link_to(t('legal.cgu.link'), target: "_blank")
+      = t 'legal.cgu.title'
+    span = "/"
+    = link_to(t('legal.cgv.link'), target: "_blank")
+      = t 'legal.cgv.title'
+    span = "/"
+    = link_to t 'legal.cil.link'
+      = t 'legal.cil.title'
+    span = "|"
+    = link_to t 'legal.cnil.link'
+      = t 'legal.cnil.title'
+    span = "/"
+  - else
+    = link_to t 'legal.legals.link'
+      = t 'legal.legals.title'
+    span = "/"
+    = link_to(t('legal.privacy.link'), target: "_blank")
+      = t 'legal.privacy.title'
+  
+    
+      

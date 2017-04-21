@@ -1,0 +1,72 @@
+.wrapper.pricing-intro
+  - if I18n.locale == :fr
+    = image_tag "fr-pricing-title.png", class: "fr-pricing-title"
+  - else
+    = image_tag "en-pricing-title.png", class: "en-pricing-title"
+  p = t 'pricing-intro.description'
+
+.wrapper.pricing 
+  = partial 'shared/pricing'
+  .overlay-contact
+    = image_tag "man-contact.svg", class: "man"
+    = image_tag "woman-contact.svg", class: "woman"
+    .contact-info
+      h2 = t 'contact.title'
+      = link_to(t('contact.chat.link'), class: "intercom_link")
+        = t 'contact.chat.title'
+      - if I18n.locale == :fr
+        span = t 'contact.or'
+        = link_to(t('contact.tel.link'), class: "tel")
+          = t 'contact.tel.title'
+
+.wrapper.services
+  .service
+    = image_tag "icons/service.svg"
+    h3 = t 'services.service.title'
+    p = t 'services.service.description'
+    = link_to(t('services.service.more.link'), class: "blue-link", target: "_blank")
+     = t 'services.service.more.title'
+  .service
+    = image_tag "icons/agencies-and-partners.svg"
+    h3 = t 'services.agencies-and-partners.title'
+    p = t 'services.agencies-and-partners.description'
+    = link_to(t('services.agencies-and-partners.more.link'), class: "blue-link")
+     = t 'services.agencies-and-partners.more.title'
+    
+.testimonials
+  h2 = t 'testimonials.title'
+  div data-fluffy-container=""
+    div data-fluffy-content=""
+      .list
+        - t('testimonials.posts').each do |id, testimonial|
+          .testimonial 
+            p = testimonial[:content]
+            .bottom
+              = image_tag "testimonials/border.svg", class: "border"
+              = image_tag "testimonials/#{id}.png", class: "avatar"
+              span.name = testimonial[:name]
+              span.about = testimonial[:about]
+    
+.wrapper.faq
+  h2 = t 'faq.title'
+  .questions
+    - t('faq.questions').take(6).each do |id, question|
+      .question
+        h3 = question[:title]
+        p = question[:preview]
+        = link_to question[:link]
+         = t 'faq.more'
+  = link_to t 'faq.link.link', class: "more"
+    = t 'faq.link.title'
+    
+.wrapper.team 
+  h2 = t 'team.title'
+  .content
+    .mobilised 
+      h3 = t 'team.mobilised'
+    .teammembers 
+      = image_tag "team-picture.png"
+      p = t 'team.description'
+      = link_to(t('team.more.link'), class: "button intercom_link")
+        = t 'team.more.title'
+  = image_tag "team-illustration.svg", class: "illustration"

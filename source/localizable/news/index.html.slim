@@ -1,0 +1,11 @@
+.wrapper.news-extended 
+  h1 = t 'news.title-news'
+  - t('news.articles').each do |id, article|
+    .article
+      .title
+         span = article[:tag]
+         h2 = article[:title]
+      .content
+         p = article[:description]
+         = link_to article[:link], target: "_blank"
+          = t 'news.more-news'

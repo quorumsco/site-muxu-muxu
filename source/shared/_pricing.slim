@@ -1,0 +1,52 @@
+table
+  tr.header
+    th.empty = t 'table.headers.empty'
+    th
+      = image_tag "starter.svg"
+      = t 'table.headers.starter'
+    th.mobile-invisible 
+      = image_tag "mobiliser.svg"
+      = t 'table.headers.mobiliser'
+    th.mobile-invisible  
+      = image_tag "leader.svg"
+      = t 'table.headers.leader'
+  tr.subheader
+    th = t 'table.support.header.full'
+    th.empty  = t 'table.support.header.empty'
+    th.empty.mobile-invisible  = t 'table.support.header.empty'
+    th.empty.mobile-invisible  = t 'table.support.header.empty'
+  - t('table.support.features').each do |id, feature|
+    tr
+      td = feature[:title]
+      - if feature[:starter] == "yes"
+        td = image_tag "icons/green-check.svg"
+      - else 
+        td  = image_tag "icons/nope.svg"
+      - if feature[:mobiliser] == "yes"
+        td.mobile-invisible  = image_tag "icons/green-check.svg"
+      - else 
+        td.mobile-invisible  = image_tag "icons/nope.svg"
+      - if feature[:leader] == "yes"
+        td.mobile-invisible  = image_tag "icons/green-check.svg"
+      - else 
+        td.mobile-invisible  = image_tag "icons/nope.svg"
+  tr.subheader
+    th = t 'table.features.header.full'
+    th.empty = t 'table.support.header.empty'
+    th.empty.mobile-invisible  = t 'table.support.header.empty'
+    th.empty.mobile-invisible  = t 'table.support.header.empty'
+  - t('table.features.features').each do |id, support|
+    tr
+      td = support[:title]
+      - if support[:starter] == "yes"
+        td = image_tag "icons/green-check.svg"
+      - else 
+        td = image_tag "icons/nope.svg"
+      - if support[:mobiliser] == "yes"
+        td.mobile-invisible  = image_tag "icons/green-check.svg"
+      - else 
+        td.mobile-invisible  = image_tag "icons/nope.svg"
+      - if support[:leader] == "yes"
+        td.mobile-invisible  = image_tag "icons/green-check.svg"
+      - else 
+        td.mobile-invisible  = image_tag "icons/nope.svg"

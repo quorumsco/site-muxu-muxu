@@ -1,0 +1,622 @@
+fr:
+  banner:
+    title: |
+      <strong>Legislatives 2017.</strong> Faites campagne sur le terrain et dans les médias avec l'offre Quorum + AlgoLinked →<a href="https://algolinked.quorum.co" class="link" target="_blank">En savoir plus</a>
+    link: https://algolinked.quorum.co
+
+  cookie-banner: |
+    Hey ! Nous utilisons des cookies sur ce site pour optimiser son fonctionnement et à des fins d'analyse. Pour en savoir plus sur notre utilisation des cookies et sur vos options, rendez-vous <a href="/Mentions_Legales_QUORUM.pdf" target="_blank">ici</a> ! En continuant à utiliser nos services, vous nous autorisez à utiliser des cookies.
+
+  navigation-left:
+    links:
+      products:
+        title: Produit
+        link: "../#mobile-app"
+      prices:
+        title: Offres
+        link: ../pricing
+      news:
+        title: Publications
+        link: https://medium.com/quorum-blog
+      contact:
+        title: Nous contacter
+        link: mailto:contact@quorum.co
+  navigation-right:
+      lang:
+        title: En
+        link: ../en
+      login:
+        title: Connexion
+        link: https://cloud.quorumapps.com/
+
+  intro:
+    heading: Le premier logiciel de mobilisation en Europe
+    title: "Utiliser Quorum pour"
+    list:
+      hire:
+        title: Engager autour et pour votre cause
+      public:
+        title: Mobiliser et gagner l'élection
+      campaign:
+        title: Sensibiliser, informer et concerter le public
+      mobilize:
+        title: Bâtir une organisation depuis la base
+      build:
+        title: Recruter bénévoles et donateurs (fundraising)
+    more: ou parlons-en directement au
+    phone-number:
+      title: "01 79 73 40 04"
+      link: "tel:+33179734004"
+
+  about:
+    description: |
+      L'application Quorum apporte les nouvelles technologies dans vos campagnes de mobilisation sur le terrain. 
+    who:
+      non-profit:
+        title: Associations, ONG, fondations et mouvements
+      public:
+        title: Établissements publics, collectivités et entreprises
+      agency:
+        title: Agences de communication, de concertation & indépendants
+      campaign:
+        title: Équipes de campagne
+    catchphrase: Vous voulez mobiliser ? concerter ou créer une dynamique? Tout commence par une rencontre !
+    more: Voir ici pourquoi faire du terrain →
+
+  web-app:
+    subtitle: Quorum web
+    title: Analyser, automatiser et comprendre
+    description: |
+      Retrouvez tout ce qu'il vous faut pour piloter : analyses, micro-ciblage, cartographie intéractive, organisation d’équipe, envoi d’information à vos équipes, suivi d’objectif et plus encore.
+    more:
+      title: Découvrir plus →
+      link: /pricing
+
+  mobile-app:
+    subtitle: Quorum mobile & tablette
+    title: Mobiliser partout, et à tout moment
+    description: |
+      Vos équipes sont les meilleures pour diffuser votre message. Dotez-les de l’application et aidez chacun dans l'organisation à atteindre tout son potentiel : infos sur la campagne, remontées d'information, enregistrer l’intérêt pour votre cause, porte-à-porte ciblé et plus encore.
+    sub-description: |
+      Toutes les informations sont directement centralisées sur l'application web.
+    available: "Disponible sur :"
+    ios:
+      title: iOS
+      link: https://itunes.apple.com/fr/app/quorum-campaignapp-mobilisation-election/id1186778175
+    android:
+      title: Android
+      link: https://play.google.com/store/apps/details?id=com.quorumapps.quorum128598&hl=fr
+    more:
+      title: Découvrir plus →
+      link: /pricing
+
+  partners:
+    title: Partenaires certifiés & Collaboration
+    sub-title: Devenez Partenaire, en respectant le métier de chacun.
+    more:
+      title: Rejoindre le programme partenaire →
+      link: https://www.getquorum.co/
+
+  contact:
+    title: Allo Quorum ?  
+    chat:
+      title: Chatter avec l'équipe
+      link: mailto:pmsh755t@incoming.intercom-mail.com
+    email:
+      title: contact@quorum.co
+      link: mailto:contact@quorum.co
+    or: ou
+    tel:
+      title: "01 79 73 40 04"
+      link: "tel:+33179734004"
+
+  pricing-intro:
+    description: |
+      Quorum est sans doute le meilleur investissement pour mener une campagne collective, plus efficace, plus organisée. 
+  table:
+    headers:
+      empty: empty
+      starter: Mobiliser
+      mobiliser: Concerter
+      leader: Leader
+    support:
+      header:
+        full: Support
+        empty: empty
+      features:
+        technical:
+          title: Chat support sur les applications
+          starter: "yes"
+          mobiliser: "yes"
+          leader: "yes"
+        onboarding:
+          title: Support téléphonique
+          starter: "no"
+          mobiliser: "yes"
+          leader: "yes"
+        officer:
+          title: Accès direct à un "Field Officer"
+          starter: "no"
+          mobiliser: "no"
+          leader: "yes"
+    features:
+      header:
+        full: Fonctionnalités
+        empty: empty
+      features:
+        web-app:
+          title: Paramètrage de votre campagne
+          starter: "yes"
+          mobiliser: "yes"
+          leader: "yes"
+        unlimited:
+          title: 1 formulaire personnalisé
+          starter: "yes"
+          mobiliser: "yes"
+          leader: "yes"
+        permission:
+          title: Personnalisation du "QG"
+          starter: "yes"
+          mobiliser: "yes"
+          leader: "yes"
+        goals:
+          title: Dashboard de suivi/tracking et d'analyse
+          starter: "yes"
+          mobiliser: "yes"
+          leader: "yes"
+        export:
+          title: Export et communication avec vos soutiens
+          starter: "yes"
+          mobiliser: "yes"
+          leader: "yes"
+        canvas:
+          title: Fonctionnalité Porte à porte
+          starter: "no"
+          mobiliser: "yes"
+          leader: "yes"
+        fundraising:
+          title: Module de micro-ciblage territorial
+          starter: "no"
+          mobiliser: "no"
+          leader: "yes"
+        turf:
+          title: Installation d'intégrations partenaires
+          starter: "no"
+          mobiliser: "no"
+          leader: "yes"
+        automatic:
+          title: Analyses avancées
+          starter: "no"
+          mobiliser: "no"
+          leader: "no"
+        map:
+          title: Application Smart TV
+          starter: "no"
+          mobiliser: "no"
+          leader: "no"
+        more:
+          title: et plus encore !
+          starter: "yes"
+          mobiliser: "yes"
+          leader: "yes"
+
+  services:
+    service:
+      title: Service+
+      description: |
+        Data scientistes & Data analystes de Quorum vous aident à :<ul><li>paramétrer l’application de façon optimale</li><li>entraîner vos équipes</li><li>tirer toute l'intelligence de vos données</li><li>adapter Quorum aux organisations plus larges et complexes.</li></ul>
+      more:
+        title: Découvrir plus →
+        link: https://www.getquorum.co/
+    agencies-and-partners:
+      title: Agences et Partenaires
+      description: |
+        Consultant indépendant, agence de communication, de concertation ou de service autour de la donnée, je dote mes clients d’un outil puissant.
+      more:
+        title: Devenir Partenaire →
+        link: mailto:agencies@quorum.co
+
+  testimonials:
+    title: Ce sont eux qui en parlent le mieux ! ✨
+    posts:
+      watkins:
+        name: Tanya Watkins
+        about: Mouvement Soul, Chicago
+        content: |
+            "Quorum a professionnalisé notre organisation. Et surtout nous pouvons recueillir des informations sur le terrain, de telle mannière que l'on puisse les réutiliser pour faire grossir le mouvement."
+      pasteur:
+        name: Sébastien Saint Pasteur
+        about: Élections cantonales
+        content: |
+            “On a des ressources humaines limitées en campagne. Quorum nous a permis de concentrer nos actions de façon ciblée et de ne pas disperser nos forces."
+      k2com:
+        name: Agence K2COM
+        about: Agence de Communication
+        content: |
+            “Quorum enrichit notre offre avec des outils innovants et utiles à nos clients; en complémentarité avec nos métiers à l’agence.”
+      meunier:
+        name: Frédérique Meunier
+        about: Élections législatives
+        content: |
+            "J'étais plutôt réticente au début. On ne peut pas dire que les équipes soient très "nouvelles technologies" et d'autant plus en territoire rural. Pourtant, dès qu'ils ont compris à quel point cela allait simplifier nos campagnes de terrain, chacun s'y est mis."
+      voix-publique:
+        name: Voix publique
+        about: Concertation, France & Suisse
+        content: |
+            "Avant on faisait des bâtons pour compter ! Et avant on pouvait mettre des semaines à analyser les retours du terrain. Mais maintenant, il y a Quorum."
+
+  faq:
+    title: Questions générales
+    more: Lire davantage
+    link:
+      title: Afficher plus de réponses à mes questions →
+      link: /faq
+    questions:
+      applications:
+        title: Sur quels supports fonctionnent les applications Quorum ?
+        preview: |
+          L'application Quorum est cross-platformes. Elle fonctionne aussi bien sur <a href="https://itunes.apple.com/fr/app/quorum-campaignapp-mobilisation-election/id1186778175" target="_blank">iOS</a> (iPhone) que sur <a href="https://play.google.com/store/apps/details?id=com.quorumapps.quorum128598&hl=fr" target="_blank">Android</a> (Play Store). L'application fonctionne même sur...
+        answer: |
+          L'application Quorum est cross-platformes.<br>L'application Mobile fonctionne aussi bien sur <a href="https://itunes.apple.com/fr/app/quorum-campaignapp-mobilisation-election/id1186778175" target="_blank">iOS</a> (iPhone) que sur <a href="https://play.google.com/store/apps/details?id=com.quorumapps.quorum128598&hl=fr" target="_blank">Android</a> (Play Store), et même sur vos tablettes ! L'application Web fonctionne elle avec tout ordinateur ou appareil mobile disposant d'une connexion à Internet.
+        link: "/faq#applications"
+      support:
+        title: Est-ce que je suis accompagné ? Y-a-t'il un support joignable?
+        preview: |
+          Oui. On est là, on est présent. On vous aide à réaliser votre objectif. De la prise en main des applications par vous ou vos équipes jusqu' à du développement...
+        answer: |
+          Oui. On est là, on est présent. On vous aide à réaliser votre objectif. De la prise en main des applications par vous ou vos équipes jusqu' à du développement personnalisé.<br>Nous avons 3 niveaux de support (comme dans une fusée) : <ul><li>téléphone</li><li>tutoriels vidéos et chat sur l’ensemble des applications</li><li>déplacement physique</li></ul>
+        link: "/faq#support"
+      quorum:
+        title: Qu'est-ce que Quorum ?
+        preview: |
+          Quorum est une start-up de technologie de mobilisation. Nous poussons les frontières de la science des données et des nouvelles technologies pour rendre l'engagement...
+        answer:
+          Quorum est une start-up de technologie de mobilisation. Nous poussons les frontières de la science des données et des nouvelles technologies pour rendre l'engagement plus accessible aux individus et pour créer des campagnes plus efficaces pour les organisations. Quelle que soit la cause, petite ou grande.
+        link: "/faq#quorum"
+      agency:
+        title: Est-ce que Quorum est une agence de conseil ou de communication ?
+        preview: |
+          Non, chacun son métier. La technologie est le notre. Le consulting ne l’est pas. Nous sommes fournisseur de technologie. Des technologies qui vous aident...
+        answer: |
+          Non, chacun son métier. La technologie est le notre. Le consulting ne l’est pas. Nous sommes fournisseur de technologie. Des technologies qui vous aident dans vos prises de décision (aide à la décision), dans la dynamique de votre mouvement, dans l'organisation de vos équipes et dans l'analyse des situations, mais les décisions vous appartiennent. Nous travaillons avec un réseau d'agences de communication partenaires. Si tel est votre besoin, nous vous mettons en lien avec l'interlocuteur ad'hoc, partenaire de Quorum.
+        link: "/faq#agency"
+      compagny-or-brand:
+        title: "Entreprise ou marque : est-ce que je peux utiliser Quorum ?"
+        preview: |
+          Oui. Notre mission chez Quorum est de transformer la façon dont les causes mais aussi les marques engagent et mobilisent le public et leurs équipes...
+        answer: |
+          Oui. Notre mission chez Quorum est de transformer la façon dont les causes mais aussi les marques engagent et mobilisent le public et leurs équipes sur le terrain.
+        link: "/faq#compagny-or-brand"
+      length:
+        title: Quelle durée d’engagement pour les applications Quorum ?
+        preview: |
+          La durée d'engagement peut être mensuelle, spécifique (courant notamment dans le cas de campagnes d’information ou de...
+        answer: |
+          <ul><li>mensuelle</li><li>durée spécifique (courant notamment dans le cas de campagnes d’information ou de concertation)</li><li>annuelle</li></ul>
+        link: "/faq#length"
+      target:
+        title: Quorum fait-elle du microciblage ?
+        preview: Oui.
+        answer: Oui.
+        link: "/faq#target"
+      white-label:
+        title: Quorum existe-t-elle en marque blanche ?
+        answer: |
+          À de très rares occasions, nous pouvons mettre le Q-engine à disposition d'organisations en marque blanche. Mais il faut vraiment que ces organisations aient quelque chose de spécial ou la possibilité de changer le monde.
+        link: "/faq#white-label"
+      custom:
+        title: Quorum fait-elle du développement personnalisé ?
+        answer: Oui, cela arrive.
+        link: "/faq#custom"
+      team:
+        title: Comment est composée l’équipe de Quorum ?
+        answer: |
+          L'équipe est composée de : <ul><li>profils techniques et du numérique (développeur sénior, développeur junior, designer)</li><li>profils plus scientifiques (ingénieur de recherche : data scientist, économétrie, statistiques) mais aussi sciences sociales et cognitives (qui interviennent dans la construction des applications, des algorithmes et le traitement du langage.)</li><li>vétérans du consulting et de la communication qui connaissent les campagnes, qui connaissent l'ambiance particulière qui règne dans un QG ou une permanence d'association, et qui savent aussi à quoi ressemble l’entreprise et le retour sur investissement.</li></ul>France, UK et Amérique du Nord sont représentés au sein de l’équipe.<br></a><br><a href="https://www.instagram.com/quorumteam/" target="_blank">Découvrez davantage de la Qteam sur Instagram.</a><br><a href="mailto:bonjour@quorum.co">Se porter candidat pour rejoindre l’équipe.</a>
+        link: "/faq#team"
+      data:
+        title: Qui est propriétaire des données individuelles collectées ?
+        answer: |
+          Celui qui les produit, les collecte, c'est-à-dire vous et vos équipes. La base de données vous appartenant, vous pouvez à tout moment l’exporter, la récupérer ou la détruire.<br><br><a href="mailto:cil@quorum.co">Prendre contact avec notre Correspondant Informatique et Liberté | CNIL.</a>
+        link: "/faq#data"
+      host:
+        title: Où sont hébergées les données ?
+        answer: |
+          Les données sont hébergées sur des serveurs sécurisés en Europe : soit en France (Grand Paris), soit en Allemagne (Francfort). Dans les deux cas sous législation Européenne.
+        link: "/faq#host"
+      collected-data:
+        title: Quant à la collecte des données ?
+        answer: |
+          Nous respectons l'individu dans sa vie privée et intime. Nous avons créé Quorum pour régler les problèmes, pas pour en générer de nouveaux pour les individus. Nous respectons la réglementation liée à l'usage et la collecte de données. Nous rencontrons la direction de la conformité - service e-administration / e-democracy - régulièrement pour s'en assurer. Nous avons un Correspondant Informatique et Libertés au sein de notre structure, qui peut répondre à vos questions <a href="mailto:cil@quorum.co">ici</a>. Enfin nous construisons nos applications en respectant les critères du "Privacy by design" (prise en compte du respect de la vie privée dès la conception des interfaces).
+        link: "/faq#collected-data"
+      field:
+        title: Quorum a-t-elle des enquêteurs sur le terrain ?
+        answer: |
+          Non, nous ne fournissons pas la ressource humaine pour mener des enquêtes sur le terrain ; la première ressource ce sont vos équipes, vos militants et vos bénévoles qu’il faut unifier et outiller. En revanche, si toutefois vous le souhaitez, certaines de nos agences partenaires proposent ces services. Nous pouvons vous les indiquer.
+        link: "/faq#field"
+      network:
+        title: Les applications fonctionnent-elles dans les zones peu couvertes par le réseau mobile (cage d'escalier, zone blanche, etc.)?
+        answer: |
+          Oui, les applications mobiles sont testées pour fonctionner en edge c'est à dire avec une très faible couverture réseau. Dès août 2017, elles seront disponibles en mode total "hors-ligne" !
+        link: "/faq#network"
+      words:
+        title: Quelques mots ou concepts décrivant Quorum ?
+        answer: |
+          Grassroots<br>Community Organising<br>Empowerment<br>Logiciel de campagne<br>CRM pour l’action civique<br>Outil de concertation<br>Campagne d'information<br>Campagne de récolte de don
+        link: "/faq#words"
+
+  team:
+    title: Le service, c'est gagner ensemble. Support 7j/7
+    mobilised: <span>923 241</span> personnes mobilisées, et toujours toujours plus chaque jour
+    description: " Nous sommes en mission pour créer les campagnes de mobilisations de demain, en repoussant les limites de la recherche et de l'usage des nouvelles technologies. Et on adore en parler ☕️ 🍪 ! Alors n'hésitez pas ! "
+    more:
+      title: Echanger avec l'équipe
+      link: mailto:pmsh755t@incoming.intercom-mail.com
+
+  news:
+    title-home: Quorum dans l'actualité
+    more-home:
+      title: Plus d'actualités sur Quorum →
+      link: /news
+    title-news: Les dernières actualités, presse, événements...
+    more-news: Lire davantage →
+    articles:
+      voxetour:
+        title: Quorum présente sur le Voxe tour 2017
+        tag: Press
+        description: |
+          Quorum intervient sur le Voxe tour en collaboration avec Usbek et Rica, Hello Asso et Orange Digital Society : Est-ce que la technologie peut sauver la démocratie ?
+        link: http://www.voxe.org/voxetour/
+        source: voxe
+      ingenierieterritoriale-2017:
+        title: Tribune dans le mensuel L'Ingénierie territoriale
+        tag: Press
+        description: |
+          Entretien avec Florent Barre, Président de Quorum, dans le mensuel de l'Association des ingénieurs territoriaux de France: les défis de la concertation et de la participation citoyenne dans les projets d'aménagement.
+        link: http://www.aitf.fr/magazines
+        source: AITF
+      le-monde-2017:
+        title: Quorum dans le quotidien Le Monde
+        tag: Press
+        description: |
+          Quorum présente avec Forent Barre à la conférence O21 du Monde. Ils en parlent sur www.lemonde.fr.
+        link: http://abonnes.lemonde.fr/campus/video/2017/02/27/o21-dans-le-numerique-les-projets-importent-plus-que-le-diplome_5086483_4401467.html
+        source: Le Monde
+      palmares-point-2016:
+        title: Quorum dans le palmarès des startups du Point
+        tag: Publication
+        description: |
+          Quorum dans le palmarès des Startup de l’hebdomadaire Le Point.
+        link: http://www.lepoint.fr/dossiers/high-tech-internet/palmares-start-up/
+        source: Le Point
+      decryptageo-2016:
+        title: Ciblage et Mobilisation, les deux mamelles d'une campagne réussie
+        tag: Press
+        description: |
+          Article du mensuel Décryptagéo, l'information géographique sur Quorum.
+        link: http://decryptageo.fr/
+        source: Decryptageo
+      note-civictech:
+        title: Quorum dans la note de veille Civictech
+        tag: Blogging
+        description: |
+          Note de veille d'AEC sur les Civictechs.
+        link: http://www.aecom.org/
+        source: AEC
+      les-echos-2017:
+        title: Quorum dans les Echos
+        tag: Press
+        description: |
+          Top 10 des slogans les plus pourris, #databeyondexpectations.
+        link: http://business.lesechos.fr/entrepreneurs/marketing-vente/les-slogans-des-start-up-manquent-d-originalite-304541.php?xtor=EPR-22-[entrepreneurs]-20170117-[Prov_]-1988649@2
+        source: Les Echos Business
+      web-summit-2016:
+        title: Rencontrez l'équipe à Lisbonne
+        tag: Event
+        description: |
+          8, 9, 10 novembre - WEB SUMMIT 2016 : rencontrez l'équipe à Lisbonne pour le Web Summit.
+        link: https://websummit.com/
+        source: Web Summit
+      france-solutions-2016:
+        title: Quorum, partenaire de la France des Solutions
+        tag: Event
+        description: |
+          Quorum partenaire de la France des solutions, inscrivez-vous !
+        link: http://lvwm.r.bh.d.sendibt3.com/116qnykikjpvfl.html
+        source: Reporters d'espoirs
+      ogp-summit-2016:
+        title: Quorum présent au Sommet Mondial pour un Gouvernement Ouvert
+        tag: Event
+        description: |
+          Quorum présente au Sommet Mondial pour un Gouvernement Ouvert autour de 4 évènements par OGP SUMMIT.
+        link: https://fr.ogpsummit.org/osem/conference/ogp-summit/program/proposal/596
+        source: OGP Summit
+      atomic-blog:
+        title: Design & Prototyping on Atomic Blog
+        tag: Blogging
+        description: |
+          Diversity, community and collaboration: how our designers worked on prototyping Quorum's mobile app ?
+        link: http://blog.atomic.io/design/luc-chaissac-diversity-community-collaboration-prototyping
+        source: Atomic Blog
+      data-enquete-sud-ouest:
+        title: Data-Enquête, 6 mois après les élections régionales
+        tag: Publication
+        description: |
+          Six mois après les élections régionales : comment la victoire a échappé à la droite ? Data enquête en collaboration avec le journal Sud Ouest.
+        link: http://www.sudouest.fr/2016/06/13/les-villes-qui-ont-perdu-la-droite-2398107-7410.php
+        source: Sud Ouest
+      la-tribune-smart-city:
+        title: Quorum dans le Top 10 de la Smart city par la Tribune
+        tag: Press
+        description: |
+          Quorum fait partie du top 10 des Startups qui bâtissent la ville de demain par le quotidien La Tribune.
+        link: http://www.latribune.fr/regions/aquitaine/les-dix-startups-bordelaises-qui-batissent-la-ville-de-demain-573013.html
+        source: La Tribune
+      avenir-des-si-digital-week:
+        title: Intervention de Jean-Baptiste Daniel, CTO de Quorum sur l'avenir des Sytèmes d'Information
+        tag: Events
+        description: |
+          Intervention dans le cadre de la Digital Week. Inscrivez-vous !
+        link: http://citedigitale.bordeaux.fr/
+        source: Cité Digitale
+      sommet-smart-city:
+        title: Sommet Smart City, une ville intelligente c'est d'abord une ville qui engage ses citoyens
+        tag: Event
+        description: |
+          Intervention de Florent Barre, CEO de Quorum. Inscrivez-vous !
+        link: http://objectifaquitaine.latribune.fr/evenements/2016-04-18/smart-city-bordeaux-le-programme-devoile.html
+        source: Objectif Aquitaine
+      challenges-2016:
+        title: Quorum dans l'hebdomadaire Challenges
+        tag: Press
+        description: |
+          "Quorum veut rendre plus efficace le marketing politique"
+        link: https://www.challenges.fr/start-up/quorum-veut-rendre-plus-efficace-le-marketing-politique_30835
+        source: Challenges
+      publi-reportage:
+        title: L'engagement citoyen 3.0 passera par le terrain dans Sud Ouest
+        tag: Press
+        description: |
+          Publication : "L'engagement citoyen 3.0 passera aussi par le terrain"
+        link: http://www.sudouest.fr/2016/04/10/l-engagement-citoyen-3-0-passera-aussi-par-le-terrain-publi-info-2357537-7507.php
+        source: Sud Ouest
+      cogtalk:
+        title: Cog-talk - ASCOERGO
+        tag: Event
+        description: |
+          Quorum, invitée du prochain Cogtalk. Inscrivez-vous !
+        link: https://www.eventbrite.fr/e/billets-cogtalk-quorum-20253484718?ref=estw
+        source: ASCOERGO
+      classement:
+        title: Quorum dans les 100 startups où investir de Challenges
+        tag: Press
+        description: |
+          Quorum dans le classement de l'hebdommadaire Challenges "Les 100 startups où investir".
+        link: https://www.ch
+        source: Challenges
+      impact-hub:
+        title: Impact hub - Singapore
+        tag: Event
+        description: |
+          Florent Barre, CEO's presentation at Impact Hub: "Which tools for campaigning in 2016?".
+        link: http://singapore.impacthub.net/
+        source: Impact Hub campagne
+      panneau-election:
+        title: Panneaux-election | Projet Open Data Quorum & Mapotempo
+        tag: Project
+        description: |
+          Panneaux-election, projet Open Data avec Mapo tempo : trajets optimisés pour les équipes de campagne et les services municipaux en charge de l'affichage électoral en se basant sur l'Open Data.
+        link: http://singapore.impacthub.net/
+        source: Panneaux-élection.fr
+      france-bleu:
+        title: France Bleu
+        tag: Press
+        description: |
+          Interview du CEO, Florent Barre : quants et algorythmes au service de l'action civique sur France Bleu.
+        link: https://www.francebleu.fr/emissions/start/gironde/quorum-florent-barre
+        source: France Bleu
+      quorum-mapotempo:
+        title: '"Quorum et Mapotempo innovent" dans La Tribune'
+        tag: Press
+        description: |
+          Quorum et Mapotempo innovent pour les élections Régionales dans La Tribune.
+        link: http://objectifaquitaine.latribune.fr/business/l-actu-de-la-french-tech-bordeaux/2015-11-23/open-data-quorum-impact-et-mapotempo-innonvent-pour-les-elections-regionales.html
+        source: Objectif Aquitaine
+
+  actions:
+    title: Réaffectez 90% de votre temps à ce qui peut vraiment changer la donne
+    secure: Des données pérennes et sécurisées
+    organization: Une équipe plus engagée
+    field: Des indicateurs fiables
+
+  cir: |
+    Quorum est une entreprise consacrant une partie de son activité à la Recherche, éligible Crédit Impôt Recherche.
+
+  footer:
+    socials:
+      title: Découvrir plus
+      links:
+        facebook:
+          title: Facebook
+          link: https://www.facebook.com/quorumhq
+        twitter:
+          title: Twitter
+          link: https://twitter.com/quorumhq
+        youtube:
+          title: YouTube
+          link: https://www.youtube.com/channel/UCH4AkGS1qyqyJ_7Ma2LhtGg?view_as=subscriber
+        google-plus:
+          title: Google+
+          link: https://plus.google.com/+Quorumappsdata
+        instagram:
+          title: Instagram
+          link: https://www.instagram.com/quorumteam/
+    quorum:
+      title: QUORUM
+      links:
+        faq:
+          title: Questions fréquentes
+          link: /faq
+        support:
+          title: Support
+          link: mailto:support@quorum.co
+        documentation:
+          title: Documentation
+          link: https://www.getquorum.co/
+        agency:
+          title: Agences
+          link: https://www.getquorum.co/
+        jobs:
+          title: Jobs
+          link: https://angel.co/quorum/jobs
+        news:
+          title: Actualités
+          link: /news
+        blog:
+          title: Blog
+          link: https://medium.com/quorum-blog
+    plus:
+      title: QUORUM.PLUS
+      links:
+        panneau:
+          title: Panneaux-election.fr
+          link: https://panneaux-election.fr/
+        algolinked:
+          title: AlgoLinked
+          link: https://algolinked.quorum.co
+        nationbuilder:
+          title: Nationbuilder API
+          link: ../nationbuilder
+        weapon:
+          title: Le "Secret Lab"
+          link: ../secret-lab
+        ios:
+          title: iOS
+          link: https://itunes.apple.com/fr/app/quorum-campaignapp-mobilisation-election/id1186778175
+        andoid:
+          title: Android
+          link: https://play.google.com/store/apps/details?id=com.quorumapps.quorum128598&hl=fr
+
+    news:
+      title: Être informé
+      description: |
+        Entrez votre email et restez au courant de nos nouveautés et publications directement dans votre boîte mail.
+      subscribe: S'inscrire
+
+  legal:
+    privacy:
+      title: Mentions légales
+      link: ../Mentions_Legales_QUORUM.pdf
+    cgu:
+      title: Conditions générales d'utilisation
+      link: ../CGU_QUORUM.pdf
+    cgv:
+      title: Conditions générales de vente
+      link: ../CGV_QUORUM.pdf
+    cil:
+      title: CIL
+      link: mailto:cil@quorum.co
+    cnil:
+      title: CNIL
+      link: mailto:cil@quorum.co
+
+  ascii: |

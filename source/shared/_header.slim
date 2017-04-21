@@ -1,0 +1,26 @@
+= partial 'shared/banner'
+header.header.fixed-header
+  .content#menu-toggle
+    - if I18n.locale == :fr
+      = link_to "../", class: "logo"
+        = partial "images/logo-desktop.svg"
+    - else
+      = link_to "../../en", class: "logo"
+        = partial "images/logo-desktop.svg"
+    
+    nav
+      = link_to "javascript:void(0);", onclick: "myMenu()", class: "menu-open" 
+        = "Menu"
+      .menu-items
+        ul 
+          - t('navigation-left.links').each do |id, navigation|
+            li class="#{id}"
+              = link_to navigation[:link]
+                = navigation[:title]
+        .links
+          = link_to t 'navigation-right.lang.link'
+            = t 'navigation-right.lang.title'
+          = link_to(t('navigation-right.login.link'), target: "_blank")
+            = t 'navigation-right.login.title'
+            
+        

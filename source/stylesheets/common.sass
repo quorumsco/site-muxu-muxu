@@ -1,0 +1,1469 @@
+*
+  -webkit-font-smoothing: antialiased
+  -moz-osx-font-smoothing: grayscale
+  outline: none
+
+html
+  animation: 2s france-flag infinite normal
+  @keyframes france-flag
+    0%
+      background-color: #1343DA
+    32%
+      background-color: #1343DA
+    33%
+      background-color: white
+    65%
+      background-color: white
+    66%
+      background-color: #EF516E
+    100%
+      background-color: #EF516E
+
+body
+  font-family: 'Poppins', sans-serif
+  margin: 0
+  background: white
+
+h1.soon
+  text-align: center
+  font-family: 'Poppins', sans-serif
+
+header
+  max-width: 940px
+  margin: 41px auto 0px
+  position: relative
+  text-transform: uppercase
+  font-weight: 600
+  font-size: 14px
+  letter-spacing: 1px
+  &.shown
+    position: fixed
+    width: 100%
+    max-width: 100%
+    box-shadow: 0 1px 5px 0 rgba(0,0,0,0.05)
+    top: 0
+    padding-bottom: 6px
+    z-index: 2
+    margin: 0
+    background: white
+    animation: 0.5s header-shown linear
+    .content
+      max-width: 940px
+      margin: 0 auto
+      position: relative
+      .logo
+        width: 18px
+        overflow: hidden
+        position: relative
+        display: block
+        height: 30px
+        top: 2px
+        float: left
+        z-index: 9
+      ul
+        text-align: left
+        margin-left: 30px
+      .links
+        right: 190px
+      li.contact
+        display: block
+        a
+          position: absolute
+          right: 0
+          top: -10px
+          color: white
+          font-size: 14px
+          background-color: #584CE6
+          opacity: 1
+          font-weight: bold
+          padding: 9px 16px
+          border-radius: 4px
+          &:hover
+            background: #4437D3
+    @keyframes header-shown
+      0%
+        top: -100px
+      100%
+        top: 0
+  svg
+    display: inline-block
+    position: absolute
+    top: 0
+    left: 0
+    width: 108px
+  nav
+    a
+      &.menu-open
+        display: none
+    ul
+      text-align: center
+      list-style: none
+      padding: 0
+      margin-top: 20px
+      li
+        display: inline-block
+        margin: 0 10px
+        &.contact
+          display: none
+      a
+        text-decoration: none
+        color: black
+        &:hover
+          color: #584CE6
+    .links
+      position: absolute
+      top: 0
+      right: 0
+      a
+        text-decoration: none
+        color: black
+        padding: 10px 15px 9px
+        &:hover
+          color: #584CE6
+      a:last-child
+        background: #F5F5F5
+        border-radius: 4px
+        &:hover
+          background: white
+          box-shadow: 0 0 0 1px #ededed inset
+
+.banner
+  text-align: center
+  background: #FFFFFF
+  background-image: linear-gradient(-270deg, #0B3BDE 0%, #7337DB 100%)
+  a
+    text-decoration: none
+    color: white
+  p
+    margin: 0
+    font-size: 14px
+    padding: 11px 0
+    color: white
+    display: inline-block
+    a.link
+      border-bottom: 1px solid #A99BED
+      padding-bottom: 0
+      margin-left: 5px
+      line-height: 18px
+
+.cookie
+  background: rgba(255,255,255,0.93)
+  box-shadow: 0 -1px 4px 0 rgba(0,0,0,0.08)
+  position: relative
+  z-index: 1000
+  display: none
+  background-color: black
+  color: white
+  p
+    margin: 0 auto
+    font-size: 12px
+    text-align: center
+    padding: 20px
+    max-width: 950px
+  a
+    text-decoration: none
+    color: #584CE6
+  img
+    position: absolute
+    top: 21px
+    right: 25px
+    cursor: pointer
+
+.shade-blue
+  background-image: linear-gradient(-180deg, #FFFFFF 0%, #F7F9FF 100%)
+  overflow: hidden
+  &.contact
+    position: relative
+    overflow: visible
+    img
+      &.man
+        position: absolute
+        top: -35px
+        left: 100px
+      &.woman
+        position: absolute
+        top: -35px
+        right: 100px
+
+.light-blue
+  background-color: #F7F9FF
+
+.grey
+  background-color: #F8F8F8
+
+.white
+  background-color: white
+  overflow: hidden
+
+.wrapper
+  max-width: 940px
+  margin: 0 auto
+  h1
+    font-size: 50px
+    margin: 0
+    line-height: 59px
+    padding-top: 40px
+  h2
+    text-align: left
+    font-size: 30px
+    font-weight: 500
+    margin: 0 0 3px
+  p
+    font-size: 18px
+    text-align: left
+    margin: 0
+  input
+    -webkit-font-smoothing: antialiased
+    -moz-osx-font-smoothing: grayscale
+    -webkit-appearance: none
+    font-size: 16px
+    font-family: 'Poppins', sans-serif
+    border: 0
+    display: inline-block
+    &.email
+      width: 170px
+      font-weight: 400
+      border-radius: 3px
+      background-color: #F7F7F7
+      padding: 13px 22px
+      color: black
+      box-shadow: inset 0 1px 3px 0 rgba(0,0,0,0.08), inset 0 0 1px 0 rgba(0,0,0,0.29)
+      margin-right: 3px
+      &:focus
+        box-shadow: inset 0 0 0 1px #E5415F
+        background-color: white
+    &.button
+      color: white
+      font-weight: 400
+      background-color: #F14E6C
+      opacity: 1
+      padding: 13px 22px
+      border-radius: 4px
+      font-size: 16px
+      font-weight: 600
+      cursor: pointer
+      &:hover
+        background-color: #E5415F
+  a
+    text-decoration: none
+    font-size: 18px
+    color: #584CE6
+  a.shadow
+    box-shadow: 0 1px 4px 0 rgba(88,75,230,0.42)
+
+  &.hero
+    max-width: 1020px
+    margin: 104px auto 0px
+    position: relative
+    height: 540px
+    p
+      &.use-quorum
+        line-height: 15px
+    ul
+      list-style: none
+      padding-left: 0
+      margin-bottom: 40px
+      li
+        background: url(../images/icons/blue-check.svg) no-repeat 0px 7px
+        p
+          margin: 7px 0px 0px 25px
+          text-align: left
+          font-weight: 400
+    img
+      &.hero-illustration
+        position: absolute
+        top: -20px
+        left: 0
+      &.fr-hero-title
+        width: 334px
+        margin-bottom: 45px
+      &.en-hero-title
+        width: 422px
+        margin-bottom: 45px
+    .features
+      position: absolute
+      top: 13px
+      right: 40px
+      min-width: 457px
+      h1
+        max-width: 460px
+        font-size: 32px
+        line-height: 38px
+        margin: 16px 0 30px
+        padding: 0px
+      .clear
+        display: inline-block
+    .call-us
+      margin-top: 15px
+      p
+        display: inline-block
+        opacity: 0.7
+        font-size: 16px
+      a
+        padding-left: 40px
+        font-weight: 600
+        opacity: 1
+        color: #666666
+        &.phone-number
+          background: url(../images/icons/phone.svg) no-repeat 11px 4px
+        &.email
+          background: url(../images/icons/email.svg) no-repeat 11px 8px
+
+  &.cards
+    display: flex
+    flex-direction: row
+    justify-content: space-between
+    flex-flow: row wrap
+    padding-top: 100px
+    .card
+      width: 280px
+      border-radius: 2px
+      position: relative
+      .image
+        position: relative
+        img
+          width: 280px
+          &.icon
+            width: 36px
+            position: absolute
+            left: -18px
+            bottom: -10px
+      p
+        font-size: 16px
+        line-height: 22px
+        margin: 0px 5px 20px 20px
+        text-align: left
+      .catchphrase
+        position: absolute
+        left: -7px
+        p
+          min-width: 330px
+          line-height: 29px
+          font-size: 18px
+          margin: 40px 0 5px
+        a
+          width: 215px
+      &.about
+        position: relative
+        p
+          position: absolute
+          top: -8px
+          line-height: 29px
+          font-size: 18px
+          margin: 0
+      &.invisible
+        background-color: white
+
+  &.mobile-app
+    padding: 100px 0 90px
+    margin-top: 170px
+    max-width: 955px
+    position: relative
+    img
+      width: 664px
+      position: absolute
+      top: 0
+      left: -261px
+    .content
+      margin-left: 450px
+      h3
+        font-size: 12px
+        font-weight: 700
+        color: #808C9B
+        margin: 0
+        letter-spacing: 1.2px
+        text-transform: uppercase
+      h2
+        margin: 5px 0 0
+        line-height: 39px
+      p
+        max-width: 425px
+        &.padded
+          padding: 30px 0 20px
+      .download
+        color: #808C9B
+        padding-bottom: 35px
+        span
+          a
+            font-size: 15px
+            color: #808C9B
+            &:hover
+              color: #584CE6
+          &.available
+            font-size: 12px
+            text-transform: uppercase
+            font-weight: 500
+            padding-right: 15px
+          &.ios
+            background: url(../images/icons/ios.svg) no-repeat 0 3px
+            padding-left: 20px
+            margin-right: 15px
+            cursor: pointer
+          &.android
+            background: url(../images/icons/android.svg) no-repeat 0 5px
+            padding-left: 20px
+            cursor: pointer
+
+  &.web-app
+    padding: 300px 0 207px
+    position: relative
+    h2
+      max-width: 460px
+      line-height: 39px
+      margin-top: 5px
+    h3
+      font-size: 12px
+      font-weight: 700
+      color: #808C9B
+      margin: 0
+      letter-spacing: 1.2px
+      text-transform: uppercase
+      margin-top: 5px
+    p
+      max-width: 460px
+      margin: 25px 0
+    img
+      position: absolute
+      bottom: -3px
+      right: -563px
+      width: 982px
+
+  &.news
+    padding: 90px 0 195px
+    text-align: center
+    h2
+      margin-bottom: 20px
+      text-align: center
+    img
+      &.logos
+        max-width: 710px
+        display: block
+        margin: 30px auto
+      &.mobile
+        display: none
+    .articles
+      display: flex
+      flex-direction: row
+      justify-content: space-between
+      .article
+        text-align: left
+        box-shadow: 0 0 2px 0 rgba(0,0,0,0.15)
+        border-radius: 4px
+        max-width: 300px
+        p
+          margin: 22px 24px 12px
+          line-height: 27px
+        a
+          color: black
+        .source
+          margin: 0 0 13px 24px
+          position: relative
+          img
+            &.icon-article
+              position: absolute
+              top: 7px
+              left: 0
+              width: 16px
+              border-radius: 2px
+          span
+            font-size: 12px
+            opacity: 0.4
+            margin-left: 25px
+            text-transform: uppercase
+
+  &.partners
+    padding: 141px 0 135px
+    text-align: center
+    h2
+      text-align: center
+      margin: 0
+    h3
+      text-align: center
+      font-size: 18px
+      font-weight: 400
+      margin: 4px 0 46px
+    img
+      &.partners
+        width: 670px
+        display: block
+        margin: 0 auto 50px
+      &.mobile
+        display: none
+
+  &.contact
+    padding: 75px 0 65px
+    text-align: center
+    h2
+      text-align: center
+    span
+      font-size: 30px
+      font-weight: 300
+      margin: 0 8px
+    a
+      color: #584CE6
+      font-size: 30px
+      font-weight: 500
+
+  &.pricing-intro
+    text-align: center
+    max-width: 450px
+    margin-top: 137px
+    img
+      &.fr-pricing-title
+        width: 190px
+      &.en-pricing-title
+        width: 198px
+    p
+      text-align: center
+      line-height: 27px
+      padding: 10px 0 25px
+
+  &.pricing
+    position: relative
+    padding-bottom: 130px
+    table
+      width: 100%
+      margin: 0
+      font-weight: normal
+      border: 1px solid #E3E3E3
+      border-spacing: 0
+      border-collapse: collapse
+      tr
+        th
+          font-size: 18px
+          border: 1px solid #E3E3E3
+          font-weight: 600
+          width: 72px
+          &.empty
+            color: #FDFDFD
+          img
+            display: block
+            margin: 0 auto 3px
+        &.header
+          th
+            height: 110px
+        td
+          text-align: center
+          font-size: 14px
+          border-right: 1px solid #E3E3E3
+          padding: 9px 0
+        td:first-child
+          text-align: left
+          padding-left: 20px
+        &.header
+          background-color: #FDFDFD
+        &.subheader
+          height: 42px
+          background-color: #FDFDFD
+          text-transform: uppercase
+          text-align: left
+          th
+            font-size: 14px
+            padding-left: 20px
+            &.empty
+              color: #FDFDFD
+    .overlay-contact
+      background-image: linear-gradient(-180deg, rgba(255,255,255,0.00) 0%, #FFFFFF 65%)
+      position: absolute
+      bottom: 0
+      width: 100%
+      text-align: center
+      height: 650px
+      img
+        &.man
+          position: absolute
+          top: 305px
+          left: 0
+        &.woman
+          position: absolute
+          top: 305px
+          right: 0
+      .contact-info
+        position: absolute
+        bottom: 155px
+        width: 100%
+        h2
+          text-align: center
+        span
+          font-size: 30px
+          font-weight: 300
+          margin: 0 8px
+        a
+          color: #584CE6
+          font-size: 30px
+          font-weight: 500
+
+  &.services
+    padding-bottom: 20px
+    display: flex
+    flex-direction: row
+    justify-content: space-between
+    .service
+      width: 400px
+      border: 2px solid #EEEEEE
+      border-radius: 10px
+      padding: 30px 30px 20px
+      img
+        padding-bottom: 5px
+      h3, p
+        text-align: left
+      h3
+        font-size: 23px
+        font-weight: 500
+        margin: 0
+        color: #584CE6
+      p
+        font-size: 16px
+        line-height: 27px
+      ul
+        margin-top: 3px
+        padding-left: 30px
+
+  &.faq
+    padding: 90px 0
+    border-top: 1px solid #EAEAEA
+    h2
+      margin: 0 0 10px
+    h2, h3, p
+      text-align: left
+    .questions
+      display: flex
+      flex-direction: row
+      flex-wrap: wrap
+      padding-bottom: 65px
+      .question
+        max-width: 440px
+        margin-right: 20px
+        h3, p, a
+          font-size: 16px
+          margin: 0
+          line-height: 27px
+        h3
+          margin-top: 30px
+          font-weight: 500
+        p
+          color: rgba(0, 0, 0, 0.6)
+          opacity: 1
+          margin-bottom: 0
+        ul
+          li
+            opacity: 0.6
+
+  &.actions
+    h2
+      text-align: center
+      text-transform: uppercase
+      font-size: 13px
+      letter-spacing: 1.3px
+      font-weight: 600
+      padding-top: 45px
+      margin-bottom: 10px
+    hr
+      width: 90px
+      height: 2px
+      background: #B9C0E2
+      display: block
+      margin: 0 auto
+      border: 0
+    .items
+      padding: 25px 0 50px
+      display: flex
+      flex-direction: row
+      justify-content: space-between
+      img
+        &.icon
+          display: none
+      p
+        font-size: 14px
+        padding-left: 30px
+        &.secure
+          background: url(../images/icons/secure.svg) no-repeat 3px 1px
+        &.organization
+          background: url(../images/icons/organization.svg) no-repeat 3px 1px
+        &.field
+          background: url(../images/icons/field.svg) no-repeat 3px 1px
+
+  &.cir
+    padding: 40px 0
+    text-align: center
+    border-bottom: 1px solid #EFEFEF
+    p
+      text-align: center
+      margin: 0 auto
+      font-size: 16px
+      max-width: 650px
+
+  &.faq-extended
+    padding: 80px 0 20px
+    h1
+      font-size: 30px
+      margin-bottom: 30px
+    .question
+      padding: 50px 0
+      border-top: 1px solid #E5E5E5
+      h2
+        font-size: 20px
+      .answer
+        p, a
+          font-size: 16px
+
+  &.team
+    position: relative
+    padding: 80px 0
+    h2
+      text-align: center
+      margin-bottom: 20px
+    img
+      &.illustration
+        position: absolute
+        bottom: 0
+        left: -255px
+    .content
+      display: flex
+      flex-direction: row
+      .mobilised
+        background: url(../images/team-background.png) no-repeat
+        background-size: cover
+        border-radius: 4px
+        color: white
+        text-align: center
+        h3
+          font-size: 20px
+          font-weight: 500
+          margin: 0
+          padding: 160px 80px
+          span
+            font-size: 80px
+            display: block
+            line-height: 60px
+      .teammembers
+        max-width: 300px
+        margin-left: 20px
+        img
+          border-radius: 4px
+          width: 300px
+        p
+          margin: 25px 0
+        a
+          background-color: #F14E6C
+          color: white
+          padding: 13px 22px
+          border-radius: 4px
+          font-size: 16px
+          font-weight: 600
+          &:hover
+            background: #E5415F
+
+
+  &.news-extended
+    padding: 80px 0 35px
+    h1
+      font-size: 30px
+      margin-bottom: 30px
+      max-width: 530px
+      line-height: 39px
+    .article
+      padding: 45px 0 60px
+      border-top: 1px solid #E5E5E5
+      display: flex
+      flex-direction: row
+      justify-content: space-between
+      .title
+        width: 280px
+        h2
+          font-size: 20px
+          line-height: 25px
+        span
+          font-size: 11px
+          text-transform: uppercase
+          font-weight: 700
+          opacity: 0.6
+          letter-spacing: 2px
+      .content
+        width: 625px
+        p, a
+          font-size: 16px
+        p
+          line-height: 25px
+          margin-bottom: 10px
+
+.testimonials
+  padding-bottom: 135px
+  h2
+    text-align: center
+    font-size: 30px
+    font-weight: 500
+    padding-top: 75px
+  .has-scrollbar
+    padding: 15px 0
+    .list
+      width: 2050px
+      .testimonial
+        overflow: hidden
+        margin-left: 25px
+        float: left
+        display: block
+        max-width: 330px
+        background-color: white
+        border-radius: 5px
+        font-size: 18px
+        padding: 25px
+        color: #404447
+        box-shadow: 0 0 0 1px rgba(232,232,232,0.36), 0 12px 24px 0 rgba(202,202,202,0.22)
+        p
+          color: black
+          font-weight: 500
+        .bottom
+          position: relative
+          padding-top: 15px
+          img
+            &.avatar
+              width: 34px
+              border-radius: 50%
+              float: left
+              margin-right: 15px
+              padding-top: 5px
+            &.border
+              position: absolute
+              top: 0
+              left: 0
+          span
+            &.name
+              display: block
+              font-size: 14px
+            &.about
+              font-size: 12px
+              display: block
+        &:last-child
+          margin-right: 25px
+        p
+          text-align: left
+          margin: 0 0 20px
+          font-size: 15px
+
+footer
+  max-width: 940px
+  margin: auto
+  display: flex
+  flex-direction: row
+  justify-content: space-between
+  border-bottom: 1px solid #EFEFEF
+  .footer-item
+    margin: 50px 0 7px
+    h3
+      font-size: 13px
+      text-transform: uppercase
+      margin: 0
+      line-height: 0px
+    img
+      padding-right: 5px
+    ul
+      list-style: none
+      padding: 0
+      li
+        a
+          text-decoration: none
+          color: black
+          font-size: 15px
+          opacity: 0.8
+  .footer-news
+    width: 335px
+    p
+      line-height: 22px
+      margin-bottom: 21px
+      opacity: 0.8
+    input
+      -webkit-font-smoothing: antialiased
+      -moz-osx-font-smoothing: grayscale
+      -webkit-appearance: none
+      font-size: 15px
+      font-family: 'Poppins', sans-serif
+      border: 0
+      display: inline-block
+      &.email
+        width: 161px
+        font-weight: 400
+        border-radius: 3px
+        background-color: #F7F7F7
+        padding: 13px 22px
+        color: black
+        box-shadow: inset 0 1px 3px 0 rgba(0,0,0,0.08), inset 0 0 1px 0 rgba(0,0,0,0.29)
+        margin-right: 3px
+        &:focus
+          box-shadow: inset 0 0 0 1px #E5415F
+          background-color: white
+      &.button
+        color: white
+        font-weight: 400
+        background-color: #F14E6C
+        opacity: 1
+        padding: 13px 22px
+        border-radius: 4px
+        font-size: 16px
+        font-weight: 600
+        cursor: pointer
+        &:hover
+          background: #E5415F
+    .clear
+      display: inline-block
+  .footer-connect
+    li
+      padding-left: 23px
+      &.facebook
+        background: url(../images/icons/facebook.svg) no-repeat 0 5px
+      &.twitter
+        background: url(../images/icons/twitter.svg) no-repeat 0 7px
+      &.youtube
+        background: url(../images/icons/youtube.svg) no-repeat 0 7px
+      &.google-plus
+        background: url(../images/icons/google-plus.svg) no-repeat 0 7px
+      &.instagram
+        background: url(../images/icons/instagram.svg) no-repeat 0 5px
+
+.legal
+  max-width: 940px
+  margin: 0 auto
+  text-align: center
+  padding: 34px 0 95px
+  font-size: 10px
+  letter-spacing: 0.77px
+  a
+    text-decoration: none
+    color: black
+    text-transform: uppercase
+  span
+    padding: 0 5px
+  span:last-child
+    display: none
+
+@media screen and (max-width: 980px)
+  .banner
+    padding: 20px
+    p
+      padding: 0
+      font-size: 18px
+      line-height: 22px
+
+  .cookie
+    p
+      padding: 20px 60px 20px 20px
+      text-align: left
+
+  header
+    padding: 20px
+    margin: 0
+    .logo
+      height: 30px
+      float: left
+      overflow: hidden
+      svg
+        position: relative
+        top: 0
+        left: 0
+    &.shown
+      position: fixed
+      width: 100%
+      max-width: 100%
+      box-shadow: 0 1px 5px 0 rgba(0,0,0,0.05)
+      top: 0
+      padding-bottom: 6px
+      z-index: 2
+      margin: 0
+      background: white
+      animation: 0.5s header-shown linear
+      .content
+        max-width: 940px
+        margin: 0 auto
+        position: relative
+        .logo
+          width: 18px
+          overflow: hidden
+          position: relative
+          display: block
+          z-index: 10
+        .menu-open
+          top: -3px
+          right: 40px
+        ul
+          text-align: center
+          margin-left: 0
+        .links
+          right: 0
+        li.contact
+          display: block
+          a
+            position: relative
+            right: 0
+            top: 0
+            color: white
+            font-size: 14px
+            background-color: #584CE6
+            opacity: 1
+            font-weight: bold
+            padding: 9px 16px
+            border-radius: 4px
+            &:hover
+              background: #4437D3
+      @keyframes header-shown
+        0%
+          top: -100px
+        100%
+          top: 0
+    nav
+      a
+        &.menu-open
+          display: block
+          text-decoration: none
+          float: right
+          display: block
+          color: black
+          opacity: 0.6
+          font-size: 16px
+          text-transform: uppercase
+          font-weight: 500
+          letter-spacing: 0
+          padding-right: 30px
+          z-index: 10
+          background: url(../images/icons/menu.svg) no-repeat 53px 4px
+          position: absolute
+          top: 18px
+          right: 20px
+
+    .content
+      overflow-y: scroll
+      .menu-items
+        display: none
+      &.responsive
+        .logo
+          z-index: 10
+          position: fixed
+          top: 16px
+        a.menu-open
+          top: 17px
+          right: 20px
+          position: fixed
+        .menu-items
+          display: block
+          width: calc(100% - 40px)
+          position: fixed
+          background: white
+          z-index: 9
+          left: 0
+          top: 0
+          padding: 0 20px
+          height: 100%
+          .links
+            text-align: center
+            position: relative
+            a
+              display: block
+              font-size: 16px
+          ul
+            display: block
+            margin-top: 80px
+            padding-left: 0
+            li
+              display: block
+              text-align: center
+              margin-bottom: 20px
+              &.contact
+                display: block
+                a
+                  position: relative
+                  right: 0
+                  top: 0
+                  color: white
+                  font-size: 14px
+                  background-color: #584CE6
+                  opacity: 1
+                  font-weight: bold
+                  padding: 9px 16px
+                  border-radius: 4px
+            a
+              font-size: 16px
+
+  .shade-blue
+    &.contact
+      img
+        &.man
+          width: 77px
+          position: absolute
+          top: inherit
+          bottom: -5px
+          left: -10px
+        &.woman
+          width: 61px
+          position: absolute
+          top: inherit
+          bottom: -14px
+          right: 0px
+
+  .wrapper
+    input
+      -webkit-font-smoothing: antialiased
+      -moz-osx-font-smoothing: grayscale
+      -webkit-appearance: none
+      &.email
+        width: calc(100% - 44px)
+      &.button
+        display: block
+        width: 100%
+        margin-top: 10px
+
+    &.hero
+      height: auto
+      padding: 40px 20px 80px
+      margin: 0
+      img.hero-illustration
+        display: block
+        position: relative
+        top: 0
+        left: 0
+        width: 80%
+        margin: 0 auto 40px
+      .features
+        position: relative
+        left: 0
+        top: 0
+        width: 100%
+        min-width: auto
+        h1
+          font-size: 26px
+          line-height: 32px
+        .clear
+          display: block
+        img
+          &.fr-hero-title
+            width: 275px
+            margin: 0
+          &.en-hero-title
+            width: 280px
+            margin: 0
+        p
+          &.use-quorum
+            margin-top: 20px
+            font-size: 16px
+        ul
+          margin: 10px 0 15px
+          li
+            p
+              font-size: 16px
+              opacity: 1
+      .call-us
+        a
+          &.phone-number
+            display: block
+            background: url(../images/icons/phone.svg) no-repeat 0px 4px
+            padding-left: 30px
+            margin-top: 5px
+          &.email
+            display: block
+            background: url(../images/icons/email.svg) no-repeat 0px 7px
+            padding-left: 30px
+            margin-top: 5px
+
+    &.cards
+      padding: 80px 40px 80px 30px
+      .card
+        width: auto
+        &.about
+          position: relative
+          display: block
+          p
+            position: relative
+            margin: 0 0 20px
+            font-size: 18px
+        .image
+          img
+            width: 100%
+        .catchphrase
+          position: relative
+          p
+            margin-top: 0
+            min-width: auto
+          a
+            width: auto
+        p
+          font-size: 16px
+          margin: 0px 20px 30px 30px
+          line-height: 25px
+        margin: 0 auto
+
+    &.mobile-app
+      padding: 60px 20px 80px
+      margin-top: 0
+      .content
+        margin-left: 0
+        h3
+          margin: 20px 0 0
+          padding: 0
+        h2
+          margin: 4px 0 5px
+          line-height: 40px
+        .download
+          padding-bottom: 25px
+          span
+            &.available, .ios, .android
+              font-size: 14px
+        p
+          font-size: 18px
+      img
+        position: relative
+        display: block
+        width: 90%
+        left: 0
+        margin: 40px auto 0
+
+    &.web-app
+      padding: 80px 20px
+      h3
+        margin: 20px 0 0
+        padding: 0
+      h2
+        margin: 4px 0 0
+      img
+        width: 90%
+        display: block
+        left: 0
+        position: relative
+        top: 0
+        margin: 160px auto 0
+
+    &.partners
+      padding: 80px 20px
+      h2
+        line-height: 40px
+      img
+        &.desktop
+          display: none
+        &.mobile
+          display: block
+          width: 231px
+
+    &.news
+      padding: 80px 20px
+      h2
+        line-height: 40px
+        margin-bottom: 0
+      img
+        &.mobile
+          display: block
+        &.desktop
+          display: none
+      .articles
+        display: block
+        padding: 40px 20px 0
+        .article
+          max-width: 100%
+          padding: 10px
+          margin-bottom: 30px
+      .logos
+        width: 100%
+
+    &.contact
+      padding: 80px 60px 30px
+      h2
+        font-size: 18px
+      .contact-info
+        a, span
+          font-size: 18px
+        span
+          margin: 0 5px
+        a
+          &.tel
+            display: block
+
+    &.pricing-intro
+      padding: 40px 20px 20px
+      margin: 0 auto
+      p
+        font-size: 16px
+
+    &.pricing
+      padding: 0 20px
+      table
+        tr
+          &.header
+            th
+              height: 80px
+          &.subheader
+            height: 30px
+          th
+            font-size: 13px
+            &.mobile-invisible
+              display: none
+          td
+            padding: 10px
+            &.mobile-invisible
+              display: none
+      .overlay-contact
+        width: calc(100% - 40px)
+        height: 605px
+        img
+          &.man, &.woman
+            display: none
+        .contact-info
+          bottom: 130px
+          h2
+            font-size: 18px
+          a, span
+            font-size: 18px
+          span
+            margin: 0 5px
+          a
+            &.tel
+              display: block
+
+    &.services
+      flex-direction: column
+      padding: 0px 20px 60px
+      .service
+        width: auto
+        margin-bottom: 20px
+        h3
+          font-size: 21px
+          line-height: 28px
+          margin-bottom: 5px
+        p
+          margin-bottom: 5px
+
+    &.faq
+      padding: 0 20px 60px
+      border-top: none
+      h2
+        font-size: 21px
+        margin: 0
+      .questions
+        padding-bottom: 30px
+        .question
+          margin-right: 0
+          h3, p
+            margin-bottom: 5px
+
+    &.team
+      padding: 60px 20px 0
+      h2
+        font-size: 21px
+        margin: 0 0 20px
+        line-height: 32px
+      img
+        &.illustration
+          display: block
+          position: relative
+          left: -65px
+          padding-top: 45px
+      .content
+        flex-direction: column
+        .mobilised
+          display: block
+          margin-bottom: 10px
+          h3
+            font-size: 16px
+            padding: 40px 35px
+            span
+              font-size: 40px
+        .teammembers
+          max-width: none
+          width: auto
+          margin: 0
+          display: block
+          text-align: center
+          p
+            text-align: center
+            margin: 20px 0 30px
+          img
+            width: 100%
+
+    &.news-extended
+      padding: 50px 20px
+      h1
+        padding: 0
+        font-size: 24px
+        line-height: 30px
+      .article
+        padding: 30px 0
+        flex-direction: column
+        .title
+          h2
+            margin: 5px 0 10px
+        .content
+          width: auto
+
+    &.faq-extended
+      padding: 50px 20px
+      h1
+        padding: 0
+        font-size: 24px
+        line-height: 30px
+      .question
+        padding: 30px 0
+        h2
+          margin: 5px 0 10px
+
+    &.actions
+      display: block
+      padding: 70px
+      .items
+        display: block
+        img
+          &.icon
+            display: block
+            margin: 15px auto 10px
+        p
+          display: block
+          padding: 0
+          font-size: 16px
+          text-align: center
+          margin-bottom: 20px
+          &.secure, &.organization, &.field
+            background: none
+
+    &.cir
+      padding: 60px 20px
+      border-bottom: none
+
+  .testimonials
+    padding: 60px 0
+    h2
+      padding: 0 20px
+      font-size: 21px
+      line-height: 32px
+    .has-scrollbar
+      .list
+        .testimonial
+          margin-left: 20px
+          &:last-child
+            margin-right: 25px
+
+  .legal
+    padding: 0 20px 100px
+
+  footer
+    padding: 20px 20px 0
+    border-bottom: none
+    display: block
+    .footer-item
+      h3
+        font-size: 15px
+      ul
+        li
+          a
+            font-size: 17px
+            opacity: 0.8
+      .footer-news
+        width: auto
+        p
+          opacity: 0.8
+        .clear
+          display: block
+        input
+          -webkit-font-smoothing: antialiased
+          -moz-osx-font-smoothing: grayscale
+          -webkit-appearance: none
+          &.email
+            display: block
+            width: calc(100% - 44px)
+          &.button
+            display: block
+            width: 100%
+            margin-top: 10px
