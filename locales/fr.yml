@@ -72,6 +72,11 @@ fr:
       title: Découvrir plus →
       link: /pricing
 
+  second-t-webapp:
+    title: Quorum se connecte à vos logiciels favoris
+    description: |
+      Quorum fonctionne avec les applications que vous utilisez au quotidien. Connectez vos logiciels favoris ou accédez à votre contenu via notre API.
+  
   mobile-app:
     subtitle: Quorum mobile & tablette
     title: Mobiliser partout, et à tout moment

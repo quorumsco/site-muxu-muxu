@@ -55,17 +55,31 @@
             = t 'mobile-app.android.title'
       p = t 'mobile-app.description'
       p.padded = t 'mobile-app.sub-description'
-      = link_to(t('mobile-app.more.link'), class: "blue-link")
+       = link_to(t('mobile-app.more.link'), class: "blue-link")
         = t 'mobile-app.more.title'
 
 .white
   .wrapper.web-app
-    = image_tag "web-app-illustration.png"
     h3 = t 'web-app.subtitle'
     h2 = t 'web-app.title'
+
     p = t 'web-app.description'
-    = link_to(t('web-app.more.link'), class: "red-link")
-      = t 'web-app.more.title'
+    /= link_to(t('web-app.more.link'), class: "red-link")
+      / = t 'web-app.more.title'
+
+    = image_tag "web-app-illustration.png"
+
+  .wrapper.second-t-webapp
+      h2 = t 'second-t-webapp.title'
+      p  = t 'second-t-webapp.description'
+
+      .api
+        = image_tag "mailjet-logo.png", class: "mailjet-logo"
+        = image_tag "sendinblue-logo.png", class: "sendinblue-logo"
+        = image_tag "mailchimp-logo.png", class: "mailchimp"
+        = image_tag "nationbuilder-logo.png", class: "nationbuilder-logo.png"
+
+
       
 .light-blue
   .wrapper.partners

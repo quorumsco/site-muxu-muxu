@@ -1,18 +1,9 @@
-# If you do not have OpenSSL installed, change
-# the following line to use 'http://'
 source 'https://rubygems.org'
-ruby '2.4.1'
 
-# For faster file watcher updates on Windows:
-gem 'wdm', '~> 0.1.0', platforms: [:mswin, :mingw]
-
-# Windows does not come with time zone data
+gem 'middleman', '~> 4.2'
+gem 'middleman-autoprefixer', '~> 2.7'
 gem 'tzinfo-data', platforms: [:mswin, :mingw, :jruby]
-
-# Middleman Gems
-gem 'middleman', '>= 4.0.0'
+gem 'wdm', '~> 0.1', platforms: [:mswin, :mingw]
+gem "slim"
 gem 'middleman-livereload'
-gem 'middleman-compass', '>= 4.0.0'
 
-gem 'slim'
-gem 'sass'
