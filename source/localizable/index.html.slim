@@ -64,20 +64,55 @@
     h2 = t 'web-app.title'
 
     p = t 'web-app.description'
+
+
+    .web-illustration
+      = image_tag "illustration-screen.png", class: "screen"
+      .logo-container
+        .bubble-container
+          .item.bubble1
+            = image_tag "api/mailjet.png"
+          .item.bubble2
+            = image_tag "api/agenda.png"
+          .item.bubble3
+            = image_tag "api/nationbuilder.png"
+          .item.bubble4
+            = image_tag "api/digitalebox.png"
+
+      .logo-container-right
+        .bubble-container
+          .item.bubble5
+            = image_tag "api/mailchimp.png"
+          .item.bubble6
+            = image_tag "api/twitter.png"
+          .item.bubble7
+            = image_tag "api/quorum.png"
+          .item.bubble8
+            = image_tag "api/buffer.png"
+          .item.bubble9
+            = image_tag "api/sendinblue.png"
+
+      .mapcontainer
+        .poi-container
+          = image_tag "poi.svg", class: "poi"
+        .wavemap
+        .wavemap-1
+        .wavemap-2
+        = image_tag "map.svg", class: "map"
+
     /= link_to(t('web-app.more.link'), class: "red-link")
       / = t 'web-app.more.title'
-
-    = image_tag "web-app-illustration.png"
-
+ 
   .wrapper.second-t-webapp
+    .container-txt
       h2 = t 'second-t-webapp.title'
       p  = t 'second-t-webapp.description'
 
-      .api
-        = image_tag "mailjet-logo.png", class: "mailjet-logo"
-        = image_tag "sendinblue-logo.png", class: "sendinblue-logo"
-        = image_tag "mailchimp-logo.png", class: "mailchimp"
-        = image_tag "nationbuilder-logo.png", class: "nationbuilder-logo.png"
+    .api
+      = image_tag "mailjet-logo.png", class: "mailjet-logo"
+      = image_tag "sendinblue-logo.png", class: "sendinblue-logo"
+      = image_tag "mailchimp-logo.png", class: "mailchimp"
+      = image_tag "nationbuilder-logo.png", class: "nationbuilder-logo.png"
 
 
       
