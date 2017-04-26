@@ -14,12 +14,14 @@ function closeCnilBanner() {
 }
 
 
-/*
+
+
+function responsive() {
 
 if (screen.width <= 768) {
 document.location = "responsive-index.html";
 }
+else
+document.location = "index.html";
 
-
-*/
-
+}

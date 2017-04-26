@@ -3,6 +3,7 @@
   -moz-osx-font-smoothing: grayscale
   outline: none
 
+
 html
   animation: 2s france-flag infinite normal
   @keyframes france-flag
@@ -405,7 +406,7 @@ header
             cursor: pointer
 
   &.web-app
-    padding: 170px 0 0px
+    padding: 150px 0 0px
     position: relative
     h2
       line-height: 39px
@@ -426,13 +427,14 @@ header
       text-align: center
     p
       text-align: center
-      margin: 25px 0
+      margin: 50px 0
 
     .web-illustration
       position: relative
       display: flex
       justify-content: center
       margin: 90px 0px
+
 
 
       .screen
@@ -669,12 +671,14 @@ header
         text-align: left
         padding: 5px
         width: 50%
-      p
         text-align: left
         padding: 5px
         width: 50%
 
-    .api
+      p
+        width: 49%
+
+    .api, .api-mobile
       display: flex
       width: 100%
       align-items: center
@@ -682,12 +686,25 @@ header
       justify-content: center
       padding: 0px
       margin: 130px 0
+
+      .item
+        box-shadow: 0 0 9px 0 rgba(0,0,0,0.08)
+        width: 100%
+        height: 60px
+
       img
         display: block
         justify-content: center
         padding: 30px
         width: 120px
 
+
+    .api-mobile
+      display: none
+    .api-web
+      display: flex
+
+      
 
 
 
@@ -1495,6 +1512,7 @@ footer
     &.second-t-webapp
       padding: 0px 20px
 
+
       
 
     &.partners
@@ -1750,10 +1768,43 @@ footer
           margin: 0px
 
       .second-t-webapp
+        margin: 100px 0
 
-        .api
+        .api-mobile
           flex-direction: column
           margin: 0
+          .item
+            margin: 30px 0
+            display: flex
+            .blue-container
+              img
+                max-width: 60%
+                max-height: 60%
+                width: auto
+                padding: 0
+                margin: 0
+              width: 33%
+              background: #F7F9FF 
+              display: flex
+              height: 61px
+              justify-content: center
+              align-items: center
+            p
+              text-align: center
+              width: 66%
+              display: flex
+              justify-content: center
+              align-items: center
+
+
+             
+            img
+              display: block
+
+        .api
+          display: none
+        .api-mobile
+          display: flex
 
         .container-txt
           flex-wrap: wrap
