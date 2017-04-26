@@ -465,9 +465,12 @@ header
 
 
       .bubble-container
+
+        .foo
+          transform: translate3d(20px, 20px, 0px)
         .bubble1
           animation: bubble-l 20s infinite
-          animation-delay: 0s
+          animation-delay: 1s
           position: relative
           width: 49px
           height: 49px
@@ -489,13 +492,13 @@ header
           
         .bubble5
           animation: bubble-r 20s infinite
-          animation-delay: 9s
+          animation-delay: 0s
           width: 49px
           height: 49px
           
         .bubble6
           animation: bubble-r 20s infinite
-          animation-delay: 3s
+          animation-delay: 4s
           height: 32px
           width: 32px
         .bubble7
@@ -505,12 +508,12 @@ header
           width: 68px
         .bubble8
           animation: bubble-r 20s infinite
-          animation-delay: 0s
+          animation-delay: 2s
           height: 51px
           width: 51px
         .bubble9
           animation: bubble-r 20s infinite
-          animation-delay: 12s
+          animation-delay: 0s
           height: 42px
           width: 42px
 
@@ -527,39 +530,39 @@ header
 
 
 
-          @keyframes bubble-r
-            0%
-              left: 0px
-              top: 0px
-
-            50%
-              left: 155px
-              top: 10px
-
-
-            100%
-              left: 0px
-              top: 0px
-
           @keyframes bubble-l
             0%
-              left: 0px
-              top: 0px
+              transform: translate3d(-10px, 0px, 0px)
+              animation-timing-function: ease-in-out
 
             50%
-              left: -155px
-              top: 10px
-
+              transform: translate3d(-105px, 10px, 0px)
+              animation-timing-function: ease-in-out
 
             100%
-              left: 0px
-              top: 0px
+              transform: translate3d(-10px, 0px, 0px)
+              animation-timing-function: ease-in-out
+
+          @keyframes bubble-r
+            0%
+              transform: translate3d(0px, 0px, 0px)
+              animation-timing-function: ease-in-out
+
+            50%
+              transform: translate3d(105px, 10px, 0px)
+              animation-timing-function: ease-in-out
+
+            100%
+              transform: translate3d(0px, 0px, 0px)
+              animation-timing-function: ease-in-out
+
+              
               
 
-          img
-            max-width: 70%
-            max-height: 70%
-          
+        img
+          max-width: 70%
+          max-height: 70%
+
 
       
       .mapcontainer
@@ -1822,7 +1825,6 @@ footer
           display: none
         .api-mobile
           display: flex
-          .nation
 
 
         .container-txt
