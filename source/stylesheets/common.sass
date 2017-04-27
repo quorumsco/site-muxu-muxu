@@ -208,7 +208,7 @@ header
     text-align: left
     font-size: 30px
     font-weight: 500
-    margin: 0 0 3px
+    margin: 0 0 5px
   p
     font-size: 18px
     text-align: left
@@ -465,55 +465,57 @@ header
 
 
       .bubble-container
-
-        .foo
-          transform: translate3d(20px, 20px, 0px)
-        .bubble1
-          animation: bubble-l 20s infinite
-          animation-delay: 1s
+        .mailjet
+          animation: bubble-l 60s infinite
+          animation-delay: 3s
           position: relative
           width: 49px
           height: 49px
-        .bubble2
-          animation: bubble-l 20s infinite
-          animation-delay: 6s
+          margin-left: -20px
+
+        .agenda
+          animation: bubble-l 60s infinite
+          animation-delay: 18s
           width: 49px
           height: 49px
-        .bubble3
-          animation: bubble-l 20s infinite
-          animation-delay: 4s
+          margin-left: -20px
+        .nationbuilder
+          animation: bubble-l 60s infinite
+          animation-delay: 24s
           width: 49px
           height: 49px
-        .bubble4
-          animation: bubble-l 20s infinite
-          animation-delay: 2s
+          margin-left: -20px
+        .digitale
+          animation: bubble-l 60s infinite
+          animation-delay: 10s
           width: 49px
           height: 49px
+          margin-left: -20px
           
-        .bubble5
-          animation: bubble-r 20s infinite
+        .mailchimp
+          animation: bubble-r 60s infinite
           animation-delay: 0s
           width: 49px
           height: 49px
           
-        .bubble6
-          animation: bubble-r 20s infinite
-          animation-delay: 4s
+        .twitter
+          animation: bubble-r 60s infinite
+          animation-delay: 24s
           height: 32px
           width: 32px
-        .bubble7
-          animation: bubble-r 20s infinite
-          animation-delay: 6s
+        .quorum
+          animation: bubble-r 60s infinite
+          animation-delay: 21s
           height: 68px
           width: 68px
-        .bubble8
-          animation: bubble-r 20s infinite
-          animation-delay: 2s
+        .buffer
+          animation: bubble-r 60s infinite
+          animation-delay: 6s
           height: 51px
           width: 51px
-        .bubble9
-          animation: bubble-r 20s infinite
-          animation-delay: 0s
+        .sendinblue
+          animation: bubble-r 60s infinite
+          animation-delay: 12s
           height: 42px
           width: 42px
 
@@ -532,7 +534,7 @@ header
 
           @keyframes bubble-l
             0%
-              transform: translate3d(-10px, 0px, 0px)
+              transform: translate3d(0px, 0px, 0px)
               animation-timing-function: ease-in-out
 
             50%
@@ -540,7 +542,7 @@ header
               animation-timing-function: ease-in-out
 
             100%
-              transform: translate3d(-10px, 0px, 0px)
+              transform: translate3d(0px, 0px, 0px)
               animation-timing-function: ease-in-out
 
           @keyframes bubble-r
@@ -601,18 +603,19 @@ header
           background: #584CE6
           position: absolute
           top: 30%
-          animation: waveanim 5s infinite
+          animation: waveanim 7s infinite
+          animation-direction: normal
           border-radius: 100%
           transform-origin: 50% 50%
 
           @keyframes waveanim
             0%
               transform: scale(0)
-              opacity: 0
+              opacity: 0.2
 
             100%
               transform: scale(1)
-              opacity: 0.3
+              opacity: 0
 
         .wavemap-1
           width: 200px
@@ -620,7 +623,8 @@ header
           background: #584CE6
           position: absolute
           top: 30%
-          animation: waveanim1 5s infinite
+          animation: waveanim 5s infinite
+          animation-direction: alternate
           border-radius: 100%
           transform-origin: 50% 50%
 
@@ -646,7 +650,8 @@ header
           background: #584CE6
           position: absolute
           top: 30%
-          animation: waveanim2 5s infinite
+          animation: waveanim 5s infinite
+          animation-direction: normal
           border-radius: 100%
           transform-origin: 50% 50%
 
@@ -679,6 +684,7 @@ header
 
       p
         width: 49%
+        margin-top: 4px
 
     .api, .api-mobile
       display: flex

@@ -9,7 +9,7 @@ end
 
 
 activate :livereload
-activate :i18n
+activate :i18n, :mount_at_root => :fr
 
 
 # Layouts
