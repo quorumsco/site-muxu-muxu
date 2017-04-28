@@ -72,6 +72,15 @@ en:
       title: Discover more →
       link: ../../en/pricing
 
+  second-t-webapp:
+    description: |
+      second-t-webapp:
+    title: All your apps are connected <br> to Quorum 
+    description: |
+      Quorum works with the tools you already use. Connect to your existing apps and services and stop mucking around with duplicated lists and save your time !
+  
+  
+
   mobile-app:
     subtitle: Quorum mobile & tablet
     title: Mobilise anytime and wherever people are

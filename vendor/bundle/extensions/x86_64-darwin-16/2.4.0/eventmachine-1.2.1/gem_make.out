@@ -1,0 +1,16 @@
+current directory: /Users/matthieucaron/Desktop/site-muxu-muxu/vendor/bundle/gems/eventmachine-1.2.1/ext/fastfilereader
+/Users/matthieucaron/.rvm/rubies/ruby-2.4.1/bin/ruby -r ./siteconf20170421-73584-5qrs2j.rb extconf.rb
+creating Makefile
+
+current directory: /Users/matthieucaron/Desktop/site-muxu-muxu/vendor/bundle/gems/eventmachine-1.2.1/ext/fastfilereader
+make "DESTDIR=" clean
+
+current directory: /Users/matthieucaron/Desktop/site-muxu-muxu/vendor/bundle/gems/eventmachine-1.2.1/ext/fastfilereader
+make "DESTDIR="
+compiling mapper.cpp
+compiling rubymain.cpp
+linking shared-object fastfilereaderext.bundle
+
+current directory: /Users/matthieucaron/Desktop/site-muxu-muxu/vendor/bundle/gems/eventmachine-1.2.1/ext/fastfilereader
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 fastfilereaderext.bundle ./.gem.20170421-73584-1f12axp

@@ -72,6 +72,11 @@ fr:
       title: Découvrir plus →
       link: /pricing
 
+  second-t-webapp:
+    title: Quorum se connecte à vos logiciels favoris
+    description: |
+      Quorum fonctionne avec les applications que vous utilisez déjà. Simplifier la vie de votre organisation, éviter les doublons et la ressaisi !
+  
   mobile-app:
     subtitle: Quorum mobile & tablette
     title: Mobiliser partout, et à tout moment

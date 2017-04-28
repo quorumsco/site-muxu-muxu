@@ -55,17 +55,90 @@
             = t 'mobile-app.android.title'
       p = t 'mobile-app.description'
       p.padded = t 'mobile-app.sub-description'
-      = link_to(t('mobile-app.more.link'), class: "blue-link")
+       = link_to(t('mobile-app.more.link'), class: "blue-link")
         = t 'mobile-app.more.title'
 
 .white
   .wrapper.web-app
-    = image_tag "web-app-illustration.png"
     h3 = t 'web-app.subtitle'
     h2 = t 'web-app.title'
+
     p = t 'web-app.description'
-    = link_to(t('web-app.more.link'), class: "red-link")
-      = t 'web-app.more.title'
+
+
+    .web-illustration
+      = image_tag "illustration-screen.png", class: "screen"
+      .logo-container
+        .bubble-container
+          .item.mailjet
+            = image_tag "api/mailjet.png"
+          .item.agenda
+            = image_tag "api/agenda.png"
+          .item.nationbuilder
+            = image_tag "api/nationbuilder.png"
+          .item.digitale
+            = image_tag "api/digitalebox.png"
+
+      .logo-container-right
+        .bubble-container
+          .item.mailchimp
+            = image_tag "api/mailchimp.png"
+          .item.twitter
+            = image_tag "api/twitter.png"
+          .item.quorum
+            = image_tag "api/quorum.png"
+          .item.buffer
+            = image_tag "api/buffer.png"
+          .item.sendinblue
+            = image_tag "api/sendinblue.png"
+
+      .mapcontainer
+        .poi-container
+          = image_tag "poi.svg", class: "poi"
+        .wavemap
+        .wavemap-1
+        .wavemap-2
+        = image_tag "map.svg", class: "map"
+
+    /= link_to(t('web-app.more.link'), class: "red-link")
+      / = t 'web-app.more.title'
+ 
+  .wrapper.second-t-webapp
+    .container-txt
+      h2 = t 'second-t-webapp.title'
+      p  = t 'second-t-webapp.description'
+
+    .api
+      = image_tag "mailjet-logo.png", class: "mailjet-logo api-web"
+      = image_tag "sendinblue-logo.png", class: "sendinblue-logo api-web"
+      = image_tag "mailchimp-logo.png", class: "mailchimp api-web"
+      = image_tag "nationbuilder-logo.png", class: "nationbuilder-logo.png api-web"
+
+    .api-mobile
+      .item
+        .blue-container
+          = image_tag "api/mailchimp.png"
+        p = "Mailchimp"
+      .item
+        .blue-container
+          = image_tag "api/sendinblue.png"
+        p = "Sendinblue"
+         
+      .item
+        .blue-container
+          = image_tag "api/mailjet.png"
+        p = "Mailjet"
+
+
+      .item.nation
+        .blue-container
+          = image_tag "api/nationbuilder.png"
+        .nation-container
+          p = "Nationbuilder"
+          p.soon = "SOON"
+          
+
+
       
 .light-blue
   .wrapper.partners

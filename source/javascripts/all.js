@@ -12,3 +12,16 @@ function closeCnilBanner() {
 	var cnilMessage = document.getElementById('cnil_message');
 	cnilMessage.style.display = 'none';
 }
+
+
+
+
+function responsive() {
+
+if (screen.width <= 768) {
+document.location = "responsive-index.html";
+}
+else
+document.location = "index.html";
+
+}

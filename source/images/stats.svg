@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="70px" height="118px" viewBox="0 0 70 118" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 43.2 (39069) - http://www.bohemiancoding.com/sketch -->
+    <title>stats</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="website" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="prop5" transform="translate(-313.000000, -799.000000)">
+            <g id="ILLUSTRATION" transform="translate(150.000000, 418.000000)">
+                <g id="stats" transform="translate(163.000000, 381.000000)">
+                    <g>
+                        <rect id="bg" fill="#0B3BDE" x="0" y="30" width="10" height="74" rx="2"></rect>
+                        <text id="J" opacity="0.3" font-family="Poppins-SemiBold, Poppins" font-size="10" font-weight="500" fill="#000000">
+                            <tspan x="1.61" y="117">J</tspan>
+                        </text>
+                        <text id="F" opacity="0.3" font-family="Poppins-SemiBold, Poppins" font-size="10" font-weight="500" fill="#000000">
+                            <tspan x="21.785" y="117">F</tspan>
+                        </text>
+                        <text id="M" opacity="0.3" font-family="Poppins-SemiBold, Poppins" font-size="10" font-weight="500" fill="#000000">
+                            <tspan x="40.945" y="117">M</tspan>
+                        </text>
+                        <text id="A" opacity="0.3" font-family="Poppins-SemiBold, Poppins" font-size="10" font-weight="500" fill="#000000">
+                            <tspan x="60.975" y="117">A</tspan>
+                        </text>
+                        <rect id="bg" fill="#0B3BDE" x="20" y="0" width="10" height="104" rx="2"></rect>
+                        <rect id="bg" fill="#0B3BDE" x="40" y="60" width="10" height="44" rx="2"></rect>
+                        <rect id="bg" fill="#0B3BDE" x="60" y="30" width="10" height="74" rx="2"></rect>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

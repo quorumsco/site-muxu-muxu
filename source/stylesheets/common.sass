@@ -3,6 +3,7 @@
   -moz-osx-font-smoothing: grayscale
   outline: none
 
+
 html
   animation: 2s france-flag infinite normal
   @keyframes france-flag
@@ -43,7 +44,7 @@ header
     box-shadow: 0 1px 5px 0 rgba(0,0,0,0.05)
     top: 0
     padding-bottom: 6px
-    z-index: 2
+    z-index: 10
     margin: 0
     background: white
     animation: 0.5s header-shown linear
@@ -207,7 +208,7 @@ header
     text-align: left
     font-size: 30px
     font-weight: 500
-    margin: 0 0 3px
+    margin: 0 0 5px
   p
     font-size: 18px
     text-align: left
@@ -405,12 +406,16 @@ header
             cursor: pointer
 
   &.web-app
-    padding: 300px 0 207px
+    padding: 150px 0 0px
     position: relative
     h2
-      max-width: 460px
       line-height: 39px
       margin-top: 5px
+      text-align: center
+      max-width: 490px
+      margin: 0 auto
+
+
     h3
       font-size: 12px
       font-weight: 700
@@ -419,14 +424,298 @@ header
       letter-spacing: 1.2px
       text-transform: uppercase
       margin-top: 5px
+      text-align: center
     p
-      max-width: 460px
-      margin: 25px 0
-    img
-      position: absolute
-      bottom: -3px
-      right: -563px
-      width: 982px
+      text-align: center
+      margin: 50px 0
+
+    .web-illustration
+      position: relative
+      display: flex
+      justify-content: center
+      margin: 90px 0px
+
+
+
+      .screen
+        position: relative
+        z-index: 5
+        width: 80%
+        height: 80%
+        display: block
+        margin: 0 auto
+        
+
+      .logo-container, .logo-container-right
+        display: flex
+        justify-content: center
+        flex-direction: column
+        position: absolute
+        left: 0
+
+      .logo-container
+        position: absolute
+        left: 0
+
+      .logo-container-right
+        position: absolute
+        right: 0
+        align-items: flex-end
+
+
+
+      .bubble-container
+        .mailjet
+          animation: bubble-l 60s infinite
+          animation-delay: 3s
+          position: relative
+          width: 49px
+          height: 49px
+          margin-left: -20px
+
+        .agenda
+          animation: bubble-l 60s infinite
+          animation-delay: 18s
+          width: 49px
+          height: 49px
+          margin-left: -20px
+        .nationbuilder
+          animation: bubble-l 60s infinite
+          animation-delay: 24s
+          width: 49px
+          height: 49px
+          margin-left: -20px
+        .digitale
+          animation: bubble-l 60s infinite
+          animation-delay: 10s
+          width: 49px
+          height: 49px
+          margin-left: -20px
+          
+        .mailchimp
+          animation: bubble-r 60s infinite
+          animation-delay: 0s
+          width: 49px
+          height: 49px
+          
+        .twitter
+          animation: bubble-r 60s infinite
+          animation-delay: 24s
+          height: 32px
+          width: 32px
+        .quorum
+          animation: bubble-r 60s infinite
+          animation-delay: 21s
+          height: 68px
+          width: 68px
+        .buffer
+          animation: bubble-r 60s infinite
+          animation-delay: 6s
+          height: 51px
+          width: 51px
+        .sendinblue
+          animation: bubble-r 60s infinite
+          animation-delay: 12s
+          height: 42px
+          width: 42px
+
+        .item
+          background-color: #F3F3F3
+          position: relative
+          border-radius: 100%
+          padding: 10px
+          display: flex
+          justify-content: center
+          align-items: center
+          margin-top: 1em
+          z-index: 5
+
+
+
+          @keyframes bubble-l
+            0%
+              transform: translate3d(0px, 0px, 0px)
+              animation-timing-function: ease-in-out
+
+            50%
+              transform: translate3d(-105px, 10px, 0px)
+              animation-timing-function: ease-in-out
+
+            100%
+              transform: translate3d(0px, 0px, 0px)
+              animation-timing-function: ease-in-out
+
+          @keyframes bubble-r
+            0%
+              transform: translate3d(0px, 0px, 0px)
+              animation-timing-function: ease-in-out
+
+            50%
+              transform: translate3d(105px, 10px, 0px)
+              animation-timing-function: ease-in-out
+
+            100%
+              transform: translate3d(0px, 0px, 0px)
+              animation-timing-function: ease-in-out
+
+              
+              
+
+        img
+          max-width: 70%
+          max-height: 70%
+
+
+      
+      .mapcontainer
+        position: absolute
+        z-index: 1
+        top: 0
+        height: 70%
+        width: 20%
+        left: 5%
+
+
+
+        .map
+          z-index: 1
+          top: 0
+          height: 100%
+          width: 100%
+
+        .poi-container
+          position: absolute
+          width: 200px
+          height: 200px
+          top: 30%
+          display: flex
+          justify-content: center
+          align-items: center
+
+          img
+            height: 21px
+          
+
+
+        .wavemap
+          width: 200px
+          height: 200px
+          background: #584CE6
+          position: absolute
+          top: 30%
+          animation: waveanim 7s infinite
+          animation-direction: normal
+          border-radius: 100%
+          transform-origin: 50% 50%
+
+          @keyframes waveanim
+            0%
+              transform: scale(0)
+              opacity: 0.2
+
+            100%
+              transform: scale(1)
+              opacity: 0
+
+        .wavemap-1
+          width: 200px
+          height: 200px
+          background: #584CE6
+          position: absolute
+          top: 30%
+          animation: waveanim 5s infinite
+          animation-direction: alternate
+          border-radius: 100%
+          transform-origin: 50% 50%
+
+          @keyframes waveanim1
+            0%
+              transform: scale(0)
+              opacity: 0
+    
+            50%
+              transform: scale(0)
+              opacity: 0
+    
+
+
+            100%
+              transform: scale(1)
+              opacity: 0.1
+
+
+        .wavemap-2
+          width: 200px
+          height: 200px
+          background: #584CE6
+          position: absolute
+          top: 30%
+          animation: waveanim 5s infinite
+          animation-direction: normal
+          border-radius: 100%
+          transform-origin: 50% 50%
+
+          @keyframes waveanim2
+            0%
+              transform: scale(0)
+              opacity: 0
+            20%
+              transform: scale(0)
+              opacity: 0
+
+            100%
+              transform: scale(1)
+              opacity: 0.1
+
+        
+
+  &.second-t-webapp
+    .container-txt
+      display: flex
+      flex-direction: row
+
+
+      h2
+        text-align: left
+        padding: 0 5px
+        width: 50%
+        text-align: left
+        width: 50%
+
+      p
+        width: 49%
+        margin-top: 4px
+
+    .api, .api-mobile
+      display: flex
+      width: 100%
+      align-items: center
+      align-content: space-between
+      justify-content: center
+      padding: 0px
+      margin: 130px 0
+
+      .item
+        box-shadow: 0 0 9px 0 rgba(0,0,0,0.08)
+        width: 100%
+        height: 60px
+
+      img
+        display: block
+        justify-content: center
+        padding: 30px
+        width: 120px
+
+
+    .api-mobile
+      display: none
+    .api-web
+      display: flex
+
+      
+
+
+
 
   &.news
     padding: 90px 0 195px
@@ -967,7 +1256,7 @@ footer
       box-shadow: 0 1px 5px 0 rgba(0,0,0,0.05)
       top: 0
       padding-bottom: 6px
-      z-index: 2
+      z-index: 10
       margin: 0
       background: white
       animation: 0.5s header-shown linear
@@ -1215,19 +1504,24 @@ footer
         margin: 40px auto 0
 
     &.web-app
-      padding: 80px 20px
+      padding: 0px 20px
+      margin: 45px 0
       h3
         margin: 20px 0 0
         padding: 0
-      h2
-        margin: 4px 0 0
       img
         width: 90%
         display: block
         left: 0
         position: relative
         top: 0
-        margin: 160px auto 0
+
+
+    &.second-t-webapp
+      padding: 0px 20px
+
+
+      
 
     &.partners
       padding: 80px 20px
@@ -1467,3 +1761,83 @@ footer
             display: block
             width: 100%
             margin-top: 10px
+
+@media screen and (max-width: 768px)
+
+
+  body
+    .white
+      .web-app
+        .bubble-container
+          display: none
+        .wavemap, .wavemap-1, .wavemap-2, .poi-container
+          display: none
+        .web-illustration
+          margin: 0px
+
+      .second-t-webapp
+        .api-mobile
+          flex-direction: column
+          margin: 50px 0 100px 0
+          .item
+            margin: 15px 0
+            display: flex
+            .blue-container
+              img
+                max-width: 60%
+                max-height: 60%
+                width: auto
+                padding: 0
+                margin: 0
+              width: 33%
+              background: #F7F9FF 
+              display: flex
+              height: 61px
+              justify-content: center
+              align-items: center
+            p
+              text-align: center
+              width: 66%
+              display: flex
+              justify-content: center
+              align-items: center
+
+          .nation-container
+            position: relative
+            width: 67%
+            display: flex
+            justify-content: center
+            flex-direction: column
+
+            p
+              opacity: 0.4
+              width: auto
+            .soon
+              opacity: 1
+              color: #F14E6C
+              width: auto
+              text-align: center
+              width: 100%
+              margin-top: -10px
+              font-size: 12px
+
+
+
+             
+            img
+              display: block
+
+        .api
+          display: none
+        .api-mobile
+          display: flex
+
+
+        .container-txt
+          flex-wrap: wrap
+          h2, p
+            display: block
+            width: 100%
+
+
+

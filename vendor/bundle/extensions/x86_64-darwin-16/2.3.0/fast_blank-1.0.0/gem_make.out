@@ -1,0 +1,18 @@
+current directory: /Users/matthieucaron/Desktop/site-muxu-muxu/vendor/bundle/gems/fast_blank-1.0.0/ext/fast_blank
+/Users/matthieucaron/.rvm/rubies/ruby-2.3.0/bin/ruby -r ./siteconf20170422-42596-16wizu6.rb extconf.rb
+Ignoring eventmachine-1.2.1 because its extensions are not built.  Try: gem pristine eventmachine --version 1.2.1
+Ignoring ffi-1.9.18 because its extensions are not built.  Try: gem pristine ffi --version 1.9.18
+Ignoring ffi-1.9.17 because its extensions are not built.  Try: gem pristine ffi --version 1.9.17
+creating Makefile
+
+current directory: /Users/matthieucaron/Desktop/site-muxu-muxu/vendor/bundle/gems/fast_blank-1.0.0/ext/fast_blank
+make "DESTDIR=" clean
+
+current directory: /Users/matthieucaron/Desktop/site-muxu-muxu/vendor/bundle/gems/fast_blank-1.0.0/ext/fast_blank
+make "DESTDIR="
+compiling fast_blank.c
+linking shared-object fast_blank.bundle
+
+current directory: /Users/matthieucaron/Desktop/site-muxu-muxu/vendor/bundle/gems/fast_blank-1.0.0/ext/fast_blank
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 fast_blank.bundle ./.gem.20170422-42596-addrd4
