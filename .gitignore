@@ -1,5 +1,9 @@
+<<<<<<< HEAD
+.DS_Store
+=======
 .bundle
 .cache
 .DS_Store
 .sass-cache
 build/
+>>>>>>> 2cc1dd1018b7276ec4901fe4ab4ab8d13c9bdac1
