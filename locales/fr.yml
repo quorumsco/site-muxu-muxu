@@ -50,7 +50,7 @@ fr:
 
   about:
     description: |
-      L'application Quorum apporte les nouvelles technologies dans vos campagnes de mobilisation sur le terrain. 
+      L'application Quorum apporte les nouvelles technologies dans vos campagnes de mobilisation sur le terrain.
     who:
       non-profit:
         title: Associations, ONG, fondations et mouvements
@@ -75,8 +75,8 @@ fr:
   second-t-webapp:
     title: Quorum se connecte à vos logiciels favoris
     description: |
-      Quorum fonctionne avec les applications que vous utilisez déjà. Simplifier la vie de votre organisation, éviter les doublons et la ressaisi !
-  
+      Quorum fonctionne avec les applications que vous utilisez déjà. Simplifiez la vie de votre organisation, évitez les doublons et la re-saisie !
+
   mobile-app:
     subtitle: Quorum mobile & tablette
     title: Mobiliser partout, et à tout moment
@@ -103,7 +103,7 @@ fr:
       link: https://www.getquorum.co/
 
   contact:
-    title: Allo Quorum ?  
+    title: Allo Quorum ?
     chat:
       title: Chatter avec l'équipe
       link: mailto:pmsh755t@incoming.intercom-mail.com
@@ -117,7 +117,7 @@ fr:
 
   pricing-intro:
     description: |
-      Quorum est sans doute le meilleur investissement pour mener une campagne collective, plus efficace, plus organisée. 
+      Quorum est sans doute le meilleur investissement pour mener une campagne collective, plus efficace, plus organisée.
   table:
     headers:
       empty: empty
