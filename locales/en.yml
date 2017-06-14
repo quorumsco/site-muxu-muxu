@@ -1,7 +1,7 @@
 en:
   banner:
-    title: How they use Quorum? →<a href="https://www.youtube.com/watch?v=xMIdGlV7c1I&t=6s" class="link" target="_blank">Watch the interview!</a>
-    link: "https://www.youtube.com/watch?v=xMIdGlV7c1I&t=10s"
+    title: We are hiring ! →<a href="https://angel.co/quorum/jobs" class="link" target="_blank">Discover</a>
+    link: "https://angel.co/quorum/jobs"
 
   cookie-banner: |
     Hey ! We use cookies. If you'd like to know how and why we use them, click <a href="/PrivacyPolicy_QUORUM.pdf" target="_blank">here</a>! By using our service, you authorize us to use cookies.
@@ -557,6 +557,9 @@ en:
         andoid:
           title: Android
           link: https://play.google.com/store/apps/details?id=com.quorumapps.quorum128598&hl=en
+        sticks:
+          title: The Grassroots Stickers
+          link: https://itunes.apple.com/fr/app/the-grassroots-stickers/id1241335025?mt=8
 
     news:
       title: Be in the known.
