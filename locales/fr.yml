@@ -1,48 +1,49 @@
 fr:
   banner:
     title: |
-      <strong>Legislatives 2017.</strong> Faites campagne sur le terrain et dans les médias avec l'offre Quorum + AlgoLinked →<a href="https://algolinked.quorum.co" class="link" target="_blank">En savoir plus</a>
-    link: https://algolinked.quorum.co
+      <strong>S'inscrire | Early Access</strong> | Rejoignez les plus de 1500 causes, associations et équipes à s'être inscrites pour tester la nouvelle version de Quorum. Disponible à l'automne 2017 →<a href="https://algolinked.quorum.co" class="link" target="_blank">M'inscrire maintenant !</a>
+    link: http://quorum.us12.list-manage.com/subscribe/post?u=8d7c7595072992d8808c7993d&id=e648f190bc
 
   cookie-banner: |
-    Hey ! Nous utilisons des cookies sur ce site pour optimiser son fonctionnement et à des fins d'analyse. Pour en savoir plus sur notre utilisation des cookies et sur vos options, rendez-vous <a href="/Mentions_Legales_QUORUM.pdf" target="_blank">ici</a> ! En continuant à utiliser nos services, vous nous autorisez à utiliser des cookies.
+    Ce site utilise des cookies ! Ainsi nous pouvous vous fournir la meilleure et la plus sécurisée des expériences - Continuez à utiliser le service normalement ou rendez-vous ici <a href="/Mentions_Legales_QUORUM.pdf" target="_blank">ici</a> pour connaître tous les détails.
 
   navigation-left:
     links:
       products:
-        title: Produit
+        title: L'application
         link: "../#mobile-app"
       prices:
-        title: Offres
+        title: En savoir Plus
         link: ../pricing
       news:
-        title: Publications
+        title: Blog
         link: https://medium.com/quorum-blog
       contact:
-        title: Nous contacter
-        link: mailto:contact@quorum.co
+        title: CONTACTEZ NOUS !
+        link: http://eepurl.com/cDg1qv
   navigation-right:
       lang:
         title: En
         link: ../en
       login:
-        title: Connexion
+        title: Connexion →
         link: https://cloud.quorumapps.com/
 
   intro:
-    heading: Le premier logiciel de mobilisation en Europe
-    title: "Utiliser Quorum pour"
+    heading: Empowering direct-contact campaigns
+    title: " Avec Quorum,<br> créer des campagnes de terrain organisées,<br>efficaces et à l'impact incroyablement démultiplié.
+     "
     list:
       hire:
-        title: Engager autour et pour votre cause
+        title: Mobiliser les communautés et organiser l'action
       public:
-        title: Mobiliser et gagner l'élection
+        title: Concerter et sensibiliser le public.
       campaign:
-        title: Sensibiliser, informer et concerter le public
+        title: Recruter supporters et donateurs
       mobilize:
-        title: Bâtir une organisation depuis la base
+        title: Faire campagne et gagner l'élection
       build:
-        title: Recruter bénévoles et donateurs (fundraising)
+        title: Créer un mouvement depuis la base
     more: ou parlons-en directement au
     phone-number:
       title: "01 79 73 40 04"
@@ -50,38 +51,40 @@ fr:
 
   about:
     description: |
-      L'application Quorum apporte les nouvelles technologies dans vos campagnes de mobilisation sur le terrain.
+      Faites comme Voix publique, Meunier 2017, Nice, l'Etablissement Français du Sang et des dizaines d'autres organisations qui ont soif de changement, équipez vous et augmenter votre impact.
     who:
       non-profit:
-        title: Associations, ONG, fondations et mouvements
+        title: Fondations, ONG, collectivités et mouvements
       public:
-        title: Établissements publics, collectivités et entreprises
+        title: Entreprise, influence et établissement publics
       agency:
-        title: Agences de communication, de concertation & indépendants
+        title: Agences de communication, concertation, indépendants
       campaign:
-        title: Équipes de campagne
-    catchphrase: Vous voulez mobiliser ? concerter ou créer une dynamique? Tout commence par une rencontre !
-    more: Voir ici pourquoi faire du terrain →
+        title: Équipes de campagne, mouvements politiques
+    catchphrase: Une rencontre a 1000 fois plus d'impact qu'un post sur Facebook et 38 fois plus d'impact qu'un email. Source HBR
+    more: Pas convaincu(e) ?! →
 
   web-app:
-    subtitle: Quorum web
-    title: Analyser, automatiser et comprendre
+    subtitle: L'Application web
+    title: Analyser, organiser, mesurer et automatiser
     description: |
-      Retrouvez tout ce qu'il vous faut pour piloter : analyses, micro-ciblage, cartographie intéractive, organisation d’équipe, envoi d’information à vos équipes, suivi d’objectif et plus encore.
+      Rien de plus organisé : Quorum vous permet d'animez vos équipes et vos communautés, de suivre vos objectifs, d'organiser vos actions - création d'enquête terrain, e-mail automatique, communication unifiée.<br>
+      Rien de plus intelligent :  Algorithmes et micro-ciblage, projection, compréhension des enjeux d'un territoire, cartographie intéractive, ainci que toutes vos données et analyses organisées sur la web application.
     more:
       title: Découvrir plus →
       link: /pricing
 
   second-t-webapp:
-    title: Quorum se connecte à vos logiciels favoris
+    title: Rien de plus connecté.
     description: |
-      Quorum fonctionne avec les applications que vous utilisez déjà. Simplifier la vie de votre organisation, éviter les doublons et la ressaisi !
-  
+      Quorum se connecte avec vos logiciels favoris à travers son réseau d'API. Pas de multiplication d'outils. Pas de doublons. Pas de re-saisie.
+
   mobile-app:
-    subtitle: Quorum mobile & tablette
-    title: Mobiliser partout, et à tout moment
+    subtitle: Quorum sur mobile & tablette
+    title: Gérez l'immédiat et le temps réel
     description: |
-      Vos équipes sont les meilleures pour diffuser votre message. Dotez-les de l’application et aidez chacun dans l'organisation à atteindre tout son potentiel : infos sur la campagne, remontées d'information, enregistrer l’intérêt pour votre cause, porte-à-porte ciblé et plus encore.
+      Rien de plus collaboratif : Vos équipes et/ou vos bénévoles sont les meilleures pour diffuser votre message à chaque instant. Invitez-les sur l’application mobile : porte -à-porte, ajout direct, enregistrement intérêt, donateurs, informations live ... <br>
+      Rien de plus engageant : Economiser des heures de travail et augmenter la motivation grâce à un meilleur ciblage, l'envoi automatique depuis le terrain ou encore les éléments de langage.
     sub-description: |
       Toutes les informations sont directement centralisées sur l'application web.
     available: "Disponible sur :"
@@ -100,24 +103,24 @@ fr:
     sub-title: Devenez Partenaire, en respectant le métier de chacun.
     more:
       title: Rejoindre le programme partenaire →
-      link: https://www.getquorum.co/
+      link: mailto:contact@quorum.co
 
   contact:
-    title: Allo Quorum ?
+    title: Apprenez-en plus sur l'utilisation de Quorum pour une élection, une association, pour mobiliser autour de votre cause, récolter des dons, concerter les populations, ou servir vos administré(e)s.
     chat:
       title: Chatter avec l'équipe
       link: mailto:pmsh755t@incoming.intercom-mail.com
     email:
-      title: contact@quorum.co
-      link: mailto:contact@quorum.co
-    or: ou
+      title:  Démo personnalisée
+      link: http://eepurl.com/cDg1qv
+    or: ou appelez nous au
     tel:
       title: "01 79 73 40 04"
       link: "tel:+33179734004"
 
   pricing-intro:
     description: |
-      Quorum est sans doute le meilleur investissement pour mener une campagne collective, plus efficace, plus organisée.
+      Quorum est votre plateforme de mobilisation. Réinventez votre organisation. Changez les conversations. Ralliez des supporters, mais avant tout - trouvez le bon pack.
   table:
     headers:
       empty: empty
@@ -209,14 +212,14 @@ fr:
     service:
       title: Service+
       description: |
-        Data scientistes & Data analystes de Quorum vous aident à :<ul><li>paramétrer l’application de façon optimale</li><li>entraîner vos équipes</li><li>tirer toute l'intelligence de vos données</li><li>adapter Quorum aux organisations plus larges et complexes.</li></ul>
+        Data scientistes (Statisticiens et informaticiens) & Community Organisers (Agent de terrain) de Quorum vous aident à :<ul><li>paramétrer l’application de façon optimale</li><li>entraîner vos équipes</li><li>tirer toute l'intelligence de vos données</li><li>adapter Quorum aux organisations plus larges et complexes.</li></ul>
       more:
-        title: Découvrir plus →
-        link: https://www.getquorum.co/
+        title: Démo personnalisée →
+        link: http://eepurl.com/cDg1qv
     agencies-and-partners:
       title: Agences et Partenaires
       description: |
-        Consultant indépendant, agence de communication, de concertation ou de service autour de la donnée, je dote mes clients d’un outil puissant.
+        Consultant indépendant, agence de communication, de concertation, je dote mes clients d’un outil puissant !
       more:
         title: Devenir Partenaire →
         link: mailto:agencies@quorum.co
@@ -350,17 +353,17 @@ fr:
         link: "/faq#words"
 
   team:
-    title: Le service, c'est gagner ensemble. Support 7j/7
-    mobilised: <span>923 241</span> personnes mobilisées, et toujours toujours plus chaque jour
-    description: " Nous sommes en mission pour créer les campagnes de mobilisations de demain, en repoussant les limites de la recherche et de l'usage des nouvelles technologies. Et on adore en parler ☕️ 🍪 ! Alors n'hésitez pas ! "
+    title: Le service et le support, c'est gagner ensemble !
+    mobilised: <span>7j/7</span> sur le pont. Comme vous. Passionnés. Autant que vous.
+    description: " Nous ne croyons en la mobilisation, la concertation ou l'engagement simplement en un clic, 100% en ligne. Il y a des situations où la communication est complexe, où il est utile de rencontrer les populations en dehors des radars, où le contact direct déclenche l'engagement...  "
     more:
-      title: Echanger avec l'équipe
+      title: En apprendre plus
       link: mailto:pmsh755t@incoming.intercom-mail.com
 
   news:
-    title-home: Quorum dans l'actualité
+    title-home: Nos dernières actualités
     more-home:
-      title: Plus d'actualités sur Quorum →
+      title: Lire plus d'actualités →
       link: /news
     title-news: Les dernières actualités, presse, événements...
     more-news: Lire davantage →
@@ -530,82 +533,80 @@ fr:
   actions:
     title: Réaffectez 90% de votre temps à ce qui peut vraiment changer la donne
     secure: Des données pérennes et sécurisées
-    organization: Une équipe plus engagée
-    field: Des indicateurs fiables
+    organization: Leadership distribué
+    field: Data-powered actions
 
   cir: |
-    Quorum est une entreprise consacrant une partie de son activité à la Recherche, éligible Crédit Impôt Recherche.
+    L'équipe de Quorum consacre une partie de son activité à la Recherche, éligible Crédit Impôt Recherche.
 
   footer:
     socials:
-      title: Découvrir plus
+      title: Suivez Quorum !
       links:
-        facebook:
-          title: Facebook
-          link: https://www.facebook.com/quorumhq
+        instagram:
+          title: Instagram
+          link: https://www.instagram.com/quorumteam/
         twitter:
           title: Twitter
           link: https://twitter.com/quorumhq
         youtube:
           title: YouTube
           link: https://www.youtube.com/channel/UCH4AkGS1qyqyJ_7Ma2LhtGg?view_as=subscriber
-        google-plus:
-          title: Google+
-          link: https://plus.google.com/+Quorumappsdata
-        instagram:
-          title: Instagram
-          link: https://www.instagram.com/quorumteam/
+
     quorum:
-      title: QUORUM
+      title: Utilisateurs
       links:
-        faq:
-          title: Questions fréquentes
-          link: /faq
         support:
-          title: Support
-          link: mailto:support@quorum.co
+          title: IOS App
+          link: https://itunes.apple.com/fr/app/quorum-campaignapp-mobilisation-election/id1186778175
         documentation:
-          title: Documentation
-          link: https://www.getquorum.co/
+          title: Android App
+          link: https://play.google.com/store/apps/details?id=com.quorumapps.quorum128598&hl=fr
+        faq:
+          title: FAQ
+          link: /faq
         agency:
-          title: Agences
-          link: https://www.getquorum.co/
+          title: ONG & Associations
+          link: https://cloud.quorumapps.com/login
         jobs:
-          title: Jobs
-          link: https://angel.co/quorum/jobs
+          title: Mouvements & Élections
+          link: https://cloud.quorumapps.com/login
         news:
-          title: Actualités
-          link: /news
+          title: Agences & Entreprises
+          link: https://cloud.quorumapps.com/login
         blog:
-          title: Blog
-          link: https://medium.com/quorum-blog
+          title: Collectivités & Gouvernements
+          link: https://cloud.quorumapps.com/login
     plus:
-      title: QUORUM.PLUS
+      title: QUORUM.Plus
       links:
+        about:
+          title: À propos
+          link: /outofmanyweareone
+        kit:
+          title: Media Kit
+          link: https://projects.invisionapp.com/boards/4J39WY0A2XCZY/
+        sticker:
+          title: Le Sticker s'engage !
+          link: https://itunes.apple.com/fr/app/le-sticker-engag%C3%A9/id1241367981?l=en&mt=8&utm_content=bufferb4a08&utm_medium=social&utm_source=plus.google.com&utm_campaign=buffer
         panneau:
           title: Panneaux-election.fr
           link: https://panneaux-election.fr/
-        algolinked:
-          title: AlgoLinked
-          link: https://algolinked.quorum.co
+        playlist:
+          title: La Playlist !
+          link: https://open.spotify.com/user/flowbarre/playlist/1OKCFdw80QNjE4po8pb7JU
         nationbuilder:
           title: Nationbuilder API
           link: ../nationbuilder
-        weapon:
-          title: Le "Secret Lab"
-          link: ../secret-lab
-        ios:
-          title: iOS
-          link: https://itunes.apple.com/fr/app/quorum-campaignapp-mobilisation-election/id1186778175
-        andoid:
-          title: Android
-          link: https://play.google.com/store/apps/details?id=com.quorumapps.quorum128598&hl=fr
+        job:
+          title: Jobs
+          link: https://angel.co/quorum/jobs
 
     news:
-      title: Être informé
+      title: QUORUM.News
       description: |
-        Entrez votre email et restez au courant de nos nouveautés et publications directement dans votre boîte mail.
-      subscribe: S'inscrire
+        Entrez votre courriel et restez au courant de nos nouveautés et publications directement dans votre boîte mél!
+      subscribe: S'inscrire !
 
   legal:
     privacy:
@@ -623,5 +624,8 @@ fr:
     cnil:
       title: CNIL
       link: mailto:cil@quorum.co
+    adress:
+      title: ©Quorum2017 / 111 rue de Rennes 75006 Paris / +33 1 79 73 40 04
+      link:
 
   ascii: |
