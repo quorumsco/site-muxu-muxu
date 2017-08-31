@@ -78,7 +78,6 @@ fr:
     title: Rien de plus connecté.
     description: |
       Quorum se connecte avec vos logiciels favoris à travers son réseau d'API. Pas de multiplication d'outils. Pas de doublons. Pas de re-saisie.
-
   mobile-app:
     subtitle: Quorum sur mobile & tablette
     title: Gérez l'immédiat et le temps réel
@@ -368,6 +367,53 @@ fr:
     title-news: Les dernières actualités, presse, événements...
     more-news: Lire davantage →
     articles:
+      vivatech:
+        title: |
+          Vivatech
+        tag: Event
+        description: |
+          Quorum sera présent à Vivatech les 15 & 16 juin 2017
+        link: https://vivatechnology.com/
+        source: vivatech
+      mediumpost1:
+        title: |
+          Pourquoi nous relançons Panneaux-election.fr ?
+        tag: Blog
+        description: |
+          Avec les amis de Mapotempo et Quorum, nous relançons l’application gratuite panneaux-election.fr, basée sur l’OpenData.
+        link: https://medium.com/quorum-blog/https-medium-com-quorum-blog-opendata-et-usage-concret-b630f2879d92
+        source: Medium
+      mediumpost:
+        title: Qui sont les électeurs “par procuration” ?
+        tag: Blog
+        description: |
+          Au delà de l’aspect quantitatif du recours à la procuration, dans ce billet nous regardons l’aspect plus qualitatif et étudions les électeurs ayant recours au vote par procuration.
+        link: https://medium.com/quorum-blog/qui-sont-les-%C3%A9lecteurs-par-procuration-84ee70b6e3ff
+        source: Medium
+      medium:
+        title: Quel est l’impact du vote par procuration sur l‘élection ?
+        tag: Blog
+        description: |
+          Le vote par procuration peut-il changer la donne lors d’une élection ?
+          Quel impact a la procuration sur l’abstention ?
+          Mais aussi il y a-t-il une couleur politique à la procuration ? Profite-elle a un candidat ? Un parti plutôt qu’un autre ? Qui sont les électeurs par procuration?
+          C’est à ces questions que l’on veut tenter d’apporter des éclaircissements.
+        link: https://medium.com/quorum-blog/https-medium-com-quorum-blog-electionprocuration-d5d80d9f6d21
+        source: Medium
+      youtube:
+        title: Interview,Soul in Chicago & Black lives matter
+        tag: Video
+        description: |
+          Cette vidéo est la première d' une série de témoignages. Pour cette édition, nous partons à Chicago où Tanya Watkins a rejoint et dirige l'organisation  locale S.O.U.L in Chicago.
+        link: https://www.youtube.com/watch?v=xMIdGlV7c1I&feature=youtu.be
+        source: Youtube
+      latribune:
+        title: Open data, Quorum Impact et Mapotempo innovent pour les élections régionales
+        tag: Press
+        description: |
+          Quorum Impact et Mapotempo, ont partagé leurs réutilisation des données publiques en vue des élections régionales.
+        link: http://objectifaquitaine.latribune.fr/business/l-actu-de-la-french-tech-bordeaux/2015-11-23/open-data-quorum-impact-et-mapotempo-innonvent-pour-les-elections-regionales.html/
+        source: La tribune
       voxetour:
         title: Quorum présente sur le Voxe tour 2017
         tag: Press
@@ -601,7 +647,6 @@ fr:
         job:
           title: Jobs
           link: https://angel.co/quorum/jobs
-
     news:
       title: QUORUM.News
       description: |
