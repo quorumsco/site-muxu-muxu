@@ -34,40 +34,26 @@
     .card
       .catchphrase
         p = t 'about.catchphrase'
+        span
+          = link_to t'about.link'
+            = t'about.more'
         / = link_to "#", class: "red-link"
         /   = t 'about.more'
-  - else
-    .card.invisible
-
-.shade-blue#mobile-app
-  .wrapper.mobile-app
-    = image_tag "mobile-app-illustration.png"
-    .content
-      h3 = t 'mobile-app.subtitle'
-      h2 = t 'mobile-app.title'
-      .download
-        span.available = t 'mobile-app.available'
-        span.ios 
-          = link_to(t('mobile-app.ios.link'), target: "_blank")
-            = t 'mobile-app.ios.title'
-        span.android 
-          = link_to(t('mobile-app.android.link'), target: "_blank")
-            = t 'mobile-app.android.title'
-      p = t 'mobile-app.description'
-      p.padded = t 'mobile-app.sub-description'
-       = link_to(t('mobile-app.more.link'), class: "blue-link")
-        = t 'mobile-app.more.title'
-
+  - else I18n.locale == :en
+    .card
+      .catchphrase
+        p = t 'about.catchphrase'
+        span
+          = link_to t'about.link'
+            = t'about.more'
+        / = link_to "#", class: "red-link"
 .white
   .wrapper.web-app
-    h3 = t 'web-app.subtitle'
-    h2 = t 'web-app.title'
-
-    p = t 'web-app.description'
-
-
+    .big-title-container
+      h2.big-title = t 'mobile-app.big-title'
+      h3.big-title-subtitle = t 'mobile-app.subtitle-big-title'
     .web-illustration
-      = image_tag "illustration-screen.png", class: "screen"
+      = image_tag "illustration-screen2.png", class: "screen"
       .logo-container
         .bubble-container
           .item.mailjet
@@ -78,7 +64,6 @@
             = image_tag "api/nationbuilder.png"
           .item.digitale
             = image_tag "api/digitalebox.png"
-
       .logo-container-right
         .bubble-container
           .item.mailchimp
@@ -91,7 +76,6 @@
             = image_tag "api/buffer.png"
           .item.sendinblue
             = image_tag "api/sendinblue.png"
-
       .mapcontainer
         .poi-container
           = image_tag "poi.svg", class: "poi"
@@ -99,6 +83,10 @@
         .wavemap-1
         .wavemap-2
         = image_tag "map.svg", class: "map"
+    p = t 'web-app.description'
+
+    h3 = t 'web-app.subtitle'
+    h2.analyse = t 'web-app.title'
 
     /= link_to(t('web-app.more.link'), class: "red-link")
       / = t 'web-app.more.title'
@@ -136,6 +124,24 @@
         .nation-container
           p = "Nationbuilder"
           p.soon = "SOON"
+.shade-blue#mobile-app
+  .wrapper.mobile-app
+    = image_tag "mobile-app-illustration.png"
+    .content
+      h3 = t 'mobile-app.subtitle'
+      h2 = t 'mobile-app.title'
+      .download
+        span.available = t 'mobile-app.available'
+        span.ios 
+          = link_to(t('mobile-app.ios.link'), target: "_blank")
+            = t 'mobile-app.ios.title'
+        span.android 
+          = link_to(t('mobile-app.android.link'), target: "_blank")
+            = t 'mobile-app.android.title'
+      p = t 'mobile-app.description'
+      p.padded = t 'mobile-app.sub-description'
+       = link_to(t('mobile-app.more.link'), class: "blue-link")
+        = t 'mobile-app.more.title'
           
 
 

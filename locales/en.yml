@@ -1,10 +1,10 @@
 en:
   banner:
-    title: We are hiring ! →<a href="https://angel.co/quorum/jobs" class="link" target="_blank">Discover</a>
+    title: We are hiring ! IT, Data and Sales - Discover missions and opened postions → <a href="https://angel.co/quorum/jobs" class="link" target="_blank"> Become one of us</a>
     link: "https://angel.co/quorum/jobs"
 
   cookie-banner: |
-    Hey ! We use cookies. If you'd like to know how and why we use them, click <a href="/PrivacyPolicy_QUORUM.pdf" target="_blank">here</a>! By using our service, you authorize us to use cookies.
+    Hey! Our website use cookies - so that we can provide the most secure & effective experience possible for our users! Continue to use the site as normal if you're happy with this or find out more here <a href="/PrivacyPolicy_QUORUM.pdf" target="_blank">here</a>.
 
   navigation-left:
     links:
@@ -12,45 +12,45 @@ en:
         title: Product
         link: ../../en#mobile-app
       prices:
-        title: Features
-        link: ../../en/pricing
+        title: Insights
+        link: ../../en/insights
       news:
-        title: Ideas
+        title: Blog
         link: https://medium.com/quorum-blog
       contact:
-        title: Get in touch!
+        title: GET IN TOUCH
         link: mailto:contact@quorum.co
   navigation-right:
       lang:
         title: FR
         link: ../../
       login:
-        title: Sign in
+        title: Sign in →
         link: https://cloud.quorumapps.com/
 
   intro:
-    heading: Mobilise above expectations.
-    title: "Not Online. But in real-life. Use Quorum to:"
+    heading: Empowering offline campaigns.
+    title: "Quorum reinvents the way you connect with people <br>on the field using smart and cutting-edge <br> technologies  whatever you want to do: "
     list:
-      advocate:
-        title: Advocate for your community
       engage:
-        title: Raise money and engage people for your cause
+        title: Raise money or rally advocates
       serve:
         title: Serve your constituents
       mobilise:
         title: Mobilise for the election day
       organize:
         title: Organize crowdsourcing campaigns
-    demo: Request a demo
-    more: or contact us
+      spark:
+        title: Spark a movement from the ground
+    demo: Ask for a product tour
+    more: or contact
     email:
-      title: hey@quorum.co
-      link: mailto:hey@quorum.co
+      title: the team
+      link: mailto:hq@quorum.co
 
   about:
     description: |
-      Quorum is the campaigning app for grassroots campaigns of the 21st century: efficient, digital and people-centered.
+      <br>Create outreach efficient, effective and people-centered field actions with Quorum like hundreds of organizations that strive for change.
     who:
       non-profit:
         title: Non-profits and grassroots movements
@@ -60,14 +60,14 @@ en:
         title: Communication and Independent consulting firms
       campaign:
         title: Campaign staff & Election runners
-    catchphrase: Vous voulez mobiliser, concerter ou créer une dynamique ?
-    more: Voir ici pourquoi faire du terrain →
-
+    catchphrase: Quorum app is not available - yet - in every part of the globe.
+    more: Request to open Quorum in your country →
+    link: mailto:pmsh755t@incoming.intercom-mail.com 
   web-app:
     subtitle: Quorum web
     title: Analyze, Organize and Understand Issues
     description: |
-      Not just web, but intelligence in it. All you need to organize for action lives on on the web app: micro-targeting, mapping, dashboard analysis, team organization, goal dashboard, tracking and more.
+      <strong>Nothing is smarter</strong>: Not just web, but intelligence in it.<br>All you need to organize for action lives on on the web app: micro-targeting, mapping, dashboard analysis, team organization, goal dashboard, tracking and more.
     more:
       title: Discover more →
       link: ../../en/pricing
@@ -75,17 +75,20 @@ en:
   second-t-webapp:
     description: |
       second-t-webapp:
-    title: All your apps are connected <br> to Quorum 
+    title: Nothing is more connected <br>
     description: |
       Quorum works with the tools you already use. Connect to your existing apps and services and stop mucking around with duplicated lists and save your time !
-  
-  
+
+
 
   mobile-app:
+    big-title: Mobilisation technology software 
+    subtitle-big-title: Your Web & Mobile app 
     subtitle: Quorum mobile & tablet
     title: Mobilise anytime and wherever people are
     description: |
-      Make your organisation mobile, curated and viral. Quorum puts people at the center of everything you do → empower your team with an access to the mobile app: send information, log contact and surveys anytime anywhere, canvassing "made easy" and more.
+      <strong>Nothing is more collective</strong>: Make your organisation mobile, curated and viral. Quorum puts people at the center of everything you do.<br> Empower your team with an access to the mobile app: send information, log contact and surveys anytime anywhere, canvassing "made easy" and more.
+      <br><br><strong>Noting is more evolving</strong>: New features every month to push the boundaries of technology creating tomorrow's campaigns.
     sub-description: |
       Of course, all of this syncs back to your web app in real-time for a unique database.
     available: "Available on:"
@@ -107,14 +110,14 @@ en:
       link: https://www.getquorum.co/
 
   contact:
-    title: Ready to scale your impact? Go ahead.
+    title: Learn more about using Quorum to win your <strong>election</strong>, run your <strong>nonprofit</strong>, advocate for your <strong>community</strong>, raise money for your <strong>cause</strong> or serve your <strong>constituents</strong>.
     chat:
-      title: Chat with a member of the team
+      title:  Chat with us →
       link: mailto:pmsh755t@incoming.intercom-mail.com
 
   pricing-intro:
     description: |
-      Quorum is one of the best investment you can make in running a better and smarter campaign
+      Small or larger organizations, Quorum is one of the best investment you can make in running better and smarter campaigns on the field.
 
   table:
     headers:
@@ -222,20 +225,20 @@ en:
     service:
       title: Service+
       description: |
-        Quorum's field officers and data engineers team can help you: <ul><li>get up and running quickly</li><li>get your while team up to speed</li><li>make sense with the data collected</li><li>bring the power and utility of Quorum to large, complex organisations.</li></ul>
+        Quorum's field officers and community organizers can help you: <ul><li>get up and running quickly</li><li>get your while team up to speed</li><li>make sense with the data collected</li><li>bring the power and utility of Quorum to large, complex organisations.</li></ul>
       more:
-        title: Discover more →
-        link: https://www.getquorum.co/
+        title: Get a demo →
+        link: http://eepurl.com/cDg1qv
     agencies-and-partners:
       title: Agencies et Partnership
       description: |
         Communication, Data consultant, Crowdsourcing, let's build better campaigns together leveraging technology.
       more:
-        title: Contact us →
+        title: Contact team →
         link: mailto:sales@quorum.co
 
   testimonials:
-    title: They are talking about us ✨ !
+    title: They trust us
     posts:
       watkins:
         name: Tanya Watkins
@@ -316,20 +319,20 @@ en:
           Quorum is a mobilisation technology company. We build an app that changes the way of volunteering making it more accessible for people & efficient for organisations, using the latest technologies in data and artificial intelligence.
         link: "../../en/faq#mobilisation"
   team:
-    title: We are here to help ! Service is winning together.
-    mobilised: <span>923 241</span> people mobilised, and more and more every day
-    description: "There's nothing that keeps us up at night more than pushing the boundaries of data sciences and techologies to build the future of campaigning. And we love to chat about it ☕️ 🍪! "
+    title:  Customer support is about winning together.
+    mobilised: <span>7/7</span>  Support team ready and poised for action.<br> Just like you are.
+    description: "We believe that when people come together around their shared believes, they can do nearly anything. Spark a movement. Raise millions. Reinvent an organization. Tramsform people's mind."
     more:
-      title: Chat with one of us
+      title: Chat with the team
       link: mailto:pmsh755t@incoming.intercom-mail.com
 
   news:
-    title-home: Quorum in the news
+    title-home: The Newsroom
     more-home:
-      title: More fresh news →
+      title: Read more →
       link: ../../en/news
     title-news: Here, are the latest.
-    more-news: Discover more →
+    more-news: Read more news →
     articles:
       voxetour:
         title: Quorum présente sur le Voxe tour 2017
@@ -494,78 +497,76 @@ en:
         source: Objectif Aquitaine
 
   actions:
-    title: You need technologies that let you
+    title: Build a movement, lead a campaign or a cause requires vision & process.<br> Vision is yours. Process is on us.
     secure: Own your own data, securely
-    organization: Focus on meaningful actions
-    field: Invest in People to distribute leadership
+    organization: Distribute leadership
+    field:  Your data-driven tool. Everywhere
 
   cir: |
-    Quorum is supported for its researches in Statistics and Machine Learning.
+    Quorum's team is supported for its researches in Statistics and Machine Learning.
 
   footer:
     socials:
-      title: Stalk us!
+      title: FOLLOW QUORUM
       links:
-        facebook:
-          title: Facebook
-          link: https://www.facebook.com/quorumhq
+        instagram:
+          title: Instagram
+          link: https://www.instagram.com/quorumteam/
         twitter:
           title: Twitter
           link: https://twitter.com/quorumhq
         youtube:
           title: YouTube
           link: https://www.youtube.com/channel/UCH4AkGS1qyqyJ_7Ma2LhtGg?view_as=subscriber
-        google-plus:
-          title: Google+
-          link: https://plus.google.com/+Quorumappsdata
-        instagram:
-          title: Instagram
-          link: https://www.instagram.com/quorumteam/
+
     quorum:
-      title: Company
+      title: USERS
       links:
         faq:
           title: FAQ
           link: ../../en/faq
-        documentation:
-          title: Documentation
-          link: https://www.getquorum.co/
-        agency:
-          title: Partners Program
-          link: https://www.getquorum.co/
+        android:
+          title: Android App
+          link: https://play.google.com/store/apps/details?id=com.quorumapps.quorum128598&hl=fr
+        news:
+          title: Ios App
+          link: https://itunes.apple.com/fr/app/quorum-campaignapp-mobilisation-election/id1186778175
+        ios-app:
+          title: Non-profits & campaigns
+          link: http://eepurl.com/cDg1qv
         jobs:
+          title: Governements & Public
+          link: http://eepurl.com/cDg1qv
+        blog:
+          title: Agencies & Corporations
+          link: http://eepurl.com/cDg1qv
+    plus:
+      title: Quorum.PLUS
+      links:
+        about:
+          title: About Quorum
+          link: ../outofmanyweareoneEn
+        kit:
+          title: Media Kit
+          link: https://projects.invisionapp.com/boards/4J39WY0A2XCZY/
+        stickers:
+          title: The Grassroots stickers
+          link: https://itunes.apple.com/fr/app/the-grassroots-stickers/id1241335025?l=en&mt=8
+        playlist:
+          title: Switch on sound!
+          link: https://play.spotify.com/user/flowbarre/playlist/1OKCFdw80QNjE4po8pb7JU?play=true&utm_source=open&utm_medium=signup-test&utm_campaign=link
+        nationbuilder:
+          title: Nationbuilder
+          link: ../nationbuilder
+        job:
           title: Jobs
           link: https://angel.co/quorum/jobs
-        news:
-          title: Q.News
-          link: ../../en/news
-        blog:
-          title: Blog
-          link: https://medium.com/quorum-blog
-    plus:
-      title: Quorum +
-      links:
-        nationbuilder:
-          title: Nationbuilder API
-          link: ../nationbuilder
-        weapon:
-          title: The "Secret Lab"
-          link: ../secret-lab
-        ios:
-          title: iOS
-          link: https://itunes.apple.com/us/app/quorum-campaignapp-mobilisation-election/id1186778175?ls=1&mt=8
-        andoid:
-          title: Android
-          link: https://play.google.com/store/apps/details?id=com.quorumapps.quorum128598&hl=en
-        sticks:
-          title: The Grassroots Stickers
-          link: https://itunes.apple.com/fr/app/the-grassroots-stickers/id1241335025?mt=8
 
     news:
-      title: Be in the known.
+      title: Be in the known
       description: |
         Give us an email and we will send you announcements & latest publications!
-      subscribe: Get updates!
+      subscribe: Go!
 
   legal:
     legals:
@@ -574,5 +575,8 @@ en:
     privacy:
       title: Privacy Policy
       link: ../PrivacyPolicy_QUORUM.pdf
+    adress:
+      title: ©Quorum2017 / 111 rue de Rennes 75006 Paris / +33 1 79 73 40 04
+      link:
 
   ascii: |
