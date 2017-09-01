@@ -62,7 +62,7 @@ en:
         title: Campaign staff & Election runners
     catchphrase: Quorum app is not available - yet - in every part of the globe.
     more: Request to open Quorum in your country →
-    link: mailto:pmsh755t@incoming.intercom-mail.com 
+    link: mailto:pmsh755t@incoming.intercom-mail.com
   web-app:
     subtitle: Quorum web
     title: Analyze, Organize and Understand Issues
@@ -326,6 +326,7 @@ en:
       title: Chat with the team
       link: mailto:pmsh755t@incoming.intercom-mail.com
 
+
   news:
     title-home: The Newsroom
     more-home:
@@ -545,7 +546,7 @@ en:
       links:
         about:
           title: About Quorum
-          link: ../outofmanyweareoneEn
+          link: ../about-us
         kit:
           title: Media Kit
           link: https://projects.invisionapp.com/boards/4J39WY0A2XCZY/

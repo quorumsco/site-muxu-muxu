@@ -285,6 +285,12 @@ header
       top: 13px
       right: 40px
       min-width: 457px
+      max-width: 45%
+      img 
+        width: 80%
+      .use-quorum
+        margin-top: 20px
+
       h1
         max-width: 460px
         font-size: 32px
@@ -314,7 +320,7 @@ header
     flex-direction: row 
     justify-content: space-between
     flex-flow: row wrap
-    padding-top: 100px
+    padding-top: 150px
     .card
       width: 280px
       border-radius: 2px
@@ -354,38 +360,23 @@ header
           position: absolute
           top: -8px
           line-height: 29px
-          font-size: 18px
           margin: 0
+          font-size: 1.1rem
+          font-weight: 500
+
           em
-            color: #637790
+            color: blackblack
             text-transform: none
             font-style: inherit
-            font-weight: 500
+            font-weight: bold
       &.invisible
         background-color: white
 
   &.mobile-app
-    padding: 0px 0 90px
+    padding: 0px 0 80px
     margin-top: 0px
     max-width: 955px
     position: relative
-    .big-title-container
-      margin: 0px 0 80px 0
-      .big-title
-        text-align: center
-        line-height: 39px
-        margin-top: 5px
-        max-width: 490px
-        margin: 0 auto
-      .big-title-subtitle
-        text-align: center
-        font-size: 12px
-        font-weight: 700
-        color: #808C9B
-        margin: 0
-        letter-spacing: 1.2px
-        text-transform: uppercase
-        margin-top: 5px
 
     img
       width: 664px
@@ -432,8 +423,26 @@ header
             cursor: pointer
 
   &.web-app
-    padding: 50px 0 0px
+    padding: 150px 0 0px
     position: relative
+
+    .big-title-container
+      margin: 0px 0 100px 0
+      .big-title
+        text-align: center
+        line-height: 39px
+        margin-top: 80px
+        max-width: 490px
+        margin: 0 auto
+      .big-title-subtitle
+        text-align: center
+        font-size: 12px
+        font-weight: 700
+        color: #808C9B
+        margin: 0
+        letter-spacing: 1.2px
+        text-transform: uppercase
+        margin-top: 5px
     h2
       line-height: 39px
       margin-top: 5px
@@ -441,7 +450,7 @@ header
       max-width: 490px
       margin: 0 auto 0px auto
       &.analyse
-        margin: 0 auto 50px auto
+        margin: 0 auto 120px auto
 
 
     h3
@@ -461,7 +470,7 @@ header
       position: relative
       display: flex
       justify-content: center
-      margin: 70px 0px
+      margin: 120px 0px
 
 
 
@@ -701,6 +710,7 @@ header
     .container-txt
       display: flex
       flex-direction: row
+      margin: 150px 0
 
 
       h2
@@ -709,6 +719,7 @@ header
         width: 50%
         text-align: left
         width: 50%
+
 
       p
         width: 49%
@@ -721,7 +732,7 @@ header
       align-content: space-between
       justify-content: center
       padding: 0px
-      margin: 130px 0
+      margin: 120px 0 120px 0
 
       .item
         box-shadow: 0 0 9px 0 rgba(0,0,0,0.08)
@@ -746,7 +757,7 @@ header
 
 
   &.news
-    padding: 90px 0 50px
+    padding: 130px 0 50px
     text-align: center
     h2
       margin-bottom: 20px
@@ -789,7 +800,7 @@ header
             text-transform: uppercase
 
   &.partners
-    padding: 141px 0 135px
+    padding: 100px 0 150px
     text-align: center
     h2
       text-align: center
@@ -810,9 +821,9 @@ header
   &.contact
     text-align: center
     text-align: center
-    margin: 0 auto
     max-width: 700px
     font-size: 1.3rem
+    margin: 80px auto 0 auto
     .webapp
       width: 100%
       margin: 30px 0
@@ -828,8 +839,10 @@ header
       font-size: 1.3rem
 
     span
-      font-weight: 300
+      font-weight: 500
       margin: 0 8px
+      font-size: 18px
+
     a
       color: #584CE6
       font-weight: 500
@@ -996,16 +1009,17 @@ header
       padding-top: 45px
       margin-bottom: 10px
       max-width: 700px
+      padding-top: 130px
       margin: 0 auto
     hr
       width: 90px
       height: 2px
       background: #B9C0E2
       display: block
-      margin: 0 auto
+      margin: 25x auto 100px auto
       border: 0
     .items
-      padding: 25px 0 50px
+      padding: 50px 0 25px
       display: flex
       flex-direction: row
       justify-content: space-between
@@ -1091,8 +1105,7 @@ header
           font-weight: 600
           &:hover
             background: #E5415F
-      strong
-        color: grey
+
 
 
   &.news-extended
@@ -1830,7 +1843,7 @@ footer
   justify-content: space-around
   align-items: center
   .sub-container
-    max-width: 400px
+    width: 40%
     padding: 20px 5px
     box-shadow: 0 1px 6px 0 rgba(33,62,97,0.20), 0 0 1px 0 rgba(33,62,97,0.15)
     border-radius: 6px
@@ -1928,6 +1941,17 @@ footer
 
     .contact-coming-soon
       flex-direction: column
+      .sub-container
+        margin: 10px
+        width: 90%
+        div
+          word-wrap: break-word
+
+    .wrapper
+      &.hero
+        .features
+          max-width: 100%
+
 
 
 

@@ -1,7 +1,7 @@
 .wrapper.hero
   = image_tag "hero-illustration.svg", class: "hero-illustration"
   .features
-    h1 = t 'intro.heading'
+    = image_tag "mobilise-above.png"
     p.use-quorum = t'intro.title'
     ul 
       - t('intro.list').each do |id, item|
@@ -44,7 +44,7 @@
       .catchphrase
         p = t 'about.catchphrase'
         span
-          = link_to t'about.link'
+          = link_to(t('team.more.link'), class: "button intercom_link")
             = t'about.more'
         / = link_to "#", class: "red-link"
 .white
@@ -83,19 +83,14 @@
         .wavemap-1
         .wavemap-2
         = image_tag "map.svg", class: "map"
-    p = t 'web-app.description'
-
     h3 = t 'web-app.subtitle'
     h2.analyse = t 'web-app.title'
+    p = t 'web-app.description'
 
     /= link_to(t('web-app.more.link'), class: "red-link")
       / = t 'web-app.more.title'
  
   .wrapper.second-t-webapp
-    .container-txt
-      h2 = t 'second-t-webapp.title'
-      p  = t 'second-t-webapp.description'
-
     .api
       = image_tag "mailjet-logo.png", class: "mailjet-logo api-web"
       = image_tag "sendinblue-logo.png", class: "sendinblue-logo api-web"
@@ -124,6 +119,9 @@
         .nation-container
           p = "Nationbuilder"
           p.soon = "SOON"
+    .container-txt
+      h2 = t 'second-t-webapp.title'
+      p  = t 'second-t-webapp.description'
 .shade-blue#mobile-app
   .wrapper.mobile-app
     = image_tag "mobile-app-illustration.png"

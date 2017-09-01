@@ -69,7 +69,7 @@ fr:
     subtitle: L'Application web
     title: Analyser, organiser, mesurer et automatiser
     description: |
-      <strong>Rien de plus organisé</strong> : Quorum vous permet d'animez vos équipes et vos communautés, de suivre vos objectifs, d'organiser vos actions - création d'enquête terrain, e-mail automatique, communication unifiée.<br>
+      <strong>Rien de plus organisé</strong> : Quorum vous permet d'animez vos équipes et vos communautés, de suivre vos objectifs, d'organiser vos actions - création d'enquête terrain, e-mail automatique, communication unifiée.<br><br>
       <strong>Rien de plus intelligent</strong> :  Algorithmes et micro-ciblage, projection, compréhension des enjeux d'un territoire, cartographie intéractive, ainci que toutes vos données et analyses organisées sur la web application.
     more:
       title: Découvrir plus →
@@ -360,7 +360,7 @@ fr:
     description: " Nous ne croyons en la mobilisation, la concertation ou l'engagement simplement en un clic, 100% en ligne. Il y a des situations où la communication est complexe, où il est utile de rencontrer les populations en dehors des radars, où le contact direct déclenche l'engagement...  "
     more:
       title: En apprendre plus
-      link: mailto:pmsh755t@incoming.intercom-mail.com
+      link: about-us
 
   news:
     title-home: Nos dernières actualités
