@@ -30,12 +30,12 @@ fr:
         link: https://cloud.quorumapps.com/
 
   intro:
-    heading: Empowering direct-contact campaigns
-    title: " Avec Quorum,<br> créer des campagnes de terrain organisées,<br>efficaces et à l'impact incroyablement démultiplié.
+    heading:
+    title: " Avec Quorum,<br> créer des campagnes de terrain super efficaces, <br> organisées et à l'impact démultiplié.
      "
     list:
       hire:
-        title: Mobiliser les communautés et organiser l'action
+        title: Mobiliser une communauté et organiser l'action
       public:
         title: Concerter et sensibiliser le public.
       campaign:
@@ -51,7 +51,7 @@ fr:
 
   about:
     description: |
-      Faites comme <em>Voix publique</em>, <em>Meunier 2017</em>, <em>Nice</em>, <em>l'Etablissement Français du Sang</em> et des dizaines d'autres organisations qui ont soif de changement, équipez vous et augmenter votre impact.
+      Faites comme <em>Voix publique</em>, <em>Meunier 2017</em>, <em>Nice</em>, <em>l'Etablissement Français du Sang</em> concentrez sur la rencontre et l'action, Quorum s'occupe du process et des données.
     who:
       non-profit:
         title: Fondations, ONG, collectivités et mouvements
@@ -69,7 +69,7 @@ fr:
     subtitle: L'Application web
     title: Analyser, organiser, mesurer et automatiser
     description: |
-      <strong>Rien de plus organisé</strong> : Quorum vous permet d'animez vos équipes et vos communautés, de suivre vos objectifs, d'organiser vos actions - création d'enquête terrain, e-mail automatique, communication unifiée.<br>
+      <strong>Rien de plus organisé</strong> : Quorum vous permet d'animer vos équipes et vos communautés, de suivre vos objectifs, d'organiser vos actions - création d'enquête terrain, e-mail automatique, communication unifiée.<br>
       <strong>Rien de plus intelligent</strong> :  Algorithmes et micro-ciblage, projection, compréhension des enjeux d'un territoire, cartographie intéractive, ainci que toutes vos données et analyses organisées sur la web application.
     more:
       title: Découvrir plus →
@@ -354,13 +354,69 @@ fr:
           Grassroots<br>Community Organising<br>Empowerment<br>Logiciel de campagne<br>CRM pour l’action civique<br>Outil de concertation<br>Campagne d'information<br>Campagne de récolte de don
         link: "/faq#words"
 
+  aboutus:
+    title: À propos.
+    more: Lire davantage
+    link:
+      title: Afficher plus de réponses à mes questions →
+      link: /aboutus
+    questions:
+      applications:
+        title:
+        preview: |
+          L'application Quorum est cross-platformes. Elle fonctionne aussi bien sur <a href="https://itunes.apple.com/fr/app/quorum-campaignapp-mobilisation-election/id1186778175" target="_blank">iOS</a> (iPhone) que sur <a href="https://play.google.com/store/apps/details?id=com.quorumapps.quorum128598&hl=fr" target="_blank">Android</a> (Play Store). L'application fonctionne même sur...
+        answer: |
+         Nous sommes Quorum : une équipe de passionnés, d’entrepreneurs, de spécialistes de la donnée et de développeurs. C’est en 2016, que nous lançons notre toute première version autour de 3 cofondateurs Maxime Beylot, <a href="https://fr.linkedin.com/in/jean-baptiste-daniel-68a57a4" target="_blank">Jean-Baptiste Daniel</a> (CTO) et <a href="https://fr.linkedin.com/in/florentbarre" target="_blank">Florent Barre</a> (CEO). Voici ce que nous faisons et un petit bout de notre histoire.
+        link: "/faq#applications"
+      support:
+        title: Histoire & Mission
+        preview: |
+          Oui. On est là, on est présent. On vous aide à réaliser votre objectif. De la prise en main des applications par vous ou vos équipes jusqu' à du développement...
+        answer: |
+          <br>Quorum est une application qui permet de construire des campagnes  [1] de terrain super efficaces [2] pour les acteurs de la philanthropie, de la concertation et pour toutes les organisations et mouvements qui veulent porter un message et mobiliser.
+          <ul><li>[1] Une campagne c’est une campagne de mobilisation, de consultation, de concertation, de fundraising, de sensibilisation, une élection. </li> <li>[2] Super efficace ça veut dire sans papier, en temps réel, collective et intelligente en utilisant les technologies du machine learning et du big data. </li></ul>
+          <br> <strong>Un objectif</strong> : Reconnecter les acteurs auxquels nous nous adressons avec le terrain en utilisant les nouvelles technologies.
+        link: "/faq#support"
+      quorum:
+        title: Pourquoi ?
+        preview: |
+          Quorum est une start-up de technologie de mobilisation. Nous poussons les frontières de la science des données et des nouvelles technologies pour rendre l'engagement...
+        answer: <br>Parce que le secteur vit entre véritable <strong>utopie et dystopie</strong>. <ul><strong>La dystopie</strong>, c’est qu’il n’y a rien à faire, qu’il n’y a pas d’argent, pas de solutions pour agir ou transformer notre secteur.<br><strong>L’utopie</strong>, c’est la démocratie, l’engagement 100% Internet. Nous croyons en la quête de sens de notre société et pensons que l’engagement va intégrer nos vies quotidiennes. Mais nous ne croyons pas en l’engagement au clic ou à l'uberisation de notre secteur, à la disparition des bénévoles, des politiques.
+           En revanche, voilà ce que l'on sait.<br><ul><li><strong>0,0001%</strong> => C’est le pourcentage de personne qui donne leur avis sur des plateformes de démocratie participative.</li><li>Le contact direct et le face-à-face,  les scientifiques l’ont démontré, a <strong>7000 plus d’impact</strong> que les réseaux sociaux et <strong>38 fois</strong> plus qu’un email ciblé.</li><li>Plus de <strong>94% des dons </strong> à des ONG ont été réalisé hors ligne en 2016 aux USA (+7% en 2013)</li><li>Un like sur une page Facebook, un don sur Internet, la visite d’un site Internet est déjà un <strong>acte d’engagement</strong>, déjà un comportement de supporter.</li></ul>
+
+
+        link: "/faq#quorum"
+      agency:
+        title: Action !<br>
+        preview: |
+          <br>Non, chacun son métier. La technologie est le notre. Le consulting ne l’est pas. Nous sommes fournisseur de technologie. Des technologies qui vous aident...
+        answer: |
+          <br>Quorum est un outil qui aide les causes, les mouvements et les organisations - que leur objectif soit de <strong>rallier une armée de supporters</strong>, de <strong>recruter des donateurs</strong>, <strong>d’écouter des populations habituellement en dehors des radars</strong>, de gagner une <strong>élection</strong>, de sensibiliser le public -  en les équipant, elles et leurs équipes professionnelles ou bénévoles. <br>Nous les aidons en fournissant  des outils qui transforment leur façon d’entrer en contact avec le public grâce à des technologies qui reposent sur <strong>l'expérience</strong> et le <strong>machine Learning</strong>.
+        link: "/faq#agency"
+      compagny-or-brand:
+        title: Produit - Mobilisation software not management software or analytics software
+        preview: |
+          <br>Oui. Notre mission chez Quorum est de transformer la façon dont les causes mais aussi les marques engagent et mobilisent le public et leurs équipes...
+        answer: |
+          <br>La plupart des logiciels ne sont là que pour vous aidez à manager l’existant ou à regarder une carte avec des données.
+          Votre logiciel ne devrait pas vous aider simplement à manager. Il doit vous aider à <strong>accomplir plus</strong> et à simplifier vos tâches. Le data management, les opérations, les analyses et les prédictions sont importants, mais pour réussir, il faut faire plus. <strong>Il faut mobiliser.</strong><br><br><a href="https://www.slideshare.net/QuorumHq/quorum-brand">Découvrir les principes du logiciel Quorum →</a>
+
+      length:
+        title: Liens
+        preview: |
+          La durée d'engagement peut être mensuelle, spécifique (courant notamment dans le cas de campagnes d’information ou de...
+        answer: |
+          <ul><li><a href="https://www.instagram.com/quorumteam/"> Rencontrer la Qteam sur Instagram →</a></li><li><a href="https://angel.co/quorum/jobs"> Rejoindre l'équipe-></a> </li><li><a href="https://projects.invisionapp.com/boards/4J39WY0A2XCZY/"> Media Kit-></a></li><li><a href="https://www.youtube.com/watch?v=xMIdGlV7c1I">Regarder une vidéo→</a></li></ul>
+        link: "/faq#length"
+
+
   team:
     title: Le service et le support, c'est gagner ensemble !
-    mobilised: <span>7j/7</span> sur le pont. Comme vous. Passionnés.<br> Autant que vous.
-    description: " Nous ne croyons en la mobilisation, la concertation ou l'engagement simplement en un clic, 100% en ligne. Il y a des situations où la communication est complexe, où il est utile de rencontrer les populations en dehors des radars, où le contact direct déclenche l'engagement...  "
+    mobilised: <span>7j/7</span> L'équipe sur le pont. Comme vous. Passionnés.<br> Autant que vous.
+    description: "Il y a des situations où la communication est complexe, où il est utile de rencontrer les populations en dehors des radars, où le contact direct déclenche l'engagement...  "
     more:
       title: En apprendre plus
-      link: mailto:pmsh755t@incoming.intercom-mail.com
+      link: /about-us
 
   news:
     title-home: Nos dernières actualités

@@ -29,8 +29,8 @@ en:
         link: https://cloud.quorumapps.com/
 
   intro:
-    heading: Empowering offline campaigns.
-    title: "Quorum reinvents the way you connect with people <br>on the field using smart and cutting-edge <br> technologies  whatever you want to do: "
+    heading:
+    title: "Quorum makes your campaign <br>on the field super efficient <br> collective and smart "
     list:
       engage:
         title: Raise money or rally advocates
