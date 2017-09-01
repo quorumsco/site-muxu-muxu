@@ -13,7 +13,7 @@ en:
         link: ../../en#mobile-app
       prices:
         title: Insights
-        link: ../../en/pricing
+        link: ../../en/insights
       news:
         title: Blog
         link: https://medium.com/quorum-blog
@@ -62,12 +62,12 @@ en:
         title: Campaign staff & Election runners
     catchphrase: Quorum app is not available - yet - in every part of the globe.
     more: Request to open Quorum in your country →
-
+    link: mailto:pmsh755t@incoming.intercom-mail.com
   web-app:
     subtitle: Quorum web
     title: Analyze, Organize and Understand Issues
     description: |
-      Nothing is smarter: Not just web, but intelligence in it.<br>All you need to organize for action lives on on the web app: micro-targeting, mapping, dashboard analysis, team organization, goal dashboard, tracking and more.
+      <strong>Nothing is smarter</strong>: Not just web, but intelligence in it.<br>All you need to organize for action lives on on the web app: micro-targeting, mapping, dashboard analysis, team organization, goal dashboard, tracking and more.
     more:
       title: Discover more →
       link: ../../en/pricing
@@ -82,11 +82,13 @@ en:
 
 
   mobile-app:
+    big-title: Mobilisation technology software
+    subtitle-big-title: Your Web & Mobile app
     subtitle: Quorum mobile & tablet
     title: Mobilise anytime and wherever people are
     description: |
-      Nothing is more collective: Make your organisation mobile, curated and viral. Quorum puts people at the center of everything you do.<br> Empower your team with an access to the mobile app: send information, log contact and surveys anytime anywhere, canvassing "made easy" and more.
-      <br><br>Noting is more evolving: New features every month to push the boundaries of technology creating tomorrow's campaigns.
+      <strong>Nothing is more collective</strong>: Make your organisation mobile, curated and viral. Quorum puts people at the center of everything you do.<br> Empower your team with an access to the mobile app: send information, log contact and surveys anytime anywhere, canvassing "made easy" and more.
+      <br><br><strong>Noting is more evolving</strong>: New features every month to push the boundaries of technology creating tomorrow's campaigns.
     sub-description: |
       Of course, all of this syncs back to your web app in real-time for a unique database.
     available: "Available on:"
@@ -108,7 +110,7 @@ en:
       link: https://www.getquorum.co/
 
   contact:
-    title: Learn more about using Quorum to win your election, run your nonprofit, advocate for your community, raise money for your cause or serve your constituents.
+    title: Learn more about using Quorum to win your <strong>election</strong>, run your <strong>nonprofit</strong>, advocate for your <strong>community</strong>, raise money for your <strong>cause</strong> or serve your <strong>constituents</strong>.
     chat:
       title:  Chat with us →
       link: mailto:pmsh755t@incoming.intercom-mail.com
@@ -318,7 +320,7 @@ en:
         link: "../../en/faq#mobilisation"
   team:
     title:  Customer support is about winning together.
-    mobilised: <span>7/7</span>  Support team ready and poised for action. Just like you are.
+    mobilised: <span>7/7</span>  Support team ready and poised for action.<br> Just like you are.
     description: "We believe that when people come together around their shared believes, they can do nearly anything. Spark a movement. Raise millions. Reinvent an organization. Tramsform people's mind."
     more:
       title: Chat with the team
@@ -495,7 +497,7 @@ en:
         source: Objectif Aquitaine
 
   actions:
-    title: Build a movement, lead a campaign or a cause requires vision & process. Vision is yours. Process is on us.
+    title: Build a movement, lead a campaign or a cause requires vision & process.<br> Vision is yours. Process is on us.
     secure: Own your own data, securely
     organization: Distribute leadership
     field:  Your data-driven tool. Everywhere

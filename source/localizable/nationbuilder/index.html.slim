@@ -1,1 +1,38 @@
-h1  style="font-size:80;text-align:center;font-family:sans-serif;margin:200px auto;" Coming soon 🚀
+div.coming-soon style="font-size:80;text-align:center;margin: 40px auto;"
+  h1 Coming soon 🚀
+  div.contact-coming-soon
+        - if I18n.locale == :fr
+          	.sub-container
+                h3 Documentations bientôt en ligne.
+                p
+                    |En attendant prenez contact directement avec :
+                div
+                  | 🐻 Florent - 
+                  = link_to(t('coming-soon.mailflorent.link'), target: "_blank")
+                    = t 'coming-soon.mailflorent.title'
+                div
+                  | ✨ Tony - 
+                  = link_to(t('coming-soon.mailtony.link'), target: "_blank")
+                    = t 'coming-soon.mailtony.title'
+                div
+                  | ✨ Farz - 
+                  = link_to(t('coming-soon.mailfarz.link'), target: "_blank")
+                    = t 'coming-soon.mailfarz.title'
+                p Pour en savoir plus
+            .sub-container
+                h3 Docs coming soon
+                p
+                    |As for now, don’t hesitate to get in touch with :
+                div
+                  | 🐻 Florent - 
+                  = link_to(t('coming-soon.mailflorent.link'))
+                    = t 'coming-soon.mailflorent.title'
+                div
+                  | ✨ Tony - 
+                  = link_to(t('coming-soon.mailtony.link'))
+                    = t 'coming-soon.mailtony.title'
+                div
+                  | ✨ Farz - 
+                  = link_to(t('coming-soon.mailfarz.link'))
+                    = t 'coming-soon.mailfarz.title'
+                p  to know more about the API

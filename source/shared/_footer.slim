@@ -27,23 +27,19 @@ footer
         li 
           = link_to t'footer.quorum.links.faq.link'
             = t'footer.quorum.links.faq.title'
-        - if I18n.locale == :fr
-          li 
-            = link_to t'footer.quorum.links.support.link'
-              = t'footer.quorum.links.support.title'
         li 
           = link_to(t('footer.quorum.links.documentation.link'), target: "_blank")
             = t'footer.quorum.links.documentation.title'
+        li 
+          = link_to t'footer.quorum.links.support.link'
+            = t'footer.quorum.links.support.title'
         li 
           = link_to(t('footer.quorum.links.agency.link'), target: "_blank")
             = t'footer.quorum.links.agency.title'
         li 
           = link_to(t('footer.quorum.links.jobs.link'), target: "_blank")
             = t'footer.quorum.links.jobs.title'
-        li 
-          = link_to t 'footer.quorum.links.news.link'
-            = t'footer.quorum.links.news.title'
-        li 
+        li
           = link_to(t('footer.quorum.links.blog.link'), target: "_blank")
             = t'footer.quorum.links.blog.title'
   .footer-item

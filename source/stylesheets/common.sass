@@ -179,7 +179,6 @@ header
     img
       &.man
         position: absolute
-        top: -35px
         left: 100px
       &.woman
         position: absolute
@@ -259,7 +258,7 @@ header
     height: 540px
     p
       &.use-quorum
-        line-height: 15px
+        line-height: 26px
     ul
       list-style: none
       padding-left: 0
@@ -312,7 +311,7 @@ header
 
   &.cards
     display: flex
-    flex-direction: row
+    flex-direction: row 
     justify-content: space-between
     flex-flow: row wrap
     padding-top: 100px
@@ -342,6 +341,11 @@ header
           line-height: 29px
           font-size: 18px
           margin: 40px 0 5px
+          em.hbr
+            color: #637790
+            text-transform: none
+            font-style: normal
+            font-size: 10px
         a
           width: 215px
       &.about
@@ -352,18 +356,40 @@ header
           line-height: 29px
           font-size: 18px
           margin: 0
+          em
+            color: #637790
+            text-transform: none
+            font-style: inherit
+            font-weight: 500
       &.invisible
         background-color: white
 
   &.mobile-app
-    padding: 100px 0 90px
-    margin-top: 170px
+    padding: 0px 0 90px
+    margin-top: 0px
     max-width: 955px
     position: relative
+    .big-title-container
+      margin: 0px 0 80px 0
+      .big-title
+        text-align: center
+        line-height: 39px
+        margin-top: 5px
+        max-width: 490px
+        margin: 0 auto
+      .big-title-subtitle
+        text-align: center
+        font-size: 12px
+        font-weight: 700
+        color: #808C9B
+        margin: 0
+        letter-spacing: 1.2px
+        text-transform: uppercase
+        margin-top: 5px
+
     img
       width: 664px
       position: absolute
-      top: 0
       left: -261px
     .content
       margin-left: 450px
@@ -406,14 +432,16 @@ header
             cursor: pointer
 
   &.web-app
-    padding: 150px 0 0px
+    padding: 50px 0 0px
     position: relative
     h2
       line-height: 39px
       margin-top: 5px
       text-align: center
       max-width: 490px
-      margin: 0 auto
+      margin: 0 auto 0px auto
+      &.analyse
+        margin: 0 auto 50px auto
 
 
     h3
@@ -433,7 +461,7 @@ header
       position: relative
       display: flex
       justify-content: center
-      margin: 90px 0px
+      margin: 70px 0px
 
 
 
@@ -718,7 +746,7 @@ header
 
 
   &.news
-    padding: 90px 0 195px
+    padding: 90px 0 50px
     text-align: center
     h2
       margin-bottom: 20px
@@ -780,22 +808,34 @@ header
         display: none
 
   &.contact
-    padding: 75px 0 65px
     text-align: center
+    text-align: center
+    margin: 0 auto
+    max-width: 700px
+    font-size: 1.3rem
+    .webapp
+      width: 100%
+      margin: 30px 0
+      box-shadow: 0 1px 6px 0 rgba(33,62,97,0.20), 0 0 1px 0 rgba(33,62,97,0.15)
+      border-radius: 6px
+    h3
+      margin-top: 20px
     h2
       text-align: center
+      margin: 0 auto
+      font-size: 1.1rem
+    .contact-info
+      font-size: 1.3rem
+
     span
-      font-size: 30px
       font-weight: 300
       margin: 0 8px
     a
       color: #584CE6
-      font-size: 30px
       font-weight: 500
 
   &.pricing-intro
     text-align: center
-    max-width: 450px
     margin-top: 137px
     img
       &.fr-pricing-title
@@ -805,7 +845,7 @@ header
     p
       text-align: center
       line-height: 27px
-      padding: 10px 0 25px
+      padding: 20px 0 25px
 
   &.pricing
     position: relative
@@ -871,15 +911,23 @@ header
         position: absolute
         bottom: 155px
         width: 100%
+        text-align: center
+        margin: 0 auto
+        max-width: 700px
+        font-size: 1.3rem
+        left: 50%
+        transform: translatex(-50%)
         h2
           text-align: center
+          margin: 0 auto
+          max-width: 700px
+          font-size: 1.3rem
         span
-          font-size: 30px
           font-weight: 300
           margin: 0 8px
         a
           color: #584CE6
-          font-size: 30px
+          font-size: 1.3rem
           font-weight: 500
 
   &.services
@@ -947,6 +995,8 @@ header
       font-weight: 600
       padding-top: 45px
       margin-bottom: 10px
+      max-width: 700px
+      margin: 0 auto
     hr
       width: 90px
       height: 2px
@@ -1024,7 +1074,6 @@ header
           span
             font-size: 80px
             display: block
-            line-height: 60px
       .teammembers
         max-width: 300px
         margin-left: 20px
@@ -1042,6 +1091,8 @@ header
           font-weight: 600
           &:hover
             background: #E5415F
+      strong
+        color: grey
 
 
   &.news-extended
@@ -1501,6 +1552,7 @@ footer
         display: block
         width: 90%
         left: 0
+        top: 0
         margin: 40px auto 0
 
     &.web-app
@@ -1596,12 +1648,24 @@ footer
         img
           &.man, &.woman
             display: none
+        &.contact
+          text-align: center
+          text-align: center
+          margin: 0 auto
+          max-width: 700px
+          font-size: 1.3rem
+          h2
+            text-align: center
+            margin: 0 auto
+            font-size: 1.1rem
+          .contact-info
+            font-size: 1.3rem
+
+
         .contact-info
           bottom: 130px
-          h2
-            font-size: 18px
           a, span
-            font-size: 18px
+            font-size: 1.3rem
           span
             margin: 0 5px
           a
@@ -1761,6 +1825,24 @@ footer
             display: block
             width: 100%
             margin-top: 10px
+.contact-coming-soon
+  display: flex
+  justify-content: space-around
+  align-items: center
+  .sub-container
+    max-width: 400px
+    padding: 20px 5px
+    box-shadow: 0 1px 6px 0 rgba(33,62,97,0.20), 0 0 1px 0 rgba(33,62,97,0.15)
+    border-radius: 6px
+    p
+      text-align: left
+    div
+      flex-grow: 1
+      text-align: left
+      margin: 10px
+      a
+        color: #0B3BDE
+        text-decoration: none
 
 @media screen and (max-width: 768px)
 
@@ -1838,6 +1920,20 @@ footer
           h2, p
             display: block
             width: 100%
+
+    .wrapper.pricing
+      .overlay-contact
+        .contact-info
+          bottom: 0
+
+    .contact-coming-soon
+      flex-direction: column
+
+
+
+
+
+  
 
 
 

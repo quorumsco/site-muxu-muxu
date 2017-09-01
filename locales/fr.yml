@@ -14,7 +14,7 @@ fr:
         link: "../#mobile-app"
       prices:
         title: En savoir Plus
-        link: ../pricing
+        link: ../insights
       news:
         title: Blog
         link: https://medium.com/quorum-blog
@@ -51,7 +51,7 @@ fr:
 
   about:
     description: |
-      Faites comme Voix publique, Meunier 2017, Nice, l'Etablissement Français du Sang et des dizaines d'autres organisations qui ont soif de changement, équipez vous et augmenter votre impact.
+      Faites comme <em>Voix publique</em>, <em>Meunier 2017</em>, <em>Nice</em>, <em>l'Etablissement Français du Sang</em> et des dizaines d'autres organisations qui ont soif de changement, équipez vous et augmenter votre impact.
     who:
       non-profit:
         title: Fondations, ONG, collectivités et mouvements
@@ -61,29 +61,32 @@ fr:
         title: Agences de communication, concertation, indépendants
       campaign:
         title: Équipes de campagne, mouvements politiques
-    catchphrase: Une rencontre a 1000 fois plus d'impact qu'un post sur Facebook et 38 fois plus d'impact qu'un email. Source HBR
+    catchphrase: Une rencontre a 1000 fois plus d'impact qu'un post sur Facebook et 38 fois plus d'impact qu'un email. <em class="hbr">Source HBR</em>
     more: Pas convaincu(e) ?! →
+    link: 'about-us'
 
   web-app:
     subtitle: L'Application web
     title: Analyser, organiser, mesurer et automatiser
     description: |
-      Rien de plus organisé : Quorum vous permet d'animez vos équipes et vos communautés, de suivre vos objectifs, d'organiser vos actions - création d'enquête terrain, e-mail automatique, communication unifiée.<br>
-      Rien de plus intelligent :  Algorithmes et micro-ciblage, projection, compréhension des enjeux d'un territoire, cartographie intéractive, ainci que toutes vos données et analyses organisées sur la web application.
+      <strong>Rien de plus organisé</strong> : Quorum vous permet d'animez vos équipes et vos communautés, de suivre vos objectifs, d'organiser vos actions - création d'enquête terrain, e-mail automatique, communication unifiée.<br>
+      <strong>Rien de plus intelligent</strong> :  Algorithmes et micro-ciblage, projection, compréhension des enjeux d'un territoire, cartographie intéractive, ainci que toutes vos données et analyses organisées sur la web application.
     more:
       title: Découvrir plus →
-      link: /pricing
+      link: /insights
 
   second-t-webapp:
     title: Rien de plus connecté.
     description: |
       Quorum se connecte avec vos logiciels favoris à travers son réseau d'API. Pas de multiplication d'outils. Pas de doublons. Pas de re-saisie.
   mobile-app:
+    big-title: Votre logiciel de mobilisation
+    subtitle-big-title: Une application web, une application mobile et tablette
     subtitle: Quorum sur mobile & tablette
     title: Gérez l'immédiat et le temps réel
     description: |
-      Rien de plus collaboratif : Vos équipes et/ou vos bénévoles sont les meilleures pour diffuser votre message à chaque instant. Invitez-les sur l’application mobile : porte -à-porte, ajout direct, enregistrement intérêt, donateurs, informations live ... <br>
-      Rien de plus engageant : Economiser des heures de travail et augmenter la motivation grâce à un meilleur ciblage, l'envoi automatique depuis le terrain ou encore les éléments de langage.
+      <strong>Rien de plus collaboratif</strong> : Vos équipes et/ou vos bénévoles sont les meilleures pour diffuser votre message à chaque instant. Invitez-les sur l’application mobile : porte -à-porte, ajout direct, enregistrement intérêt, donateurs, informations live ... <br>
+      <strong>Rien de plus engageant</strong> : Economiser des heures de travail et augmenter la motivation grâce à un meilleur ciblage, l'envoi automatique depuis le terrain ou encore les éléments de langage.
     sub-description: |
       Toutes les informations sont directement centralisées sur l'application web.
     available: "Disponible sur :"
@@ -95,7 +98,7 @@ fr:
       link: https://play.google.com/store/apps/details?id=com.quorumapps.quorum128598&hl=fr
     more:
       title: Découvrir plus →
-      link: /pricing
+      link: /insights
 
   partners:
     title: Partenaires certifiés & Collaboration
@@ -105,7 +108,7 @@ fr:
       link: mailto:contact@quorum.co
 
   contact:
-    title: Apprenez-en plus sur l'utilisation de Quorum pour une élection, une association, pour mobiliser autour de votre cause, récolter des dons, concerter les populations, ou servir vos administré(e)s.
+    title: Apprenez-en plus sur l'utilisation de Quorum pour une <strong>élection</strong>, une <strong>association</strong>, pour mobiliser autour de votre cause, récolter des <strong>dons</strong>, concerter les <strong>populations</strong>, ou servir vos <strong>administré(e)s</strong>.
     chat:
       title: Chatter avec l'équipe
       link: mailto:pmsh755t@incoming.intercom-mail.com
@@ -353,7 +356,7 @@ fr:
 
   team:
     title: Le service et le support, c'est gagner ensemble !
-    mobilised: <span>7j/7</span> sur le pont. Comme vous. Passionnés. Autant que vous.
+    mobilised: <span>7j/7</span> sur le pont. Comme vous. Passionnés.<br> Autant que vous.
     description: " Nous ne croyons en la mobilisation, la concertation ou l'engagement simplement en un clic, 100% en ligne. Il y a des situations où la communication est complexe, où il est utile de rencontrer les populations en dehors des radars, où le contact direct déclenche l'engagement...  "
     more:
       title: En apprendre plus
@@ -628,7 +631,7 @@ fr:
       links:
         about:
           title: À propos
-          link: /outofmanyweareone
+          link: /about-us
         kit:
           title: Media Kit
           link: https://projects.invisionapp.com/boards/4J39WY0A2XCZY/
@@ -673,4 +676,14 @@ fr:
       title: ©Quorum2017 / 111 rue de Rennes 75006 Paris / +33 1 79 73 40 04
       link:
 
+  coming-soon:
+    mailflorent:
+      link: mailto:florentfb@quorum.co
+      title: fb@quorum.co
+    mailtony:
+      link: mailto:tcowanbrown@nationbuilder.com
+      title: tcowanbrown@nationbuilder.com
+    mailfarz:
+      link: mailto:fsokhansanj@nationbuilder.com
+      title: fsokhansanj@nationbuilder.com
   ascii: |
