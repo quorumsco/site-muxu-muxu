@@ -29,8 +29,8 @@ en:
         link: https://cloud.quorumapps.com/
 
   intro:
-    heading: Empowering offline campaigns.
-    title: "Quorum reinvents the way you connect with people <br>on the field using smart and cutting-edge <br> technologies  whatever you want to do: "
+    heading:
+    title: "Quorum makes your campaign <br>on the field super efficient <br> collective and with powerful outreach "
     list:
       engage:
         title: Raise money or rally advocates
@@ -82,8 +82,8 @@ en:
 
 
   mobile-app:
-    big-title: Mobilisation technology software 
-    subtitle-big-title: Your Web & Mobile app 
+    big-title: Mobilisation technology software
+    subtitle-big-title: Your Web & Mobile app
     subtitle: Quorum mobile & tablet
     title: Mobilise anytime and wherever people are
     description: |
@@ -498,7 +498,7 @@ en:
         source: Objectif Aquitaine
 
   actions:
-    title: Build a movement, lead a campaign or a cause requires vision & process.<br> Vision is yours. Process is on us.
+    title: Build a movement, lead a campaign or a cause requires vision & process.<br> Focus on vision, we take care of process.
     secure: Own your own data, securely
     organization: Distribute leadership
     field:  Your data-driven tool. Everywhere

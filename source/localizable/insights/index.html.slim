@@ -67,6 +67,11 @@
     .teammembers 
       = image_tag "team-picture.png"
       p = t 'team.description'
-      = link_to(t('team.more.link'), class: "button intercom_link")
-        = t 'team.more.title'
+      - if I18n.locale == :fr
+        = link_to (t ('team.more.link'), class: "insight")
+          = t 'team.more.title'
+      - else
+        = link_to(t('about.link'), class: "intercom_link insight")
+          = t 'about.more'
+
   = image_tag "team-illustration.svg", class: "illustration"
