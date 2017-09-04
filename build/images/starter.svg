@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="28px" height="30px" viewBox="0 0 28 30" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 42 (36781) - http://www.bohemiancoding.com/sketch -->
+    <title>icon</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="2" width="28" height="20"></rect>
+        <mask id="mask-2" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="28" height="20" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+    </defs>
+    <g id="website" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="pricing-default" transform="translate(-748.000000, -408.000000)">
+            <g id="plans" transform="translate(250.000000, 379.000000)">
+                <g id="column" transform="translate(426.000000, 0.000000)">
+                    <g id="icon" transform="translate(72.000000, 29.000000)">
+                        <rect id="bg" fill="#0B3BDE" x="13" y="0" width="2" height="30"></rect>
+                        <use id="bg" stroke="#0B3BDE" mask="url(#mask-2)" stroke-width="4" fill="#FCFCFC" xlink:href="#path-1"></use>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

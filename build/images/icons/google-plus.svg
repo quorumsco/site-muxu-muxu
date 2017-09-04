@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="10px" viewBox="0 0 16 10" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 42 (36781) - http://www.bohemiancoding.com/sketch -->
+    <title>google-plus</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="website" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="home" transform="translate(-250.000000, -4538.000000)" fill-rule="nonzero" fill="#000000">
+            <g id="footer" transform="translate(250.000000, 4422.000000)">
+                <g id="column">
+                    <g id="google-plus" transform="translate(0.000000, 116.000000)">
+                        <g id="Layer_1">
+                            <g id="Group">
+                                <path d="M5.11278195,4.275 L5.11278195,6 L7.99498747,6 C7.86967419,6.725 7.11779449,8.15 5.11278195,8.15 C3.35839599,8.15 1.95488722,6.725 1.95488722,5 C1.95488722,3.275 3.38345865,1.85 5.11278195,1.85 C6.11528822,1.85 6.76691729,2.275 7.14285714,2.625 L8.52130326,1.325 C7.64411028,0.5 6.49122807,0 5.11278195,0 C2.28070175,0 0,2.225 0,5 C0,7.775 2.28070175,10 5.11278195,10 C8.07017544,10 10,7.975 10,5.125 C10,4.8 9.97493734,4.55 9.92481203,4.3 L5.11278195,4.3 L5.11278195,4.275 Z" id="Shape"></path>
+                                <path d="M14,2 L13,2 L13,4 L11,4 L11,5.00915527 L13,5.00915527 L13,6.9074707 L14,7.09094238 L14,5.00915527 L15.9672852,5.00915527 C15.9672852,5.03254709 15.9672852,4 15.9672852,4 L14,4 L14,2 Z" id="Shape"></path>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

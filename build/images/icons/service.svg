@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="42px" height="39px" viewBox="0 0 42 39" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 42 (36781) - http://www.bohemiancoding.com/sketch -->
+    <title>icon</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M12.0912169,6.00746124 C12.1282049,4.89877101 13.0449062,4 14.1674114,4 L15.9872972,4 C17.0969598,4 17.996519,4.90034552 17.996519,6.00746124 L17.996519,36.9925388 C17.996519,38.101229 17.1092049,39 15.9888819,39 L12.9981608,39 C11.8893734,39 11.0205609,38.0996545 11.0574964,36.9925388 L12.0912169,6.00746124 Z" id="path-1"></path>
+        <mask id="mask-2" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="6.94000006" height="35" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+        <rect id="path-3" x="16" y="6" width="26" height="33"></rect>
+        <mask id="mask-4" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="26" height="33" fill="white">
+            <use xlink:href="#path-3"></use>
+        </mask>
+        <path d="M11.6585886,8 L19,8 L19,0 L12.2642424,0 C10.0643508,0 6.70798496,0.888417871 4.78352697,1.98433685 L3,3 L3.59974546,4.49936364 C4.3347674,4.17817814 5.14657583,4 6,4 C8.61243765,4 10.8349158,5.66961525 11.6585886,8 Z" id="path-5"></path>
+        <mask id="mask-6" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="16" height="8" fill="white">
+            <use xlink:href="#path-5"></use>
+        </mask>
+        <path d="M17,0 L19.9951185,0 C21.102384,0 22,0.886706352 22,1.99810135 L22,6.00189865 C22,7.10541955 21.1061002,8 19.9951185,8 L17,8 L17,0 Z" id="path-7"></path>
+        <mask id="mask-8" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="5" height="8" fill="white">
+            <use xlink:href="#path-7"></use>
+        </mask>
+        <rect id="path-9" x="0" y="22" width="7" height="17" rx="2"></rect>
+        <mask id="mask-10" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="7" height="17" fill="white">
+            <use xlink:href="#path-9"></use>
+        </mask>
+        <rect id="path-11" x="1" y="12" width="5" height="12"></rect>
+        <mask id="mask-12" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="5" height="12" fill="white">
+            <use xlink:href="#path-11"></use>
+        </mask>
+        <path d="M0,6 L7,6 L7,10.4910835 C7,12.4290046 5.42906336,14 3.5,14 L3.5,14 C1.56700338,14 0,12.4385282 0,10.4910835 L0,6 Z" id="path-13"></path>
+        <mask id="mask-14" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="7" height="8" fill="white">
+            <use xlink:href="#path-13"></use>
+        </mask>
+    </defs>
+    <g id="website" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="pricing-default" transform="translate(-280.000000, -1402.000000)">
+            <g id="action" transform="translate(250.000000, 1372.000000)">
+                <g id="service">
+                    <g id="icon" transform="translate(30.000000, 30.000000)">
+                        <use id="bg" stroke="#584CE6" mask="url(#mask-2)" stroke-width="4" fill="#FFFFFF" xlink:href="#path-1"></use>
+                        <use id="bg" stroke="#584CE6" mask="url(#mask-4)" stroke-width="4" stroke-dasharray="4" xlink:href="#path-3"></use>
+                        <use id="Combined-Shape" stroke="#584CE6" mask="url(#mask-6)" stroke-width="4" fill="#FFFFFF" xlink:href="#path-5"></use>
+                        <use id="bg" stroke="#584CE6" mask="url(#mask-8)" stroke-width="4" fill="#FFFFFF" xlink:href="#path-7"></use>
+                        <use id="bg" stroke="#584CE6" mask="url(#mask-10)" stroke-width="4" fill="#FFFFFF" xlink:href="#path-9"></use>
+                        <use id="bg" stroke="#584CE6" mask="url(#mask-12)" stroke-width="4" fill="#FFFFFF" xlink:href="#path-11"></use>
+                        <rect id="bg" fill="#584CE6" x="23" y="17" width="2" height="5" rx="1"></rect>
+                        <path d="M28.5,34 C28.5,34 24,30.9852814 24,28.5 C24,26.0147186 26.0147186,24 28.5,24 C30.9852814,24 33,26.0147186 33,28.5 C33,30.9852814 28.5,34 28.5,34 Z M28.5,30 C29.3284271,30 30,29.3284271 30,28.5 C30,27.6715729 29.3284271,27 28.5,27 C27.6715729,27 27,27.6715729 27,28.5 C27,29.3284271 27.6715729,30 28.5,30 Z" id="bg" fill="#584CE6"></path>
+                        <rect id="bg" fill="#584CE6" x="27" y="14" width="2" height="8" rx="1"></rect>
+                        <rect id="bg" fill="#584CE6" x="31" y="12" width="2" height="10" rx="1"></rect>
+                        <use id="bg" stroke="#584CE6" mask="url(#mask-14)" stroke-width="4" fill="#FFFFFF" xlink:href="#path-13"></use>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

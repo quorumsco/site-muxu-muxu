@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="19px" height="24px" viewBox="0 0 19 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 43.2 (39069) - http://www.bohemiancoding.com/sketch -->
+    <title>poi</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="website" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="prop5" transform="translate(-357.000000, -635.000000)" fill="#0B3BDE">
+            <g id="ILLUSTRATION" transform="translate(150.000000, 418.000000)">
+                <g id="map" transform="translate(107.000000, 0.000000)">
+                    <path d="M109.5,241 C109.5,241 119,232.005419 119,226.666667 C119,221.327914 114.746705,217 109.5,217 C104.253295,217 100,221.327914 100,226.666667 C100,232.005419 109.5,241 109.5,241 Z" id="poi"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
