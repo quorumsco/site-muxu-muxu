@@ -31,7 +31,7 @@ fr:
 
   intro:
     heading:
-    title: " Avec Quorum,<br> créer des campagnes de terrain super efficaces, <br> organisées et à l'impact démultiplié.
+    title: " Avec Quorum,<br> créez des campagnes de terrain efficaces, <br> organisées et à l'impact démultiplié.
      "
     list:
       hire:
@@ -51,7 +51,7 @@ fr:
 
   about:
     description: |
-      Faites comme <em>Voix publique</em>, <em>Meunier 2017</em>, <em>Nice</em>, <em>l'Etablissement Français du Sang</em> concentrez sur la rencontre et l'action, Quorum s'occupe du process et des données.
+      Faites comme <em>Voix publique</em>, <em>Meunier 2017</em>, <em>Nice</em>, <em>l'Etablissement Français du Sang</em> concentrez-vous sur l'action, Quorum s'occupe du process et des données.
     who:
       non-profit:
         title: Fondations, ONG, collectivités et mouvements
@@ -417,7 +417,7 @@ fr:
     more:
       title: En apprendre plus
       link: /about-us
-      
+
   news:
     title-home: Nos dernières actualités
     more-home:
