@@ -1,14 +1,3 @@
-.light-blue
-  .wrapper.actions
-    h2 = t 'actions.title'
-    hr
-    .items
-      = image_tag "icons/secure.svg", class: "icon"
-      p.secure = t 'actions.secure'
-      = image_tag "icons/organization.svg", class: "icon"
-      p.organization = t 'actions.organization'
-      = image_tag "icons/field.svg", class: "icon"
-      p.field = t 'actions.field'
 
 footer
   .footer-item
@@ -33,23 +22,6 @@ footer
         li 
           = link_to t'footer.quorum.links.support.link'
             = t'footer.quorum.links.support.title'
-        li 
-          = link_to(t('footer.quorum.links.agency.link'), target: "_blank")
-            = t'footer.quorum.links.agency.title'
-        li 
-          = link_to(t('footer.quorum.links.jobs.link'), target: "_blank")
-            = t'footer.quorum.links.jobs.title'
-        li
-          = link_to(t('footer.quorum.links.blog.link'), target: "_blank")
-            = t'footer.quorum.links.blog.title'
-  .footer-item
-    .footer-plus
-      h3 = t 'footer.plus.title'
-      ul 
-        - t('footer.plus.links').each do |id, item|
-          li 
-           = link_to item[:link], target: "_blank"
-            = item[:title]
   .footer-item
     .footer-news
       h3 = t 'footer.news.title'

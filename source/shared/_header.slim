@@ -17,6 +17,13 @@ header.header.fixed-header
             li class="#{id}"
               = link_to navigation[:link]
                 = navigation[:title]
+          .dropdown
+            button.dropbtn PLUS
+            .dropdown-content
+              - t('navigation-leftBIS.links').each do |id, navigation|
+                li class="#{id}"
+                  = link_to navigation[:link]
+                    = navigation[:title]
         .links
           = link_to t 'navigation-right.lang.link'
             = t 'navigation-right.lang.title'

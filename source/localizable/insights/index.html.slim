@@ -1,38 +1,98 @@
-.wrapper.pricing-intro
-  - if I18n.locale == :fr
-    = image_tag "fr-pricing-title.png", class: "fr-pricing-title"
-  - else
-    = image_tag "en-pricing-title.png", class: "en-pricing-title"
-  p = t 'pricing-intro.description'
+.white
+  .wrapper.web-app
+    .big-title-container
+      h2.big-title = t 'mobile-app.big-title'
+      h3.big-title-subtitle = t 'mobile-app.subtitle-big-title'
+    .web-illustration
+      = image_tag "illustration-screen2.png", class: "screen"
+      .logo-container
+        .bubble-container
+          .item.mailjet
+            = image_tag "api/mailjet.png"
+          .item.agenda
+            = image_tag "api/agenda.png"
+          .item.nationbuilder
+            = image_tag "api/nationbuilder.png"
+          .item.digitale
+            = image_tag "api/digitalebox.png"
+      .logo-container-right
+        .bubble-container
+          .item.mailchimp
+            = image_tag "api/mailchimp.png"
+          .item.twitter
+            = image_tag "api/twitter.png"
+          .item.quorum
+            = image_tag "api/quorum.png"
+          .item.buffer
+            = image_tag "api/buffer.png"
+          .item.sendinblue
+            = image_tag "api/sendinblue.png"
+      .mapcontainer
+        .poi-container
+          = image_tag "poi.svg", class: "poi"
+        .wavemap
+        .wavemap-1
+        .wavemap-2
+        = image_tag "map.svg", class: "map"
+    h3 = t 'web-app.subtitle'
+    h2.analyse = t 'web-app.title'
+    p = t 'web-app.description'
 
-.wrapper.pricing 
-  = partial 'shared/insights'
-  .overlay-contact
-    = image_tag "man-contact.svg", class: "man"
-    = image_tag "woman-contact.svg", class: "woman"
-    .contact-info
-      h2 = t 'contact.title'
-      = link_to(t('contact.chat.link'), class: "intercom_link")
-        = t 'contact.chat.title'
-      - if I18n.locale == :fr
-        span = t 'contact.or'
-        = link_to(t('contact.tel.link'), class: "tel")
-          = t 'contact.tel.title'
+    /= link_to(t('web-app.more.link'), class: "red-link")
+      / = t 'web-app.more.title'
 
-.wrapper.services
-  .service
-    = image_tag "icons/service.svg"
-    h3 = t 'services.service.title'
-    p = t 'services.service.description'
-    = link_to(t('services.service.more.link'), class: "blue-link", target: "_blank")
-     = t 'services.service.more.title'
-  .service
-    = image_tag "icons/agencies-and-partners.svg"
-    h3 = t 'services.agencies-and-partners.title'
-    p = t 'services.agencies-and-partners.description'
-    = link_to(t('services.agencies-and-partners.more.link'), class: "blue-link")
-     = t 'services.agencies-and-partners.more.title'
-    
+  .wrapper.second-t-webapp
+    .api
+      = image_tag "mailjet-logo.png", class: "mailjet-logo api-web"
+      = image_tag "sendinblue-logo.png", class: "sendinblue-logo api-web"
+      = image_tag "mailchimp-logo.png", class: "mailchimp api-web"
+      = image_tag "nationbuilder-logo.png", class: "nationbuilder-logo.png api-web"
+
+    .api-mobile
+      .item
+        .blue-container
+          = image_tag "api/mailchimp.png"
+        p = "Mailchimp"
+      .item
+        .blue-container
+          = image_tag "api/sendinblue.png"
+        p = "Sendinblue"
+         
+      .item
+        .blue-container
+          = image_tag "api/mailjet.png"
+        p = "Mailjet"
+
+
+      .item.nation
+        .blue-container
+          = image_tag "api/nationbuilder.png"
+        .nation-container
+          p = "Nationbuilder"
+          p.soon = "SOON"
+    .container-txt
+      h2 = t 'second-t-webapp.title'
+      p  = t 'second-t-webapp.description'
+
+.shade-blue#mobile-app
+  .wrapper.mobile-app
+    = image_tag "mobile-app-illustration.png"
+    .content
+      h3 = t 'mobile-app.subtitle'
+      h2 = t 'mobile-app.title'
+      .download
+        span.available = t 'mobile-app.available'
+        span.ios 
+          = link_to(t('mobile-app.ios.link'), target: "_blank")
+            = t 'mobile-app.ios.title'
+        span.android 
+          = link_to(t('mobile-app.android.link'), target: "_blank")
+            = t 'mobile-app.android.title'
+      p = t 'mobile-app.description'
+      p.padded = t 'mobile-app.sub-description'
+       = link_to(t('mobile-app.more.link'), class: "blue-link")
+        = t 'mobile-app.more.title'
+          
 .testimonials
   h2 = t 'testimonials.title'
   div data-fluffy-container=""
@@ -59,19 +119,3 @@
   = link_to t 'faq.link.link', class: "more"
     = t 'faq.link.title'
     
-.wrapper.team 
-  h2 = t 'team.title'
-  .content
-    .mobilised 
-      h3 = t 'team.mobilised'
-    .teammembers 
-      = image_tag "team-picture.png"
-      p = t 'team.description'
-      - if I18n.locale == :fr
-        = link_to (t ('team.more.link'), class: "insight")
-          = t 'team.more.title'
-      - else
-        = link_to(t('about.link'), class: "intercom_link insight")
-          = t 'about.more'
-
-  = image_tag "team-illustration.svg", class: "illustration"

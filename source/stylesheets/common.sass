@@ -437,7 +437,6 @@ header
         text-align: center
         line-height: 39px
         margin-top: 80px
-        max-width: 490px
         margin: 0 auto
       .big-title-subtitle
         text-align: center
@@ -452,7 +451,6 @@ header
       line-height: 39px
       margin-top: 5px
       text-align: center
-      max-width: 490px
       margin: 0 auto 0px auto
       &.analyse
         margin: 0 auto 120px auto
@@ -1966,6 +1964,40 @@ footer
         width: 90%
         div
           word-wrap: break-word
+
+.dropbtn
+  background-color: transparent
+  color: black
+  padding: 0px
+  font-size: 14px
+  border: none
+  margin: 0 10px
+  font-weight: bold
+
+.dropdown
+  position: relative
+  display: inline-block
+
+.dropdown-content
+  display: none
+  position: absolute
+  background-color: #f1f1f1
+  min-width: 60px
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2)
+  z-index: 1
+  a
+    color: black
+    padding: 6px 10px
+    text-decoration: none
+    display: block
+    &:hover
+      background-color: transparent
+
+.dropdown:hover
+  .dropdown-content
+    display: block
+  .dropbtn
+    background-color: transparent
 
 
 

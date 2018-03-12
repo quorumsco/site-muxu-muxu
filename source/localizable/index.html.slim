@@ -2,7 +2,6 @@
   .img-home-screen
     = image_tag "screen-smartphone-quorum.png", class: "smartphone-illustration"
   .features
-    = image_tag "mobilise-above.png"
     p.use-quorum = t'intro.title'
     ul 
       - t('intro.list').each do |id, item|
@@ -17,133 +16,6 @@
       - else
         = link_to(t('intro.email.link'), class: "email")
           = t 'intro.email.title'
-  
-.wrapper.cards
-  .card.about
-    p = t 'about.description'
-  - t('about.who').each do |id, who|
-    .card
-      .image
-        - if I18n.locale == :fr
-            = image_tag "about/fr-#{id}.png"
-            = image_tag "icons/#{id}.png", class: "icon"
-        - else
-            = image_tag "about/en-#{id}.png"
-            = image_tag "icons/#{id}.png", class: "icon"
-      p = who[:title]
-  - if I18n.locale == :fr
-    .card
-      .catchphrase
-        p = t 'about.catchphrase'
-        span
-          = link_to t'about.link'
-            = t'about.more'
-        / = link_to "#", class: "red-link"
-        /   = t 'about.more'
-  - else I18n.locale == :en
-    .card
-      .catchphrase
-        p = t 'about.catchphrase'
-        span
-          = link_to(t('team.more.link'), class: "button intercom_link")
-            = t'about.more'
-        / = link_to "#", class: "red-link"
-.white
-  .wrapper.web-app
-    .big-title-container
-      h2.big-title = t 'mobile-app.big-title'
-      h3.big-title-subtitle = t 'mobile-app.subtitle-big-title'
-    .web-illustration
-      = image_tag "illustration-screen2.png", class: "screen"
-      .logo-container
-        .bubble-container
-          .item.mailjet
-            = image_tag "api/mailjet.png"
-          .item.agenda
-            = image_tag "api/agenda.png"
-          .item.nationbuilder
-            = image_tag "api/nationbuilder.png"
-          .item.digitale
-            = image_tag "api/digitalebox.png"
-      .logo-container-right
-        .bubble-container
-          .item.mailchimp
-            = image_tag "api/mailchimp.png"
-          .item.twitter
-            = image_tag "api/twitter.png"
-          .item.quorum
-            = image_tag "api/quorum.png"
-          .item.buffer
-            = image_tag "api/buffer.png"
-          .item.sendinblue
-            = image_tag "api/sendinblue.png"
-      .mapcontainer
-        .poi-container
-          = image_tag "poi.svg", class: "poi"
-        .wavemap
-        .wavemap-1
-        .wavemap-2
-        = image_tag "map.svg", class: "map"
-    h3 = t 'web-app.subtitle'
-    h2.analyse = t 'web-app.title'
-    p = t 'web-app.description'
-
-    /= link_to(t('web-app.more.link'), class: "red-link")
-      / = t 'web-app.more.title'
- 
-  .wrapper.second-t-webapp
-    .api
-      = image_tag "mailjet-logo.png", class: "mailjet-logo api-web"
-      = image_tag "sendinblue-logo.png", class: "sendinblue-logo api-web"
-      = image_tag "mailchimp-logo.png", class: "mailchimp api-web"
-      = image_tag "nationbuilder-logo.png", class: "nationbuilder-logo.png api-web"
-
-    .api-mobile
-      .item
-        .blue-container
-          = image_tag "api/mailchimp.png"
-        p = "Mailchimp"
-      .item
-        .blue-container
-          = image_tag "api/sendinblue.png"
-        p = "Sendinblue"
-         
-      .item
-        .blue-container
-          = image_tag "api/mailjet.png"
-        p = "Mailjet"
-
-
-      .item.nation
-        .blue-container
-          = image_tag "api/nationbuilder.png"
-        .nation-container
-          p = "Nationbuilder"
-          p.soon = "SOON"
-    .container-txt
-      h2 = t 'second-t-webapp.title'
-      p  = t 'second-t-webapp.description'
-.shade-blue#mobile-app
-  .wrapper.mobile-app
-    = image_tag "mobile-app-illustration.png"
-    .content
-      h3 = t 'mobile-app.subtitle'
-      h2 = t 'mobile-app.title'
-      .download
-        span.available = t 'mobile-app.available'
-        span.ios 
-          = link_to(t('mobile-app.ios.link'), target: "_blank")
-            = t 'mobile-app.ios.title'
-        span.android 
-          = link_to(t('mobile-app.android.link'), target: "_blank")
-            = t 'mobile-app.android.title'
-      p = t 'mobile-app.description'
-      p.padded = t 'mobile-app.sub-description'
-       = link_to(t('mobile-app.more.link'), class: "blue-link")
-        = t 'mobile-app.more.title'
-          
-
-
       
 .light-blue
   .wrapper.partners
@@ -156,42 +28,12 @@
     
 .wrapper.news
   h2 = t 'news.title-home'
-  .articles
-    .article 
-      = link_to(t('news.articles.web-summit-2016.link'), target: "_blank")
-        p = t 'news.articles.web-summit-2016.title'
-        .source
-          = image_tag "news/web-summit-2016.png", class: "icon-article"
-          span = t 'news.articles.web-summit-2016.source'
-    .article 
-      = link_to(t('news.articles.palmares-point-2016.link'), target: "_blank")
-        p = t 'news.articles.palmares-point-2016.title'
-        .source
-          = image_tag "news/palmares-point-2016.png", class: "icon-article"
-          span = t 'news.articles.palmares-point-2016.source'
-    .article 
-      = link_to(t('news.articles.france-solutions-2016.link'), target: "_blank")
-        p = t 'news.articles.france-solutions-2016.title'
-        .source
-          = image_tag "news/france-solutions-2016.png", class: "icon-article"
-          span = t 'news.articles.france-solutions-2016.source'
   = image_tag "logos-press-desktop.png", class: "logos desktop"
   = image_tag "logos-press-mobile.png", class: "logos mobile"
   = link_to t 'news.more-home.link', class: "red-link"
     = t 'news.more-home.title'
-      
-.shade-blue.contact
-  = image_tag "man-contact.svg", class: "man"
-  = image_tag "woman-contact.svg", class: "woman"
-  .wrapper.contact
-    h2 = t 'contact.title'
-    .contact-info
-      - if I18n.locale == :fr
-        = link_to t 'contact.email.link'
-          = t 'contact.email.title'
-        span = t 'contact.or'
-        = link_to(t('contact.tel.link'), class: "tel")
-          = t 'contact.tel.title'
-      - else 
-        = link_to(t('contact.chat.link'), class: "intercom_link")
-          = t 'contact.chat.title'
+
+.wrapper.theyuse.news
+  h2 = t 'theyuse.title-home'
+  = image_tag "they-use-quorum-V2.png", class: "logos desktop"
+  = image_tag "logos-use-mobile.png", class: "logos mobile"

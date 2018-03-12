@@ -10,9 +10,6 @@ en:
     links:
       products:
         title: Product
-        link: ../../en#mobile-app
-      prices:
-        title: Insights
         link: ../../en/insights
       news:
         title: Blog
@@ -26,7 +23,7 @@ en:
         link: ../../
       login:
         title: Sign in →
-        link: https://cloud.quorumapps.com/
+        link: https://hq.quorumapps.com/
 
   intro:
     heading:
