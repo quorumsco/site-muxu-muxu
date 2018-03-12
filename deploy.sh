@@ -2,5 +2,5 @@
 
 bundle exec middleman build
 cd build
-surge -d quorum-landing-page.surge.sh -p .
+surge -d qqquorum.surge.sh -p .
 cd ..
